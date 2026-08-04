@@ -1,0 +1,42 @@
+# ===========================================================================
+# Autonomous AI SecOps Log Analyzer — experiment configuration
+# ===========================================================================
+
+dataset:
+  seed: 42                # reproducibility seed for synthetic log generation
+  minutes: 90             # simulated observation window (minutes)
+  base_rate_per_min: 18   # background traffic arrival rate (requests / minute)
+  background_ips: 40      # number of distinct benign source IPs
+  output_dir: data
+
+stats:                     # Phase 2 — statistical baseline (Pandas)
+  window_minutes: 5        # fixed-size aggregation window
+  z_threshold: 3.0         # Z = (X - mu) / sigma; flag when max(Z) > threshold
+  robust: false            # true -> median/MAD robust z-score instead of mean/std
+  min_baseline_samples: 8  # minimum ip-window rows before z-scores are stable
+
+rules:                     # Phase 5 baseline — hand-tuned signature rules
+  brute_force_min_failures: 5
+  cred_stuffing_min_users: 8
+  port_scan_min_ports: 12
+  ddos_min_requests: 150
+  exfil_min_bytes: 50000000   # 50 MB of egress in one window
+  sqli_min_patterns: 1
+  xss_min_patterns: 1
+
+llm:                       # Phase 3 — Agentic AI analyst
+  provider: auto           # auto | openai | ollama | offline
+  model: gpt-4o-mini
+  temperature: 0.0
+  max_tokens: 900
+  base_url: null           # e.g. http://localhost:11434/v1 for Ollama
+  input_price_per_mtok: 0.15
+  output_price_per_mtok: 0.60
+  json_retries: 2          # strict-JSON retries before falling back
+  confidence_review_threshold: 0.6   # below this -> "requires human review"
+
+pipeline:                  # Phase 4 — end-to-end assembly
+  include_rule_hits_in_agent: true   # feed signature hits to the agent too
+  max_agent_ips: 60        # safety cap on LLM calls per run
+  enrich_max_evidence_rows: 25       # dossier size per IP
+  output_dir: outputs

@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Generated data / outputs
+data/
+outputs/
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

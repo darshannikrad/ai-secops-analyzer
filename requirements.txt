@@ -1,0 +1,15 @@
+# Core data stack
+pandas>=2.0
+numpy>=1.24
+
+# Configuration
+pyyaml>=6.0
+
+# Optional: LLM agent backend (OpenAI-compatible — also works with Ollama / LM Studio / Groq)
+openai>=1.30
+
+# Optional: figures for the research notebook
+matplotlib>=3.7
+
+# Development / testing
+pytest>=7.0

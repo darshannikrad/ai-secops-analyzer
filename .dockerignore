@@ -1,0 +1,16 @@
+.git
+.env
+data/
+outputs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+notebooks/
+tests/
+docs/
+*.db
+*.db-shm
+*.db-wal
+.freebuff/
