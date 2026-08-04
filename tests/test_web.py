@@ -53,6 +53,15 @@ def test_analyze_upload(small_settings):
     assert len(payload["incidents"]) > 0
 
 
+def test_parameters_change_dataset(small_settings):
+    """Changing seed/window must regenerate the dataset, not reuse a cache."""
+    p1 = service.run_demo(seed=1, minutes=30, provider="offline")
+    p1b = service.run_demo(seed=1, minutes=30, provider="offline")  # cache hit
+    p2 = service.run_demo(seed=2, minutes=30, provider="offline")
+    assert p1["dataset"]["total_events"] == p1b["dataset"]["total_events"]
+    assert p1["dataset"]["total_events"] != p2["dataset"]["total_events"]
+
+
 def test_incidents_carry_markdown(small_settings):
     payload = service.run_demo(seed=3, minutes=30, provider="offline")
     assert all("markdown" in i for i in payload["incidents"])

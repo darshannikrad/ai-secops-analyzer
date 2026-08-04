@@ -32,27 +32,47 @@ REQUIRED_EVENT_COLS = ["timestamp", "src_ip", "method", "path", "status",
 # ---------------------------------------------------------------------------
 
 def load_or_generate(settings: Settings) -> Tuple[pd.DataFrame, List[Dict[str, Any]]]:
-    """Load ``data/logs.csv`` if present, otherwise generate it (Phase 1)."""
+    """Load the cached dataset if it matches the requested (seed, minutes).
+
+    The cache is keyed by a small manifest, so changing the seed or window
+    parameters genuinely produces a new dataset instead of silently reusing
+    the previous one (a confusing "same output" bug).
+    """
+    import json
+
     csv_path = os.path.join(settings.dataset_output_dir, "logs.csv")
     gt_path = os.path.join(settings.dataset_output_dir, "ground_truth.json")
-    if os.path.exists(csv_path):
+    manifest_path = os.path.join(settings.dataset_output_dir, "manifest.json")
+    requested = {"seed": settings.seed, "minutes": settings.minutes}
+
+    cached = {}
+    if os.path.exists(manifest_path):
+        try:
+            with open(manifest_path, "r", encoding="utf-8") as fh:
+                cached = json.load(fh)
+        except (OSError, ValueError):
+            cached = {}
+
+    if os.path.exists(csv_path) and cached == requested:
         df = pd.read_csv(csv_path, dtype={"src_ip": str})
         ground_truth = []
         if os.path.exists(gt_path):
-            import json
-
             with open(gt_path, "r", encoding="utf-8") as fh:
                 ground_truth = json.load(fh)
-        LOG.info("Loaded existing dataset: %s (%d events)", csv_path, len(df))
+        LOG.info("Loaded cached dataset (%d events, seed=%s minutes=%s)",
+                 len(df), cached.get("seed"), cached.get("minutes"))
         return df, ground_truth
-    LOG.info("No dataset found — generating synthetic labelled logs (seed=%d)...",
-             settings.seed)
+
+    LOG.info("Generating synthetic labelled logs (seed=%d, minutes=%d)...",
+             settings.seed, settings.minutes)
     df, ground_truth = generate_logs(
         seed=settings.seed, minutes=settings.minutes,
         base_rate_per_min=settings.base_rate_per_min,
         background_ips=settings.background_ips,
         out_dir=settings.dataset_output_dir,
     )
+    with open(manifest_path, "w", encoding="utf-8") as fh:
+        json.dump(requested, fh)
     LOG.info("Dataset summary: %s", summarize(df, ground_truth))
     return df, ground_truth
 

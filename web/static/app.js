@@ -96,8 +96,25 @@ function renderRun(d) {
 
   $("#results").classList.remove("hidden");
   renderKPIs(d);
-  renderCharts(d);
-  renderTables(d);
+
+  const hasEval = !!(d.evaluation && d.evaluation.detectors && d.evaluation.detectors.length);
+  document.querySelector(".charts").classList.toggle("hidden", !hasEval);
+  const twoCol = document.querySelector(".two-col");
+  twoCol.classList.remove("hidden");
+  if (hasEval) {
+    renderCharts(d);
+    renderTables(d);
+  } else {
+    // detection mode (uploaded logs, no ground truth) — show a notice instead
+    twoCol.innerHTML =
+      `<div class="card"><h3 class="card-title">Detection mode <span class="tag">no ground truth</span></h3>
+      <p style="color:var(--muted);font-size:13px;line-height:1.7">
+      Uploaded logs are triaged like live traffic: the agent reviewed the flagged
+      IPs and produced the incident reports below. There is no labelled ground truth
+      for a file, so the precision/recall comparison table is skipped. Click
+      <b>Launch Pipeline</b> to see the full statistical-vs-rules-vs-agent evaluation.
+      </p></div>`;
+  }
   renderIncidents(d);
   renderFigures(d);
   $("#results").scrollIntoView({ behavior: "smooth" });
