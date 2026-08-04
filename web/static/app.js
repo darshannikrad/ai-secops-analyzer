@@ -4,6 +4,7 @@
 const $ = (sel) => document.querySelector(sel);
 const term = $("#terminal");
 const charts = {};
+const fileInput = $("#file-input");
 
 /* Escape user-controlled strings before HTML injection (XSS defence). */
 function esc(s) {
@@ -44,13 +45,7 @@ async function runPipeline() {
   ];
   boot.forEach(([l, c]) => logTerm(l, c));
   try {
-    const res = await fetch("/api/demo", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ seed, minutes, provider }),
-    });
-    if (!res.ok) throw new Error((await res.json()).detail || res.statusText);
-    const data = await res.json();
+    const data = await postJSON("/api/demo", { seed, minutes, provider });
     renderRun(data);
     toast("Pipeline complete — " + data.verdict_counts.threats + " threats surfaced");
   } catch (err) {
@@ -61,19 +56,42 @@ async function runPipeline() {
   }
 }
 
+/* Robust fetch: never chokes on non-JSON (HTML) responses — surface a clear message. */
+async function postJSON(url, body) {
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  return parseResponse(res, url);
+}
+
+async function parseResponse(res, url) {
+  const ct = (res.headers.get("content-type") || "").toLowerCase();
+  if (!ct.includes("json")) {
+    const snippet = (await res.text()).slice(0, 160).replace(/\s+/g, " ");
+    throw new Error("server returned HTML instead of JSON (" + snippet + "…) — the site may still be starting up, try again in a minute");
+  }
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.detail || res.statusText);
+  return data;
+}
+
 function renderRun(d) {
-  // terminal narrative from real numbers
-  logTerm("✓ dataset ready    " + d.dataset.total_events + " events (" + d.dataset.attack_events + " attack)", "t-ok");
-  logTerm("phase 2/4  stats engine  z>3 flagged " + (d.evaluation && d.evaluation.detectors ? "" : "—") , "t-dim");
+  // terminal narrative from real numbers (handles both demo & upload payloads)
+  const cost = Number(d.llm_cost_usd ?? d.cost_usd ?? 0);
+  logTerm("✓ dataset ready    " + d.dataset.total_events + " events"
+    + (d.dataset.attack_events != null ? " (" + d.dataset.attack_events + " attack)" : ""), "t-ok");
   const st = d.stage_times || {};
+  if (d.evaluation) logTerm("phase 2/4  stats engine  z>3 flagged", "t-dim");
   logTerm("  · stats  " + (st.stats_stage_s ?? "?") + "s   rules  " + (st.rules_stage_s ?? "?") + "s", "t-ok");
   logTerm("phase 3/4  agent triage  " + d.verdict_counts.candidates + " candidates → "
-    + d.verdict_counts.threats + " threats / " + d.verdict_counts.benign + " benign / "
-    + d.verdict_counts.review + " review", "t-info");
-  logTerm("  · provider " + d.provider + "  cost $" + d.llm_cost_usd.toFixed(4)
+    + d.verdict_counts.threats + " threats / " + d.verdict_counts.benign + " benign"
+    + (d.verdict_counts.review ? " / " + d.verdict_counts.review + " review" : ""), "t-info");
+  logTerm("  · provider " + d.provider + "  cost $" + cost.toFixed(4)
     + (d.offline_fallbacks ? "  (" + d.offline_fallbacks + " fallbacks)" : ""), "t-ok");
-  logTerm("phase 4/4  wrote " + d.incidents.length + " incident reports + "
-    + (d.figures ? d.figures.length : 0) + " figures", "t-info");
+  logTerm("phase 4/4  wrote " + d.incidents.length + " incident report"
+    + (d.incidents.length === 1 ? "" : "s") + (d.figures && d.figures.length ? " + " + d.figures.length + " figures" : ""), "t-info");
   logTerm("● pipeline idle — total " + (d.total_wall_s ?? "?") + "s", "t-warn");
 
   $("#results").classList.remove("hidden");
@@ -93,8 +111,9 @@ function kpi(label, value, sub, cls = "") {
     <div class="k-sub">${sub}</div></div>`;
 }
 function renderKPIs(d) {
-  const agent = (d.evaluation.detectors || []).find((x) => x.detector === "agentic_hybrid") || {};
-  const stats = (d.evaluation.detectors || []).find((x) => x.detector === "stats_only") || {};
+  const dets = (d.evaluation && d.evaluation.detectors) || [];
+  const agent = dets.find((x) => x.detector === "agentic_hybrid") || {};
+  const stats = dets.find((x) => x.detector === "stats_only") || {};
   $("#kpis").innerHTML = [
     kpi("Events processed", d.dataset.total_events.toLocaleString(),
         d.dataset.distinct_src_ips + " source IPs · " + d.dataset.attacks_by_type
@@ -108,8 +127,8 @@ function renderKPIs(d) {
     kpi("Alerts issued", agent.alerts_issued ?? "—",
         "vs " + (agent.true_incidents ?? "—") + " true — multiplicity " + (agent.alert_multiplicity ?? "—"), "acc"),
     kpi("Detection latency", (agent.detection_latency_mean_min ?? 0) + " min",
-        "rule baseline " + ((d.evaluation.detectors || []).find(x => x.detector === "rule_based")?.detection_latency_mean_min ?? "—") + " min", "acc"),
-    kpi("Pipeline cost", "$" + d.llm_cost_usd.toFixed(4),
+        "rule baseline " + (dets.find(x => x.detector === "rule_based")?.detection_latency_mean_min ?? "—") + " min", "acc"),
+    kpi("Pipeline cost", "$" + Number(d.llm_cost_usd ?? d.cost_usd ?? 0).toFixed(4),
         d.provider + " analyst · " + (d.llm_calls || 0) + " LLM calls", "warn"),
     kpi("Pipeline time", (d.total_wall_s ?? d.stage_times?.total_pipeline_s ?? 0) + " s",
         (d.stage_times?.events_per_sec ?? "—") + " events/s", "good"),
@@ -131,7 +150,8 @@ function baseOpts(extra = {}) {
 }
 
 function renderCharts(d) {
-  const dets = (d.evaluation.detectors || []).filter((x) => x.detector !== "agentic_plus_review");
+  const dets = ((d.evaluation && d.evaluation.detectors) || [])
+    .filter((x) => x.detector !== "agentic_plus_review");
   const labels = dets.map((x) => x.detector);
 
   // 1 — precision / recall / F1
@@ -178,8 +198,8 @@ function renderCharts(d) {
 
 /* ────────────────────────── tables ────────────────────────── */
 function renderTables(d) {
-  const dets = d.evaluation.detectors || [];
-  const bestF1 = Math.max(...dets.map((x) => x.f1 ?? 0));
+  const dets = (d.evaluation && d.evaluation.detectors) || [];
+  const bestF1 = dets.length ? Math.max(...dets.map((x) => x.f1 ?? 0)) : 0;
   $("#cmp-table").innerHTML =
     `<thead><tr><th>detector</th><th class="num">TP</th><th class="num">FP</th><th class="num">FN</th>
      <th class="num">prec</th><th class="num">rec</th><th class="num">F1</th><th class="num">FPR</th>
@@ -282,9 +302,9 @@ function renderFigures(d) {
 
 /* ────────────────────────── upload ────────────────────────── */
 function setupUpload() {
-  const dz = $("#dropzone"), fi = $("#file-input");
-  dz.addEventListener("click", () => fi.click());
-  fi.addEventListener("change", () => fi.files[0] && uploadFile(fi.files[0]));
+  const dz = $("#dropzone");
+  dz.addEventListener("click", () => fileInput.click());
+  fileInput.addEventListener("change", () => fileInput.files[0] && uploadFile(fileInput.files[0]));
   ["dragover", "dragenter"].forEach((ev) =>
     dz.addEventListener(ev, (e) => { e.preventDefault(); dz.classList.add("dragover"); }));
   ["dragleave", "drop"].forEach((ev) =>
@@ -303,8 +323,7 @@ async function uploadFile(file) {
   fd.append("file", file);
   try {
     const res = await fetch("/api/analyze", { method: "POST", body: fd });
-    if (!res.ok) throw new Error((await res.json()).detail || res.statusText);
-    const d = await res.json();
+    const d = await parseResponse(res, "/api/analyze");
     logTerm("✓ parsed " + d.n_events.toLocaleString() + " events · " + d.n_anomalies + " anomalies · " + d.n_rule_hits + " rule hits", "t-ok");
     logTerm("✓ agent triage → " + d.verdict_counts.threats + " threats / " + d.verdict_counts.benign + " benign (" + d.provider + ")", "t-ok");
     renderRun({ ...d, dataset: { total_events: d.n_events, distinct_src_ips: "—", attacks_by_type: {} }, evaluation: null, stage_times: {}, total_wall_s: "—", figures: [] });
@@ -314,7 +333,7 @@ async function uploadFile(file) {
     toast("Upload failed: " + err.message, true);
   } finally {
     setBusy(false);
-    fi.value = "";
+    fileInput.value = "";
   }
 }
 
