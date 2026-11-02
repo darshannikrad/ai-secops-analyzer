@@ -1,22 +1,43 @@
-# Secrets
-.env
-
-# Generated data / outputs
-data/
-outputs/
-*.db
-*.db-shm
-*.db-wal
+# Virtual environment
+venv/
+.venv/
+env/
 
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.egg-info/
-.venv/
-venv/
+dist/
+build/
+.eggs/
 
-# Notebooks checkpoints
-.ipynb_checkpoints/
+# Environment
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
+Thumbs.db
+
+# Test/Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Results (keep sample, ignore large runs)
+data/results/runs/
+
+# Logs
+*.log
+data/cache/

@@ -1,0 +1,911 @@
+timestamp,source_ip,dest_ip,source_port,dest_port,protocol,method,url,status_code,bytes_sent,bytes_received,user_agent,username,action
+2024-01-15T15:45:10+00:00,192.168.1.31,10.0.0.3,57341,8080,TCP,PUT,/api/orders,200,4097,14493,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T11:08:22.833908+00:00,198.51.100.23,10.0.0.2,40786,443,TCP,POST,/api/auth/login,401,383,107,curl/8.4.0,test,login_failed
+2024-01-15T11:02:35.399126+00:00,198.51.100.23,10.0.0.2,59360,443,TCP,POST,/api/auth/login,401,259,167,curl/8.4.0,admin,login_failed
+2024-01-15T08:22:56+00:00,192.168.1.47,10.0.0.3,32171,8080,TCP,GET,/api/orders,200,2137,2783,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:00:11.399707+00:00,203.0.113.50,10.0.0.1,55832,80,TCP,GET,/api/heavy-endpoint?id=353,200,251,166,python-requests/2.31.0,,request
+2024-01-15T11:07:25.446199+00:00,198.51.100.23,10.0.0.2,46029,443,TCP,POST,/api/auth/login,401,329,157,curl/8.4.0,root,login_failed
+2024-01-15T10:01:41.968688+00:00,203.0.113.50,10.0.0.1,44517,80,TCP,GET,/api/heavy-endpoint?id=337,503,251,427,python-requests/2.31.0,,request
+2024-01-15T08:49:46+00:00,192.168.1.51,10.0.0.3,26420,80,TCP,POST,/static/css/main.css,200,3751,931,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_9,request
+2024-01-15T10:07:07+00:00,192.168.1.20,10.0.0.1,17267,8080,TCP,GET,/dashboard,200,558,12718,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_13,request
+2024-01-15T10:01:43.043462+00:00,203.0.113.50,10.0.0.1,43669,80,TCP,GET,/api/heavy-endpoint?id=328,200,253,312,python-requests/2.31.0,,request
+2024-01-15T11:50:22+00:00,192.168.1.50,10.0.0.3,38486,443,TCP,GET,/api/users,200,1969,5336,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_9,request
+2024-01-15T10:52:02+00:00,192.168.1.35,10.0.0.3,55543,8080,TCP,POST,/api/orders,200,2013,1423,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T08:05:05+00:00,192.168.1.39,10.0.0.3,37920,80,TCP,GET,/api/health,200,2272,2370,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_8,request
+2024-01-15T09:00:11.500000+00:00,192.0.2.100,10.0.0.1,39691,69,TCP,,,0,66,0,,,connection_attempt
+2024-01-15T10:30:41+00:00,192.168.1.59,10.0.0.2,24166,8080,TCP,PUT,/static/css/main.css,200,4341,451,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T13:50:19+00:00,192.168.1.59,10.0.0.3,18368,8080,TCP,GET,/api/v1/profile,200,348,8359,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_10,request
+2024-01-15T09:33:17+00:00,192.168.1.50,10.0.0.2,65056,80,TCP,DELETE,/favicon.ico,200,3356,7915,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_9,request
+2024-01-15T10:01:40.627487+00:00,203.0.113.50,10.0.0.1,40819,80,TCP,GET,/api/heavy-endpoint?id=22,200,279,335,python-requests/2.31.0,,request
+2024-01-15T14:11:12+00:00,192.168.1.31,10.0.0.3,6876,80,TCP,POST,/login,200,2615,7089,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_19,request
+2024-01-15T14:42:17+00:00,192.168.1.31,10.0.0.2,38234,8080,TCP,GET,/api/products,200,3421,13749,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T09:08:54+00:00,192.168.1.12,10.0.0.2,6159,8080,TCP,PUT,/login,404,1311,13866,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T09:37:36+00:00,192.168.1.33,10.0.0.3,37390,443,TCP,POST,/dashboard,200,3361,12255,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_4,request
+2024-01-15T11:05:31.167303+00:00,198.51.100.23,10.0.0.2,47745,443,TCP,POST,/api/auth/login,401,342,143,curl/8.4.0,guest,login_failed
+2024-01-15T10:01:06.525655+00:00,203.0.113.50,10.0.0.1,15102,80,TCP,GET,/api/heavy-endpoint?id=82,503,295,228,python-requests/2.31.0,,request
+2024-01-15T08:50:47+00:00,192.168.1.35,10.0.0.3,50096,443,TCP,GET,/api/health,304,4003,5342,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:00:15.500000+00:00,192.0.2.100,10.0.0.1,5078,869,TCP,,,0,43,0,,,connection_attempt
+2024-01-15T13:55:49+00:00,192.168.1.22,10.0.0.2,34702,80,TCP,GET,/api/products,404,4507,8936,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_7,request
+2024-01-15T09:32:05+00:00,192.168.1.10,10.0.0.2,17157,80,TCP,PUT,/dashboard,301,1200,11334,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_16,request
+2024-01-15T10:00:04.720333+00:00,203.0.113.50,10.0.0.1,8294,80,TCP,GET,/api/heavy-endpoint?id=102,503,118,365,python-requests/2.31.0,,request
+2024-01-15T12:34:04+00:00,192.168.1.18,10.0.0.2,11877,80,TCP,GET,/api/health,200,1832,2661,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T14:44:33+00:00,192.168.1.42,10.0.0.1,3910,80,TCP,GET,/index.html,200,3237,2658,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_2,request
+2024-01-15T11:09:20+00:00,192.168.1.43,10.0.0.3,52337,8080,TCP,POST,/api/products,200,2301,12208,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_1,request
+2024-01-15T10:25:42+00:00,192.168.1.20,10.0.0.3,8108,443,TCP,GET,/favicon.ico,200,1734,13578,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_8,request
+2024-01-15T11:09:22.252961+00:00,198.51.100.23,10.0.0.2,65108,443,TCP,POST,/api/auth/login,401,367,179,curl/8.4.0,administrator,login_failed
+2024-01-15T09:00:23+00:00,192.0.2.100,10.0.0.1,7537,366,TCP,,,0,74,0,,,connection_attempt
+2024-01-15T09:00:15+00:00,192.0.2.100,10.0.0.1,38672,217,TCP,,,0,54,40,,,connection_attempt
+2024-01-15T10:00:35.762963+00:00,203.0.113.50,10.0.0.1,8118,80,TCP,GET,/api/heavy-endpoint?id=132,429,190,73,python-requests/2.31.0,,request
+2024-01-15T12:50:39+00:00,192.168.1.45,10.0.0.2,1800,80,TCP,POST,/api/health,404,240,8428,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_6,request
+2024-01-15T11:07:30.643001+00:00,198.51.100.23,10.0.0.2,52691,443,TCP,POST,/api/auth/login,401,353,142,curl/8.4.0,user,login_failed
+2024-01-15T12:54:31+00:00,192.168.1.58,10.0.0.3,46235,80,TCP,POST,/static/css/main.css,404,3159,7377,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_8,request
+2024-01-15T15:21:02+00:00,192.168.1.54,10.0.0.3,18840,443,TCP,POST,/static/css/main.css,200,660,3188,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T12:32:25+00:00,192.168.1.10,10.0.0.3,49272,80,TCP,PUT,/favicon.ico,200,4264,12997,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_6,request
+2024-01-15T11:30:53+00:00,192.168.1.15,10.0.0.2,15739,80,TCP,POST,/api/users,301,2846,13165,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:00:39.724835+00:00,203.0.113.50,10.0.0.1,3836,80,TCP,GET,/api/heavy-endpoint?id=91,429,182,144,python-requests/2.31.0,,request
+2024-01-15T14:30:00+00:00,192.168.1.15,10.0.0.2,61579,443,TCP,POST,/api/v1/search,200,1755,13765,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T12:05:47+00:00,192.168.1.26,10.0.0.1,56065,8080,TCP,POST,/api/v1/profile,200,4069,10468,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T11:04:05.121528+00:00,198.51.100.23,10.0.0.2,36542,443,TCP,POST,/api/auth/login,401,379,114,curl/8.4.0,root,login_failed
+2024-01-15T10:00:03.077614+00:00,203.0.113.50,10.0.0.1,30552,80,TCP,GET,/api/heavy-endpoint?id=315,200,264,253,python-requests/2.31.0,,request
+2024-01-15T10:01:20.214431+00:00,203.0.113.50,10.0.0.1,20621,80,TCP,GET,/api/heavy-endpoint?id=741,503,213,207,python-requests/2.31.0,,request
+2024-01-15T08:21:48+00:00,192.168.1.19,10.0.0.2,40141,80,TCP,POST,/static/js/app.js,200,4606,6066,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_11,request
+2024-01-15T14:24:46+00:00,192.168.1.52,10.0.0.2,39429,80,TCP,POST,/dashboard,200,1390,12198,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_16,request
+2024-01-15T10:00:19.887134+00:00,203.0.113.50,10.0.0.1,19064,80,TCP,GET,/api/heavy-endpoint?id=911,200,259,102,python-requests/2.31.0,,request
+2024-01-15T15:14:05+00:00,192.168.1.11,10.0.0.2,52267,8080,TCP,POST,/static/js/app.js,200,4070,5836,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_13,request
+2024-01-15T08:56:24+00:00,192.168.1.11,10.0.0.1,24218,8080,TCP,GET,/about,200,2757,14351,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:34:37+00:00,192.168.1.30,10.0.0.2,43026,443,TCP,GET,/api/users,200,646,917,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:58:44+00:00,192.168.1.47,10.0.0.1,57968,8080,TCP,GET,/api/v1/search,404,3034,14128,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_13,request
+2024-01-15T09:00:35.500000+00:00,192.0.2.100,10.0.0.1,12648,720,TCP,,,0,56,0,,,connection_attempt
+2024-01-15T09:31:44+00:00,192.168.1.46,10.0.0.2,54873,8080,TCP,PUT,/static/js/app.js,200,3595,3031,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:00:58.398340+00:00,203.0.113.50,10.0.0.1,54652,80,TCP,GET,/api/heavy-endpoint?id=79,200,270,420,python-requests/2.31.0,,request
+2024-01-15T10:19:46+00:00,192.168.1.13,10.0.0.2,15489,8080,TCP,GET,/index.html,304,1809,10943,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T10:01:49.467519+00:00,203.0.113.50,10.0.0.1,50321,80,TCP,GET,/api/heavy-endpoint?id=765,503,240,362,python-requests/2.31.0,,request
+2024-01-15T09:00:16.500000+00:00,192.0.2.100,10.0.0.1,19513,735,TCP,,,0,60,40,,,connection_attempt
+2024-01-15T10:00:23.278602+00:00,203.0.113.50,10.0.0.1,62313,80,TCP,GET,/api/heavy-endpoint?id=590,503,252,350,python-requests/2.31.0,,request
+2024-01-15T14:49:03+00:00,192.168.1.28,10.0.0.1,1631,443,TCP,GET,/api/orders,200,4550,8790,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_5,request
+2024-01-15T09:00:04+00:00,192.0.2.100,10.0.0.1,38767,75,TCP,,,0,63,0,,,connection_attempt
+2024-01-15T10:01:26.630698+00:00,203.0.113.50,10.0.0.1,39214,80,TCP,GET,/api/heavy-endpoint?id=742,503,251,78,python-requests/2.31.0,,request
+2024-01-15T14:58:29+00:00,192.168.1.50,10.0.0.3,24483,8080,TCP,DELETE,/api/v1/search,200,952,2933,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_17,request
+2024-01-15T10:12:07+00:00,192.168.1.55,10.0.0.1,20112,443,TCP,GET,/about,200,4774,7025,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_3,request
+2024-01-15T11:19:20+00:00,192.168.1.17,10.0.0.3,14118,8080,TCP,GET,/contact,200,320,12114,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_7,request
+2024-01-15T11:00:44.616066+00:00,198.51.100.23,10.0.0.2,29966,443,TCP,POST,/api/auth/login,401,301,183,curl/8.4.0,administrator,login_failed
+2024-01-15T10:01:58.587772+00:00,203.0.113.50,10.0.0.1,54342,80,TCP,GET,/api/heavy-endpoint?id=599,503,266,397,python-requests/2.31.0,,request
+2024-01-15T10:42:02+00:00,192.168.1.23,10.0.0.1,38981,8080,TCP,GET,/api/v1/search,200,510,9771,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_17,request
+2024-01-15T09:08:46+00:00,192.168.1.46,10.0.0.1,5520,8080,TCP,GET,/about,200,2008,5583,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_20,request
+2024-01-15T11:41:20+00:00,192.168.1.34,10.0.0.2,37245,443,TCP,GET,/contact,200,1503,1554,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_11,request
+2024-01-15T10:00:11.285159+00:00,203.0.113.50,10.0.0.1,20279,80,TCP,GET,/api/heavy-endpoint?id=202,503,141,429,python-requests/2.31.0,,request
+2024-01-15T13:57:58+00:00,192.168.1.15,10.0.0.3,7261,80,TCP,GET,/static/js/app.js,200,4963,3905,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_1,request
+2024-01-15T10:00:59.151878+00:00,203.0.113.50,10.0.0.1,44088,80,TCP,GET,/api/heavy-endpoint?id=16,503,154,51,python-requests/2.31.0,,request
+2024-01-15T10:33:39+00:00,192.168.1.41,10.0.0.3,58848,8080,TCP,DELETE,/dashboard,200,980,7260,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_12,request
+2024-01-15T08:41:05+00:00,192.168.1.54,10.0.0.1,36779,80,TCP,POST,/about,200,3620,2288,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_2,request
+2024-01-15T09:00:09+00:00,192.0.2.100,10.0.0.1,44316,762,TCP,,,0,68,40,,,connection_attempt
+2024-01-15T10:00:39.752999+00:00,203.0.113.50,10.0.0.1,35685,80,TCP,GET,/api/heavy-endpoint?id=681,503,142,114,python-requests/2.31.0,,request
+2024-01-15T10:01:10.132239+00:00,203.0.113.50,10.0.0.1,2473,80,TCP,GET,/api/heavy-endpoint?id=589,429,209,221,python-requests/2.31.0,,request
+2024-01-15T11:03:34.970617+00:00,198.51.100.23,10.0.0.2,23228,443,TCP,POST,/api/auth/login,401,272,179,curl/8.4.0,root,login_failed
+2024-01-15T10:01:59.947455+00:00,203.0.113.50,10.0.0.1,19724,80,TCP,GET,/api/heavy-endpoint?id=963,429,263,116,python-requests/2.31.0,,request
+2024-01-15T08:40:31+00:00,192.168.1.31,10.0.0.1,59215,443,TCP,GET,/api/v1/search,200,862,5736,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_16,request
+2024-01-15T10:01:58.361843+00:00,203.0.113.50,10.0.0.1,58280,80,TCP,GET,/api/heavy-endpoint?id=177,200,282,496,python-requests/2.31.0,,request
+2024-01-15T11:43:31+00:00,192.168.1.54,10.0.0.3,48343,8080,TCP,POST,/contact,200,2045,1771,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_18,request
+2024-01-15T16:11:59.841852+00:00,192.168.1.55,203.0.113.200,53124,443,TCP,POST,/upload,200,2825778,113,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T15:39:31+00:00,192.168.1.17,10.0.0.2,63090,80,TCP,GET,/static/js/app.js,304,2490,8537,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T13:06:44+00:00,192.168.1.16,10.0.0.2,16866,443,TCP,GET,/dashboard,200,1254,1786,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T11:09:15.298920+00:00,198.51.100.23,10.0.0.2,24994,443,TCP,POST,/api/auth/login,401,335,114,curl/8.4.0,administrator,login_failed
+2024-01-15T13:25:47+00:00,192.168.1.47,10.0.0.1,16085,443,TCP,PUT,/api/products,200,1757,8764,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_5,request
+2024-01-15T09:00:10+00:00,192.0.2.100,10.0.0.1,19203,37,TCP,,,0,64,40,,,connection_attempt
+2024-01-15T14:16:27+00:00,192.168.1.56,10.0.0.1,33843,8080,TCP,POST,/index.html,200,2001,13940,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_20,request
+2024-01-15T11:23:30+00:00,192.168.1.31,10.0.0.1,8484,443,TCP,PUT,/static/js/app.js,200,3259,11503,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_6,request
+2024-01-15T11:06:04.681896+00:00,198.51.100.23,10.0.0.2,11939,443,TCP,POST,/api/auth/login,401,248,169,curl/8.4.0,admin,login_failed
+2024-01-15T11:07:15+00:00,192.168.1.23,10.0.0.3,42589,443,TCP,DELETE,/dashboard,304,516,1712,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_9,request
+2024-01-15T15:59:46+00:00,192.168.1.56,10.0.0.3,44392,443,TCP,GET,/login,200,3961,14409,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:00:07.623795+00:00,203.0.113.50,10.0.0.1,38986,80,TCP,GET,/api/heavy-endpoint?id=63,200,115,479,python-requests/2.31.0,,request
+2024-01-15T15:00:36+00:00,192.168.1.47,10.0.0.1,11208,80,TCP,GET,/static/js/app.js,200,3430,2178,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_7,request
+2024-01-15T09:00:19.500000+00:00,192.0.2.100,10.0.0.1,5110,718,TCP,,,0,45,0,,,connection_attempt
+2024-01-15T13:30:41+00:00,192.168.1.16,10.0.0.1,32210,8080,TCP,GET,/api/v1/profile,200,1062,1726,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_20,request
+2024-01-15T09:00:46.500000+00:00,192.0.2.100,10.0.0.1,62647,949,TCP,,,0,45,0,,,connection_attempt
+2024-01-15T14:05:22+00:00,192.168.1.41,10.0.0.1,63246,80,TCP,GET,/api/v1/search,200,2196,10756,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_10,request
+2024-01-15T10:00:15.645468+00:00,203.0.113.50,10.0.0.1,8892,80,TCP,GET,/api/heavy-endpoint?id=464,429,186,180,python-requests/2.31.0,,request
+2024-01-15T10:48:54+00:00,192.168.1.52,10.0.0.3,44150,8080,TCP,GET,/api/users,200,1224,11693,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T15:46:55+00:00,192.168.1.44,10.0.0.2,38030,443,TCP,POST,/contact,200,1768,6970,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_16,request
+2024-01-15T11:07:36.428410+00:00,198.51.100.23,10.0.0.2,45317,443,TCP,POST,/api/auth/login,401,359,160,curl/8.4.0,admin,login_failed
+2024-01-15T11:04:57.743887+00:00,198.51.100.23,10.0.0.2,62890,443,TCP,POST,/api/auth/login,401,338,142,curl/8.4.0,test,login_failed
+2024-01-15T10:01:00.128987+00:00,203.0.113.50,10.0.0.1,17724,80,TCP,GET,/api/heavy-endpoint?id=98,200,277,315,python-requests/2.31.0,,request
+2024-01-15T13:33:51+00:00,192.168.1.34,10.0.0.2,41089,80,TCP,GET,/static/js/app.js,304,1025,14742,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T11:03:26.957317+00:00,198.51.100.23,10.0.0.2,24857,443,TCP,POST,/api/auth/login,401,257,154,curl/8.4.0,test,login_failed
+2024-01-15T14:53:30+00:00,192.168.1.36,10.0.0.1,61751,8080,TCP,GET,/api/v1/profile,304,3846,10988,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_5,request
+2024-01-15T13:22:39+00:00,192.168.1.20,10.0.0.3,55639,443,TCP,GET,/login,200,4798,9905,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T09:54:04+00:00,192.168.1.31,10.0.0.2,63743,80,TCP,GET,/login,404,1061,12436,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_20,request
+2024-01-15T10:00:54.998122+00:00,203.0.113.50,10.0.0.1,5036,80,TCP,GET,/api/heavy-endpoint?id=99,200,239,490,python-requests/2.31.0,,request
+2024-01-15T10:01:50.928828+00:00,203.0.113.50,10.0.0.1,54126,80,TCP,GET,/api/heavy-endpoint?id=522,429,191,408,python-requests/2.31.0,,request
+2024-01-15T11:51:05+00:00,192.168.1.34,10.0.0.1,30454,8080,TCP,DELETE,/about,200,4250,14448,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_2,request
+2024-01-15T13:46:00+00:00,192.168.1.27,10.0.0.3,18280,8080,TCP,GET,/static/css/main.css,200,3092,9828,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T10:00:37.833462+00:00,203.0.113.50,10.0.0.1,62317,80,TCP,GET,/api/heavy-endpoint?id=715,503,138,469,python-requests/2.31.0,,request
+2024-01-15T11:26:00+00:00,192.168.1.12,10.0.0.2,19315,8080,TCP,POST,/api/products,200,2189,292,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_5,request
+2024-01-15T09:07:29+00:00,192.168.1.45,10.0.0.2,32114,8080,TCP,GET,/login,200,176,5133,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_17,request
+2024-01-15T10:01:54.087003+00:00,203.0.113.50,10.0.0.1,26840,80,TCP,GET,/api/heavy-endpoint?id=181,200,127,469,python-requests/2.31.0,,request
+2024-01-15T10:16:51+00:00,192.168.1.22,10.0.0.3,63699,8080,TCP,POST,/api/products,200,4470,1730,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_19,request
+2024-01-15T08:13:40+00:00,192.168.1.49,10.0.0.3,22520,8080,TCP,GET,/contact,200,3903,11686,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_4,request
+2024-01-15T11:12:06+00:00,192.168.1.29,10.0.0.2,56955,443,TCP,GET,/static/js/app.js,200,3670,8156,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_13,request
+2024-01-15T11:05:14.220328+00:00,198.51.100.23,10.0.0.2,45472,443,TCP,POST,/api/auth/login,401,249,107,curl/8.4.0,administrator,login_failed
+2024-01-15T10:00:13.596224+00:00,203.0.113.50,10.0.0.1,33459,80,TCP,GET,/api/heavy-endpoint?id=921,503,192,416,python-requests/2.31.0,,request
+2024-01-15T09:00:17.500000+00:00,192.0.2.100,10.0.0.1,25994,77,TCP,,,0,77,0,,,connection_attempt
+2024-01-15T10:38:06+00:00,192.168.1.17,10.0.0.2,2390,443,TCP,GET,/api/v1/profile,304,3869,13831,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T09:44:04+00:00,192.168.1.11,10.0.0.3,1294,8080,TCP,GET,/login,200,2920,5313,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T09:21:39+00:00,192.168.1.45,10.0.0.3,40927,8080,TCP,PUT,/api/users,200,2046,5134,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:00:19.659472+00:00,203.0.113.50,10.0.0.1,39569,80,TCP,GET,/api/heavy-endpoint?id=86,503,217,490,python-requests/2.31.0,,request
+2024-01-15T15:52:32+00:00,192.168.1.19,10.0.0.2,36320,443,TCP,POST,/api/orders,200,4551,6380,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_7,request
+2024-01-15T11:06:09.751377+00:00,198.51.100.23,10.0.0.2,64813,443,TCP,POST,/api/auth/login,401,388,105,curl/8.4.0,administrator,login_failed
+2024-01-15T15:02:10.294360+00:00,198.51.100.99,10.0.0.2,1622,443,TCP,GET,/login?user=admin'--&pass=anything,403,361,2424,sqlmap/1.7,,request
+2024-01-15T11:02:47.156807+00:00,198.51.100.23,10.0.0.2,35981,443,TCP,POST,/api/auth/login,401,328,146,curl/8.4.0,root,login_failed
+2024-01-15T10:14:27+00:00,192.168.1.47,10.0.0.3,3628,8080,TCP,GET,/static/css/main.css,200,4730,8765,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_7,request
+2024-01-15T10:00:04.651110+00:00,203.0.113.50,10.0.0.1,32031,80,TCP,GET,/api/heavy-endpoint?id=165,200,265,142,python-requests/2.31.0,,request
+2024-01-15T13:57:37+00:00,192.168.1.34,10.0.0.2,16055,80,TCP,POST,/static/js/app.js,200,1175,8830,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T08:42:18+00:00,192.168.1.55,10.0.0.2,16391,443,TCP,POST,/api/orders,304,760,2467,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:00:04.875972+00:00,203.0.113.50,10.0.0.1,20002,80,TCP,GET,/api/heavy-endpoint?id=336,200,102,249,python-requests/2.31.0,,request
+2024-01-15T10:00:27.130657+00:00,203.0.113.50,10.0.0.1,39193,80,TCP,GET,/api/heavy-endpoint?id=17,503,171,428,python-requests/2.31.0,,request
+2024-01-15T10:01:02.582926+00:00,203.0.113.50,10.0.0.1,38207,80,TCP,GET,/api/heavy-endpoint?id=775,503,236,70,python-requests/2.31.0,,request
+2024-01-15T10:00:13.152901+00:00,203.0.113.50,10.0.0.1,20724,80,TCP,GET,/api/heavy-endpoint?id=1000,503,108,282,python-requests/2.31.0,,request
+2024-01-15T14:02:19.682554+00:00,203.0.113.75,10.0.0.3,5894,443,TCP,GET,/download?file=..\..\..\windows\system32\config\sam,403,278,4509,Mozilla/5.0 (compatible; attacker/1.0),,request
+2024-01-15T13:47:49+00:00,192.168.1.39,10.0.0.3,30696,443,TCP,DELETE,/login,200,1346,1013,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T13:03:03+00:00,192.168.1.20,10.0.0.2,19953,80,TCP,GET,/api/orders,301,539,14380,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_16,request
+2024-01-15T13:00:09+00:00,192.168.1.28,10.0.0.3,55403,8080,TCP,POST,/api/orders,404,2365,3907,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_15,request
+2024-01-15T10:21:15+00:00,192.168.1.57,10.0.0.3,6947,443,TCP,GET,/static/css/main.css,200,4787,12976,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_8,request
+2024-01-15T11:02:17.359495+00:00,198.51.100.23,10.0.0.2,58939,443,TCP,POST,/api/auth/login,401,380,168,curl/8.4.0,test,login_failed
+2024-01-15T10:40:35+00:00,192.168.1.39,10.0.0.1,31861,80,TCP,GET,/static/js/app.js,304,4199,2163,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_10,request
+2024-01-15T09:00:18+00:00,192.0.2.100,10.0.0.1,51446,628,TCP,,,0,65,40,,,connection_attempt
+2024-01-15T12:46:56+00:00,192.168.1.24,10.0.0.1,35142,80,TCP,GET,/static/css/main.css,200,3404,1706,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T15:02:27+00:00,192.168.1.20,10.0.0.3,51125,80,TCP,DELETE,/api/v1/profile,200,821,2320,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_14,request
+2024-01-15T11:21:48+00:00,192.168.1.28,10.0.0.1,29740,8080,TCP,POST,/about,404,4433,328,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_10,request
+2024-01-15T10:00:19.707233+00:00,203.0.113.50,10.0.0.1,30807,80,TCP,GET,/api/heavy-endpoint?id=248,503,241,217,python-requests/2.31.0,,request
+2024-01-15T14:51:39+00:00,192.168.1.27,10.0.0.2,20812,8080,TCP,GET,/dashboard,200,2035,1217,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T08:37:39+00:00,192.168.1.42,10.0.0.3,23386,80,TCP,PUT,/favicon.ico,200,3651,6134,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_15,request
+2024-01-15T09:52:50+00:00,192.168.1.23,10.0.0.1,38384,443,TCP,POST,/about,200,2751,11735,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T11:38:54+00:00,192.168.1.52,10.0.0.1,13133,80,TCP,DELETE,/api/orders,304,155,4472,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:26:20+00:00,192.168.1.19,10.0.0.2,47664,8080,TCP,GET,/api/v1/search,200,3054,1945,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:00:36.320745+00:00,203.0.113.50,10.0.0.1,18790,80,TCP,GET,/api/heavy-endpoint?id=773,503,190,72,python-requests/2.31.0,,request
+2024-01-15T10:27:26+00:00,192.168.1.49,10.0.0.3,46946,80,TCP,PUT,/favicon.ico,304,4290,11976,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:01:27.553119+00:00,203.0.113.50,10.0.0.1,32156,80,TCP,GET,/api/heavy-endpoint?id=994,503,173,341,python-requests/2.31.0,,request
+2024-01-15T09:15:32+00:00,192.168.1.42,10.0.0.2,6981,80,TCP,GET,/api/products,200,3558,9971,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_20,request
+2024-01-15T13:16:09+00:00,192.168.1.35,10.0.0.3,14967,80,TCP,POST,/api/health,304,4521,7934,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_12,request
+2024-01-15T10:02:42+00:00,192.168.1.14,10.0.0.2,2402,8080,TCP,GET,/about,200,681,11797,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T09:00:21+00:00,192.0.2.100,10.0.0.1,15454,33,TCP,,,0,40,0,,,connection_attempt
+2024-01-15T15:47:20+00:00,192.168.1.30,10.0.0.1,51586,8080,TCP,POST,/api/health,200,4774,9565,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T14:58:16+00:00,192.168.1.37,10.0.0.2,40149,80,TCP,GET,/api/health,200,3472,14653,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_8,request
+2024-01-15T15:55:25+00:00,192.168.1.50,10.0.0.2,56183,8080,TCP,GET,/api/products,200,1423,9037,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_20,request
+2024-01-15T13:52:16+00:00,192.168.1.53,10.0.0.3,27213,443,TCP,PUT,/api/users,200,2219,3837,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_18,request
+2024-01-15T10:01:21.591730+00:00,203.0.113.50,10.0.0.1,14289,80,TCP,GET,/api/heavy-endpoint?id=754,503,242,334,python-requests/2.31.0,,request
+2024-01-15T11:09:40.361904+00:00,198.51.100.23,10.0.0.2,60880,443,TCP,POST,/api/auth/login,401,327,118,curl/8.4.0,admin,login_failed
+2024-01-15T08:55:51+00:00,192.168.1.28,10.0.0.2,9218,8080,TCP,DELETE,/api/v1/search,200,838,2668,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_11,request
+2024-01-15T08:15:40+00:00,192.168.1.41,10.0.0.2,12941,443,TCP,GET,/api/orders,200,2888,4781,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_9,request
+2024-01-15T09:00:11+00:00,192.0.2.100,10.0.0.1,35464,640,TCP,,,0,41,0,,,connection_attempt
+2024-01-15T09:00:28+00:00,192.0.2.100,10.0.0.1,4223,325,TCP,,,0,79,0,,,connection_attempt
+2024-01-15T10:00:29.706919+00:00,203.0.113.50,10.0.0.1,57234,80,TCP,GET,/api/heavy-endpoint?id=561,200,237,375,python-requests/2.31.0,,request
+2024-01-15T15:18:30+00:00,192.168.1.42,10.0.0.2,58440,8080,TCP,POST,/api/v1/search,200,3189,9426,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_11,request
+2024-01-15T12:43:37+00:00,192.168.1.39,10.0.0.1,40755,8080,TCP,GET,/api/orders,304,2709,2862,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_10,request
+2024-01-15T12:42:10+00:00,192.168.1.26,10.0.0.2,64769,80,TCP,PUT,/api/orders,301,2926,8176,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_1,request
+2024-01-15T14:00:20.683101+00:00,203.0.113.75,10.0.0.3,22001,443,TCP,GET,/api/read?path=%2e%2e%2f%2e%2e%2fetc%2fpasswd,404,113,302,Mozilla/5.0 (compatible; attacker/1.0),,request
+2024-01-15T10:32:42+00:00,192.168.1.38,10.0.0.1,38471,80,TCP,GET,/favicon.ico,200,2311,13374,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_13,request
+2024-01-15T10:01:25.168439+00:00,203.0.113.50,10.0.0.1,8167,80,TCP,GET,/api/heavy-endpoint?id=521,503,222,204,python-requests/2.31.0,,request
+2024-01-15T12:04:45+00:00,192.168.1.11,10.0.0.1,20307,80,TCP,PUT,/api/v1/search,200,4864,6246,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_12,request
+2024-01-15T09:00:08+00:00,192.0.2.100,10.0.0.1,9692,319,TCP,,,0,65,40,,,connection_attempt
+2024-01-15T09:00:27.500000+00:00,192.0.2.100,10.0.0.1,36319,337,TCP,,,0,42,40,,,connection_attempt
+2024-01-15T12:52:02+00:00,192.168.1.49,10.0.0.1,39947,80,TCP,GET,/contact,301,495,11500,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_13,request
+2024-01-15T11:15:24+00:00,192.168.1.23,10.0.0.3,17377,8080,TCP,GET,/api/orders,200,3429,10368,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T13:05:45+00:00,192.168.1.37,10.0.0.2,16218,443,TCP,GET,/api/products,200,3640,6681,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_7,request
+2024-01-15T15:09:33+00:00,192.168.1.54,10.0.0.3,39531,8080,TCP,PUT,/api/users,200,1314,9483,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_4,request
+2024-01-15T10:00:29.319602+00:00,203.0.113.50,10.0.0.1,13053,80,TCP,GET,/api/heavy-endpoint?id=918,503,123,421,python-requests/2.31.0,,request
+2024-01-15T15:44:47+00:00,192.168.1.42,10.0.0.2,18904,80,TCP,GET,/api/orders,200,3859,10821,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_1,request
+2024-01-15T11:04:58.250453+00:00,198.51.100.23,10.0.0.2,1381,443,TCP,POST,/api/auth/login,401,346,175,curl/8.4.0,admin,login_failed
+2024-01-15T14:48:48+00:00,192.168.1.38,10.0.0.1,36020,80,TCP,POST,/api/v1/profile,200,1689,6226,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_15,request
+2024-01-15T10:00:02.761951+00:00,203.0.113.50,10.0.0.1,48421,80,TCP,GET,/api/heavy-endpoint?id=749,200,256,55,python-requests/2.31.0,,request
+2024-01-15T10:22:52+00:00,192.168.1.51,10.0.0.2,1834,8080,TCP,GET,/contact,304,4352,8770,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_4,request
+2024-01-15T09:00:46+00:00,192.0.2.100,10.0.0.1,7239,301,TCP,,,0,57,0,,,connection_attempt
+2024-01-15T14:20:41+00:00,192.168.1.53,10.0.0.3,4435,80,TCP,PUT,/contact,200,846,13688,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_20,request
+2024-01-15T10:01:13.589896+00:00,203.0.113.50,10.0.0.1,34502,80,TCP,GET,/api/heavy-endpoint?id=910,429,229,107,python-requests/2.31.0,,request
+2024-01-15T09:00:37+00:00,192.0.2.100,10.0.0.1,49891,608,TCP,,,0,71,0,,,connection_attempt
+2024-01-15T09:00:14+00:00,192.0.2.100,10.0.0.1,42992,755,TCP,,,0,69,0,,,connection_attempt
+2024-01-15T14:03:08+00:00,192.168.1.34,10.0.0.3,50053,80,TCP,POST,/static/css/main.css,200,103,5178,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T13:24:15+00:00,192.168.1.31,10.0.0.3,55306,8080,TCP,DELETE,/api/v1/search,200,3990,13565,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_4,request
+2024-01-15T09:00:24+00:00,192.0.2.100,10.0.0.1,48415,743,TCP,,,0,40,40,,,connection_attempt
+2024-01-15T09:00:38+00:00,192.0.2.100,10.0.0.1,3873,62,TCP,,,0,61,40,,,connection_attempt
+2024-01-15T13:17:06+00:00,192.168.1.19,10.0.0.1,44194,8080,TCP,POST,/favicon.ico,304,437,13720,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T13:08:46+00:00,192.168.1.11,10.0.0.1,20166,80,TCP,POST,/login,200,1477,12991,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_16,request
+2024-01-15T13:36:54+00:00,192.168.1.26,10.0.0.1,8535,80,TCP,GET,/favicon.ico,200,4596,7757,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_10,request
+2024-01-15T16:08:17.462905+00:00,192.168.1.55,203.0.113.200,43805,443,TCP,POST,/upload,200,4169982,189,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T10:00:31.056461+00:00,203.0.113.50,10.0.0.1,60925,80,TCP,GET,/api/heavy-endpoint?id=764,503,198,270,python-requests/2.31.0,,request
+2024-01-15T14:28:39+00:00,192.168.1.27,10.0.0.1,3901,80,TCP,PUT,/api/v1/search,304,3855,12453,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_17,request
+2024-01-15T10:00:30.630648+00:00,203.0.113.50,10.0.0.1,60335,80,TCP,GET,/api/heavy-endpoint?id=393,503,257,345,python-requests/2.31.0,,request
+2024-01-15T10:00:12.591346+00:00,203.0.113.50,10.0.0.1,2321,80,TCP,GET,/api/heavy-endpoint?id=645,429,276,385,python-requests/2.31.0,,request
+2024-01-15T12:46:08+00:00,192.168.1.12,10.0.0.1,62967,8080,TCP,GET,/api/v1/profile,200,1226,14004,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:01:06.227506+00:00,203.0.113.50,10.0.0.1,32596,80,TCP,GET,/api/heavy-endpoint?id=750,200,269,458,python-requests/2.31.0,,request
+2024-01-15T08:44:43+00:00,192.168.1.40,10.0.0.1,50112,8080,TCP,GET,/api/orders,200,662,12999,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T13:58:19+00:00,192.168.1.55,10.0.0.3,20605,80,TCP,GET,/api/health,200,565,13396,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_11,request
+2024-01-15T09:57:25+00:00,192.168.1.30,10.0.0.1,7001,8080,TCP,GET,/api/orders,200,501,11294,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:01:33.301024+00:00,203.0.113.50,10.0.0.1,4087,80,TCP,GET,/api/heavy-endpoint?id=12,200,129,55,python-requests/2.31.0,,request
+2024-01-15T09:44:11+00:00,192.168.1.11,10.0.0.2,21582,443,TCP,GET,/static/css/main.css,200,3461,8421,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_2,request
+2024-01-15T10:42:32+00:00,192.168.1.59,10.0.0.2,47220,80,TCP,DELETE,/api/orders,200,4691,13231,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:00:45.136295+00:00,203.0.113.50,10.0.0.1,22544,80,TCP,GET,/api/heavy-endpoint?id=321,200,134,326,python-requests/2.31.0,,request
+2024-01-15T09:00:10.500000+00:00,192.0.2.100,10.0.0.1,58997,921,TCP,,,0,64,0,,,connection_attempt
+2024-01-15T11:05:41.213518+00:00,198.51.100.23,10.0.0.2,7589,443,TCP,POST,/api/auth/login,401,240,199,curl/8.4.0,user,login_failed
+2024-01-15T08:00:23+00:00,192.168.1.59,10.0.0.3,34182,443,TCP,GET,/index.html,200,3082,12914,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:00:57.536557+00:00,203.0.113.50,10.0.0.1,63311,80,TCP,GET,/api/heavy-endpoint?id=191,503,121,185,python-requests/2.31.0,,request
+2024-01-15T09:06:33+00:00,192.168.1.46,10.0.0.3,36622,443,TCP,PUT,/favicon.ico,200,1299,4958,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T08:22:12+00:00,192.168.1.56,10.0.0.1,55710,443,TCP,GET,/login,404,895,1858,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T14:35:23+00:00,192.168.1.28,10.0.0.1,60749,8080,TCP,POST,/api/health,301,3750,8175,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T13:22:29+00:00,192.168.1.37,10.0.0.1,2976,80,TCP,GET,/login,200,317,9395,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_18,request
+2024-01-15T10:00:07.324709+00:00,203.0.113.50,10.0.0.1,56388,80,TCP,GET,/api/heavy-endpoint?id=638,503,265,420,python-requests/2.31.0,,request
+2024-01-15T14:38:56+00:00,192.168.1.18,10.0.0.1,26413,8080,TCP,POST,/api/health,304,3529,10177,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_9,request
+2024-01-15T15:33:51+00:00,192.168.1.37,10.0.0.1,63048,80,TCP,DELETE,/api/orders,304,3498,1072,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_8,request
+2024-01-15T10:34:42+00:00,192.168.1.48,10.0.0.3,27805,443,TCP,GET,/index.html,200,158,9669,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T11:04:00.697129+00:00,198.51.100.23,10.0.0.2,20825,443,TCP,POST,/api/auth/login,401,340,157,curl/8.4.0,admin,login_failed
+2024-01-15T10:01:09.628788+00:00,203.0.113.50,10.0.0.1,25097,80,TCP,GET,/api/heavy-endpoint?id=399,200,106,168,python-requests/2.31.0,,request
+2024-01-15T10:38:02+00:00,192.168.1.15,10.0.0.1,57809,80,TCP,PUT,/dashboard,200,3088,2864,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_9,request
+2024-01-15T11:29:47+00:00,192.168.1.49,10.0.0.2,17294,80,TCP,POST,/about,200,1655,12702,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_17,request
+2024-01-15T10:36:40+00:00,192.168.1.40,10.0.0.3,55491,80,TCP,DELETE,/static/js/app.js,200,749,511,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:01:03.211745+00:00,203.0.113.50,10.0.0.1,42980,80,TCP,GET,/api/heavy-endpoint?id=369,503,117,240,python-requests/2.31.0,,request
+2024-01-15T11:41:44+00:00,192.168.1.39,10.0.0.3,16962,8080,TCP,GET,/dashboard,200,760,10910,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T10:00:20.822535+00:00,203.0.113.50,10.0.0.1,45005,80,TCP,GET,/api/heavy-endpoint?id=614,503,166,303,python-requests/2.31.0,,request
+2024-01-15T09:00:37.500000+00:00,192.0.2.100,10.0.0.1,30012,680,TCP,,,0,62,0,,,connection_attempt
+2024-01-15T10:11:26+00:00,192.168.1.23,10.0.0.1,7636,8080,TCP,GET,/static/js/app.js,200,498,4209,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:00:18.721039+00:00,203.0.113.50,10.0.0.1,10206,80,TCP,GET,/api/heavy-endpoint?id=183,503,264,351,python-requests/2.31.0,,request
+2024-01-15T10:01:52.265630+00:00,203.0.113.50,10.0.0.1,58503,80,TCP,GET,/api/heavy-endpoint?id=494,503,131,243,python-requests/2.31.0,,request
+2024-01-15T10:01:27.642836+00:00,203.0.113.50,10.0.0.1,18722,80,TCP,GET,/api/heavy-endpoint?id=143,429,184,166,python-requests/2.31.0,,request
+2024-01-15T11:44:21+00:00,192.168.1.32,10.0.0.3,62701,443,TCP,GET,/dashboard,200,2980,1897,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_5,request
+2024-01-15T08:28:35+00:00,192.168.1.50,10.0.0.3,22955,80,TCP,POST,/api/users,200,3266,4855,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_20,request
+2024-01-15T09:06:18+00:00,192.168.1.11,10.0.0.3,40927,80,TCP,GET,/dashboard,200,4624,6884,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T09:00:40+00:00,192.0.2.100,10.0.0.1,42850,934,TCP,,,0,73,40,,,connection_attempt
+2024-01-15T10:01:09.077552+00:00,203.0.113.50,10.0.0.1,46412,80,TCP,GET,/api/heavy-endpoint?id=249,200,111,96,python-requests/2.31.0,,request
+2024-01-15T11:10:20+00:00,198.51.100.23,10.0.0.2,25859,443,TCP,POST,/api/auth/login,200,350,1200,curl/8.4.0,admin,login_success
+2024-01-15T11:00:26.066890+00:00,198.51.100.23,10.0.0.2,63976,443,TCP,POST,/api/auth/login,401,374,155,curl/8.4.0,guest,login_failed
+2024-01-15T12:54:54+00:00,192.168.1.41,10.0.0.2,6295,8080,TCP,GET,/static/css/main.css,200,2151,623,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:00:32.188081+00:00,203.0.113.50,10.0.0.1,46856,80,TCP,GET,/api/heavy-endpoint?id=959,200,265,456,python-requests/2.31.0,,request
+2024-01-15T10:00:18.553176+00:00,203.0.113.50,10.0.0.1,1424,80,TCP,GET,/api/heavy-endpoint?id=112,503,131,339,python-requests/2.31.0,,request
+2024-01-15T10:00:11.544548+00:00,203.0.113.50,10.0.0.1,15927,80,TCP,GET,/api/heavy-endpoint?id=335,503,290,298,python-requests/2.31.0,,request
+2024-01-15T10:00:10.584883+00:00,203.0.113.50,10.0.0.1,51487,80,TCP,GET,/api/heavy-endpoint?id=915,503,148,151,python-requests/2.31.0,,request
+2024-01-15T14:33:04+00:00,192.168.1.29,10.0.0.3,21293,8080,TCP,PUT,/api/orders,200,2522,9283,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T11:04:48.106603+00:00,198.51.100.23,10.0.0.2,19661,443,TCP,POST,/api/auth/login,401,315,162,curl/8.4.0,test,login_failed
+2024-01-15T09:00:02+00:00,192.0.2.100,10.0.0.1,19928,168,TCP,,,0,60,0,,,connection_attempt
+2024-01-15T15:56:55+00:00,192.168.1.19,10.0.0.2,6365,8080,TCP,GET,/api/orders,200,3310,2312,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T09:09:32+00:00,192.168.1.21,10.0.0.3,1141,8080,TCP,PUT,/favicon.ico,404,4748,730,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_20,request
+2024-01-15T09:06:12+00:00,192.168.1.32,10.0.0.3,64142,8080,TCP,GET,/about,200,4510,3059,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_17,request
+2024-01-15T14:37:52+00:00,192.168.1.30,10.0.0.2,40752,8080,TCP,GET,/static/css/main.css,304,1657,4373,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_1,request
+2024-01-15T10:00:10.832726+00:00,203.0.113.50,10.0.0.1,16744,80,TCP,GET,/api/heavy-endpoint?id=819,503,128,63,python-requests/2.31.0,,request
+2024-01-15T10:49:04+00:00,192.168.1.45,10.0.0.2,43195,443,TCP,GET,/contact,200,4412,1731,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_17,request
+2024-01-15T10:00:52.815441+00:00,203.0.113.50,10.0.0.1,28112,80,TCP,GET,/api/heavy-endpoint?id=594,200,262,177,python-requests/2.31.0,,request
+2024-01-15T10:01:24.290442+00:00,203.0.113.50,10.0.0.1,17324,80,TCP,GET,/api/heavy-endpoint?id=827,503,256,159,python-requests/2.31.0,,request
+2024-01-15T12:59:52+00:00,192.168.1.10,10.0.0.1,52914,8080,TCP,POST,/api/health,200,3837,5784,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_8,request
+2024-01-15T11:01:43.682957+00:00,198.51.100.23,10.0.0.2,42832,443,TCP,POST,/api/auth/login,401,253,185,curl/8.4.0,guest,login_failed
+2024-01-15T14:04:20+00:00,192.168.1.29,10.0.0.1,15475,443,TCP,GET,/index.html,200,1830,12772,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_10,request
+2024-01-15T10:09:02+00:00,192.168.1.16,10.0.0.1,17799,80,TCP,GET,/about,200,717,3102,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_19,request
+2024-01-15T10:00:44.011380+00:00,203.0.113.50,10.0.0.1,35518,80,TCP,GET,/api/heavy-endpoint?id=85,503,171,358,python-requests/2.31.0,,request
+2024-01-15T10:27:41+00:00,192.168.1.21,10.0.0.1,21921,8080,TCP,GET,/index.html,304,2401,1159,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_19,request
+2024-01-15T11:00:35.809228+00:00,198.51.100.23,10.0.0.2,44954,443,TCP,POST,/api/auth/login,401,322,106,curl/8.4.0,guest,login_failed
+2024-01-15T16:41:55.311197+00:00,192.168.1.55,203.0.113.200,7239,443,TCP,POST,/upload,200,2501366,239,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T09:00:40.500000+00:00,192.0.2.100,10.0.0.1,50506,215,TCP,,,0,78,0,,,connection_attempt
+2024-01-15T10:00:02.298853+00:00,203.0.113.50,10.0.0.1,29361,80,TCP,GET,/api/heavy-endpoint?id=591,503,240,436,python-requests/2.31.0,,request
+2024-01-15T09:42:06+00:00,192.168.1.33,10.0.0.2,13939,443,TCP,GET,/dashboard,200,4109,8846,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_13,request
+2024-01-15T09:00:08.500000+00:00,192.0.2.100,10.0.0.1,11751,876,TCP,,,0,45,0,,,connection_attempt
+2024-01-15T09:17:58+00:00,192.168.1.48,10.0.0.3,52228,443,TCP,GET,/api/products,200,3100,6133,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_2,request
+2024-01-15T08:34:50+00:00,192.168.1.40,10.0.0.3,4551,80,TCP,PUT,/api/health,200,781,1902,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T11:03:20.253941+00:00,198.51.100.23,10.0.0.2,1930,443,TCP,POST,/api/auth/login,401,337,189,curl/8.4.0,root,login_failed
+2024-01-15T09:00:33+00:00,192.0.2.100,10.0.0.1,28424,889,TCP,,,0,62,0,,,connection_attempt
+2024-01-15T09:05:17+00:00,192.168.1.57,10.0.0.3,63340,8080,TCP,GET,/login,200,4066,4730,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_17,request
+2024-01-15T13:28:47+00:00,192.168.1.55,10.0.0.1,44350,80,TCP,PUT,/api/v1/profile,200,1028,8089,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_7,request
+2024-01-15T10:01:55.287147+00:00,203.0.113.50,10.0.0.1,59736,80,TCP,GET,/api/heavy-endpoint?id=112,503,210,295,python-requests/2.31.0,,request
+2024-01-15T09:00:35+00:00,192.0.2.100,10.0.0.1,11085,830,TCP,,,0,66,0,,,connection_attempt
+2024-01-15T10:01:36.922406+00:00,203.0.113.50,10.0.0.1,24103,80,TCP,GET,/api/heavy-endpoint?id=628,503,245,500,python-requests/2.31.0,,request
+2024-01-15T16:21:58.853655+00:00,192.168.1.55,203.0.113.200,19965,443,TCP,POST,/upload,200,2944245,401,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T13:25:16+00:00,192.168.1.35,10.0.0.2,2965,8080,TCP,POST,/api/v1/profile,404,4119,3937,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_13,request
+2024-01-15T13:00:13+00:00,192.168.1.42,10.0.0.1,38557,80,TCP,POST,/api/v1/profile,200,3105,9080,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_15,request
+2024-01-15T08:17:47+00:00,192.168.1.42,10.0.0.2,26826,8080,TCP,GET,/static/js/app.js,404,4345,7737,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_1,request
+2024-01-15T16:06:27.070428+00:00,192.168.1.55,203.0.113.200,43577,443,TCP,POST,/upload,200,2348848,211,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T09:00:01.500000+00:00,192.0.2.100,10.0.0.1,36627,528,TCP,,,0,80,0,,,connection_attempt
+2024-01-15T14:35:29+00:00,192.168.1.20,10.0.0.2,61287,80,TCP,GET,/static/css/main.css,200,322,1575,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_15,request
+2024-01-15T10:00:11.082608+00:00,203.0.113.50,10.0.0.1,20641,80,TCP,GET,/api/heavy-endpoint?id=558,503,252,119,python-requests/2.31.0,,request
+2024-01-15T13:28:35+00:00,192.168.1.24,10.0.0.1,35525,443,TCP,GET,/api/orders,304,1750,13412,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_6,request
+2024-01-15T13:25:37+00:00,192.168.1.15,10.0.0.1,11220,80,TCP,GET,/contact,200,3729,11045,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_15,request
+2024-01-15T10:27:07+00:00,192.168.1.40,10.0.0.3,23509,443,TCP,GET,/static/js/app.js,200,3533,11680,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_13,request
+2024-01-15T10:00:24.674609+00:00,203.0.113.50,10.0.0.1,35004,80,TCP,GET,/api/heavy-endpoint?id=981,429,147,370,python-requests/2.31.0,,request
+2024-01-15T10:00:00.869836+00:00,203.0.113.50,10.0.0.1,47547,80,TCP,GET,/api/heavy-endpoint?id=681,200,292,376,python-requests/2.31.0,,request
+2024-01-15T11:00:44.660237+00:00,198.51.100.23,10.0.0.2,29548,443,TCP,POST,/api/auth/login,401,270,122,curl/8.4.0,guest,login_failed
+2024-01-15T13:01:56+00:00,192.168.1.55,10.0.0.3,43996,443,TCP,GET,/api/orders,200,2720,4644,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_4,request
+2024-01-15T10:15:10+00:00,192.168.1.39,10.0.0.2,11190,443,TCP,GET,/api/v1/search,200,363,13462,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_1,request
+2024-01-15T09:00:26.500000+00:00,192.0.2.100,10.0.0.1,61553,22,TCP,,,0,56,0,,,connection_attempt
+2024-01-15T10:01:44+00:00,192.168.1.11,10.0.0.3,13680,443,TCP,POST,/dashboard,304,2386,5953,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_18,request
+2024-01-15T09:00:28.500000+00:00,192.0.2.100,10.0.0.1,23235,803,TCP,,,0,61,0,,,connection_attempt
+2024-01-15T11:46:11+00:00,192.168.1.27,10.0.0.1,50499,8080,TCP,GET,/api/orders,200,2420,11311,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_17,request
+2024-01-15T11:26:58+00:00,192.168.1.10,10.0.0.2,18404,443,TCP,POST,/static/css/main.css,200,4652,11044,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_7,request
+2024-01-15T14:05:08+00:00,192.168.1.23,10.0.0.3,60512,443,TCP,PUT,/static/js/app.js,304,480,853,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_17,request
+2024-01-15T16:45:44.145875+00:00,192.168.1.55,203.0.113.200,37498,443,TCP,POST,/upload,200,4766324,179,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T11:19:15+00:00,192.168.1.56,10.0.0.1,6930,443,TCP,POST,/api/v1/search,200,1744,2365,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_12,request
+2024-01-15T08:35:52+00:00,192.168.1.18,10.0.0.2,41939,8080,TCP,POST,/static/css/main.css,404,4446,5031,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_14,request
+2024-01-15T09:00:20+00:00,192.0.2.100,10.0.0.1,46627,59,TCP,,,0,57,0,,,connection_attempt
+2024-01-15T13:58:39+00:00,192.168.1.40,10.0.0.1,56551,80,TCP,POST,/favicon.ico,200,1041,12694,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_14,request
+2024-01-15T09:36:03+00:00,192.168.1.54,10.0.0.3,31468,80,TCP,GET,/favicon.ico,200,1192,13330,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_18,request
+2024-01-15T15:34:03+00:00,192.168.1.17,10.0.0.3,11052,443,TCP,GET,/api/products,200,1947,5869,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T11:30:26+00:00,192.168.1.22,10.0.0.1,35508,8080,TCP,GET,/about,200,1565,9349,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_4,request
+2024-01-15T11:11:49+00:00,192.168.1.44,10.0.0.2,7671,443,TCP,GET,/api/products,200,373,5031,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_4,request
+2024-01-15T09:14:33+00:00,192.168.1.22,10.0.0.2,64189,8080,TCP,DELETE,/static/css/main.css,200,3504,11834,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T12:12:08+00:00,192.168.1.59,10.0.0.2,52019,443,TCP,PUT,/api/products,301,1233,14503,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T15:09:07+00:00,192.168.1.47,10.0.0.3,43930,443,TCP,DELETE,/static/js/app.js,200,1850,8575,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_6,request
+2024-01-15T15:35:52+00:00,192.168.1.40,10.0.0.2,16997,443,TCP,GET,/static/css/main.css,200,4263,12427,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_9,request
+2024-01-15T10:01:06.098668+00:00,203.0.113.50,10.0.0.1,35088,80,TCP,GET,/api/heavy-endpoint?id=386,429,158,372,python-requests/2.31.0,,request
+2024-01-15T11:00:09.784305+00:00,198.51.100.23,10.0.0.2,53169,443,TCP,POST,/api/auth/login,401,252,114,curl/8.4.0,root,login_failed
+2024-01-15T09:00:27+00:00,192.0.2.100,10.0.0.1,2303,770,TCP,,,0,53,0,,,connection_attempt
+2024-01-15T12:34:12+00:00,192.168.1.46,10.0.0.3,53482,8080,TCP,GET,/api/users,304,3778,3032,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_7,request
+2024-01-15T11:03:03.689109+00:00,198.51.100.23,10.0.0.2,18914,443,TCP,POST,/api/auth/login,401,337,189,curl/8.4.0,test,login_failed
+2024-01-15T09:00:24.500000+00:00,192.0.2.100,10.0.0.1,43904,328,TCP,,,0,59,0,,,connection_attempt
+2024-01-15T13:54:44+00:00,192.168.1.27,10.0.0.1,63972,80,TCP,GET,/api/v1/search,200,4341,6540,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T14:37:05+00:00,192.168.1.14,10.0.0.1,26458,8080,TCP,PUT,/api/health,200,2362,8714,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_1,request
+2024-01-15T10:25:48+00:00,192.168.1.58,10.0.0.1,65480,443,TCP,POST,/api/products,301,2517,3542,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T09:00:25.500000+00:00,192.0.2.100,10.0.0.1,10580,422,TCP,,,0,79,0,,,connection_attempt
+2024-01-15T11:00:09.660584+00:00,198.51.100.23,10.0.0.2,5956,443,TCP,POST,/api/auth/login,401,244,171,curl/8.4.0,admin,login_failed
+2024-01-15T10:00:44.990341+00:00,203.0.113.50,10.0.0.1,62952,80,TCP,GET,/api/heavy-endpoint?id=95,503,179,173,python-requests/2.31.0,,request
+2024-01-15T11:06:55.484968+00:00,198.51.100.23,10.0.0.2,26502,443,TCP,POST,/api/auth/login,401,323,175,curl/8.4.0,user,login_failed
+2024-01-15T09:12:51+00:00,192.168.1.12,10.0.0.2,36807,443,TCP,GET,/favicon.ico,200,3906,11593,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_5,request
+2024-01-15T15:41:06+00:00,192.168.1.39,10.0.0.2,37734,8080,TCP,DELETE,/api/v1/search,200,3807,2068,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_8,request
+2024-01-15T12:49:43+00:00,192.168.1.46,10.0.0.1,41021,8080,TCP,GET,/static/js/app.js,200,1845,10490,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T12:26:57+00:00,192.168.1.15,10.0.0.3,30219,80,TCP,DELETE,/api/products,200,3842,9439,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_10,request
+2024-01-15T14:48:08+00:00,192.168.1.11,10.0.0.2,52700,80,TCP,POST,/login,200,949,12840,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_11,request
+2024-01-15T10:00:51.332870+00:00,203.0.113.50,10.0.0.1,29442,80,TCP,GET,/api/heavy-endpoint?id=531,429,118,159,python-requests/2.31.0,,request
+2024-01-15T13:10:00+00:00,192.168.1.46,10.0.0.1,37927,80,TCP,DELETE,/api/health,200,4117,821,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T16:47:35.383827+00:00,192.168.1.55,203.0.113.200,34140,443,TCP,POST,/upload,200,2116638,465,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T09:00:01+00:00,192.0.2.100,10.0.0.1,41161,1000,TCP,,,0,41,0,,,connection_attempt
+2024-01-15T10:00:03.987721+00:00,203.0.113.50,10.0.0.1,21310,80,TCP,GET,/api/heavy-endpoint?id=971,503,209,110,python-requests/2.31.0,,request
+2024-01-15T11:01:07.205896+00:00,198.51.100.23,10.0.0.2,5615,443,TCP,POST,/api/auth/login,401,350,112,curl/8.4.0,administrator,login_failed
+2024-01-15T10:01:20.358275+00:00,203.0.113.50,10.0.0.1,63861,80,TCP,GET,/api/heavy-endpoint?id=308,200,148,447,python-requests/2.31.0,,request
+2024-01-15T15:43:06+00:00,192.168.1.49,10.0.0.3,11892,8080,TCP,GET,/static/js/app.js,200,4739,9470,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_5,request
+2024-01-15T10:01:02.568206+00:00,203.0.113.50,10.0.0.1,55261,80,TCP,GET,/api/heavy-endpoint?id=344,200,120,303,python-requests/2.31.0,,request
+2024-01-15T10:00:42.974537+00:00,203.0.113.50,10.0.0.1,43292,80,TCP,GET,/api/heavy-endpoint?id=89,429,287,128,python-requests/2.31.0,,request
+2024-01-15T11:49:16+00:00,192.168.1.50,10.0.0.3,30981,80,TCP,GET,/favicon.ico,304,4988,8982,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_19,request
+2024-01-15T11:45:36+00:00,192.168.1.13,10.0.0.1,10026,80,TCP,POST,/static/css/main.css,404,3848,2546,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_6,request
+2024-01-15T15:32:37+00:00,192.168.1.45,10.0.0.3,14272,8080,TCP,GET,/api/products,200,4362,7439,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_19,request
+2024-01-15T09:00:13+00:00,192.0.2.100,10.0.0.1,36328,815,TCP,,,0,40,0,,,connection_attempt
+2024-01-15T10:00:02.697202+00:00,203.0.113.50,10.0.0.1,24381,80,TCP,GET,/api/heavy-endpoint?id=210,503,131,262,python-requests/2.31.0,,request
+2024-01-15T09:00:34.500000+00:00,192.0.2.100,10.0.0.1,50606,636,TCP,,,0,73,0,,,connection_attempt
+2024-01-15T09:00:29.500000+00:00,192.0.2.100,10.0.0.1,18870,716,TCP,,,0,40,40,,,connection_attempt
+2024-01-15T13:33:51+00:00,192.168.1.35,10.0.0.3,8510,443,TCP,POST,/favicon.ico,200,1513,13532,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_10,request
+2024-01-15T12:45:53+00:00,192.168.1.33,10.0.0.1,63506,8080,TCP,GET,/static/css/main.css,304,456,10614,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_9,request
+2024-01-15T10:26:34+00:00,192.168.1.30,10.0.0.1,55466,80,TCP,POST,/static/js/app.js,200,3906,9536,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_11,request
+2024-01-15T12:19:31+00:00,192.168.1.27,10.0.0.2,2349,443,TCP,POST,/dashboard,200,4127,14261,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_8,request
+2024-01-15T14:18:26+00:00,192.168.1.52,10.0.0.1,61742,443,TCP,PUT,/static/css/main.css,404,2661,9246,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:00:36.377292+00:00,203.0.113.50,10.0.0.1,36867,80,TCP,GET,/api/heavy-endpoint?id=333,200,206,461,python-requests/2.31.0,,request
+2024-01-15T11:32:43+00:00,192.168.1.53,10.0.0.1,36074,80,TCP,GET,/api/v1/profile,200,472,11683,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_17,request
+2024-01-15T09:13:23+00:00,192.168.1.29,10.0.0.3,30063,443,TCP,POST,/api/v1/search,200,831,3279,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:01:01.879812+00:00,203.0.113.50,10.0.0.1,30783,80,TCP,GET,/api/heavy-endpoint?id=380,200,118,472,python-requests/2.31.0,,request
+2024-01-15T10:16:54+00:00,192.168.1.12,10.0.0.2,47333,443,TCP,POST,/api/health,200,1654,9484,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_11,request
+2024-01-15T09:01:40+00:00,192.168.1.25,10.0.0.3,29477,443,TCP,GET,/api/products,200,4889,2160,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_1,request
+2024-01-15T10:00:56.934325+00:00,203.0.113.50,10.0.0.1,55760,80,TCP,GET,/api/heavy-endpoint?id=128,200,133,79,python-requests/2.31.0,,request
+2024-01-15T12:09:16+00:00,192.168.1.13,10.0.0.2,47202,80,TCP,POST,/api/orders,301,4237,6703,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_1,request
+2024-01-15T09:27:35+00:00,192.168.1.12,10.0.0.3,33553,80,TCP,DELETE,/api/orders,200,204,11204,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_19,request
+2024-01-15T10:01:04.509952+00:00,203.0.113.50,10.0.0.1,52354,80,TCP,GET,/api/heavy-endpoint?id=848,200,288,76,python-requests/2.31.0,,request
+2024-01-15T12:01:00+00:00,192.168.1.39,10.0.0.1,63809,443,TCP,GET,/api/v1/search,304,2572,2804,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T12:58:22+00:00,192.168.1.23,10.0.0.2,7735,8080,TCP,GET,/dashboard,304,364,7568,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T11:08:06.898833+00:00,198.51.100.23,10.0.0.2,25240,443,TCP,POST,/api/auth/login,401,320,180,curl/8.4.0,test,login_failed
+2024-01-15T15:24:34+00:00,192.168.1.38,10.0.0.1,41401,8080,TCP,GET,/api/v1/search,200,3285,4092,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_10,request
+2024-01-15T10:00:21.105561+00:00,203.0.113.50,10.0.0.1,61051,80,TCP,GET,/api/heavy-endpoint?id=317,200,225,208,python-requests/2.31.0,,request
+2024-01-15T13:56:09+00:00,192.168.1.44,10.0.0.1,64528,80,TCP,GET,/api/products,200,4043,3702,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_6,request
+2024-01-15T11:58:30+00:00,192.168.1.16,10.0.0.1,29576,8080,TCP,PUT,/api/health,200,2641,12419,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:26:16+00:00,192.168.1.14,10.0.0.2,62970,443,TCP,POST,/contact,404,2148,7684,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T12:34:10+00:00,192.168.1.53,10.0.0.1,12777,80,TCP,GET,/static/css/main.css,200,3910,14389,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_10,request
+2024-01-15T14:43:25+00:00,192.168.1.56,10.0.0.1,60873,80,TCP,PUT,/favicon.ico,200,397,13900,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_6,request
+2024-01-15T13:53:06+00:00,192.168.1.14,10.0.0.3,45984,80,TCP,GET,/static/js/app.js,200,410,1633,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T11:32:09+00:00,192.168.1.36,10.0.0.3,10059,8080,TCP,PUT,/static/css/main.css,200,4502,11561,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_6,request
+2024-01-15T12:21:36+00:00,192.168.1.13,10.0.0.1,19359,443,TCP,GET,/static/css/main.css,200,4407,4282,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_18,request
+2024-01-15T15:00:46.337018+00:00,198.51.100.99,10.0.0.2,26357,443,TCP,GET,"/api/search?q=test' UNION SELECT username,password FROM users--",500,220,1814,sqlmap/1.7,,request
+2024-01-15T10:59:05+00:00,192.168.1.52,10.0.0.2,21110,443,TCP,PUT,/api/products,200,2979,7525,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_12,request
+2024-01-15T09:00:21.500000+00:00,192.0.2.100,10.0.0.1,49747,177,TCP,,,0,48,0,,,connection_attempt
+2024-01-15T11:05:47+00:00,192.168.1.48,10.0.0.1,21509,8080,TCP,POST,/api/v1/search,404,2929,6732,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_17,request
+2024-01-15T10:01:35.613010+00:00,203.0.113.50,10.0.0.1,41546,80,TCP,GET,/api/heavy-endpoint?id=521,503,212,435,python-requests/2.31.0,,request
+2024-01-15T11:06:11.782246+00:00,198.51.100.23,10.0.0.2,20271,443,TCP,POST,/api/auth/login,401,365,108,curl/8.4.0,administrator,login_failed
+2024-01-15T08:03:55+00:00,192.168.1.34,10.0.0.3,14486,8080,TCP,POST,/static/css/main.css,200,1367,7180,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_9,request
+2024-01-15T10:01:08.890866+00:00,203.0.113.50,10.0.0.1,21177,80,TCP,GET,/api/heavy-endpoint?id=112,503,208,276,python-requests/2.31.0,,request
+2024-01-15T10:00:58.323192+00:00,203.0.113.50,10.0.0.1,31305,80,TCP,GET,/api/heavy-endpoint?id=430,200,187,284,python-requests/2.31.0,,request
+2024-01-15T11:21:07+00:00,192.168.1.47,10.0.0.2,51657,80,TCP,GET,/api/products,200,3459,591,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_1,request
+2024-01-15T13:13:19+00:00,192.168.1.27,10.0.0.1,63094,8080,TCP,GET,/static/js/app.js,200,2023,12249,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_7,request
+2024-01-15T09:00:00.500000+00:00,192.0.2.100,10.0.0.1,26217,856,TCP,,,0,43,40,,,connection_attempt
+2024-01-15T10:01:15.103002+00:00,203.0.113.50,10.0.0.1,7710,80,TCP,GET,/api/heavy-endpoint?id=993,503,173,105,python-requests/2.31.0,,request
+2024-01-15T10:57:01+00:00,192.168.1.41,10.0.0.1,8355,443,TCP,POST,/login,200,4747,1490,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_3,request
+2024-01-15T10:00:04.092904+00:00,203.0.113.50,10.0.0.1,36694,80,TCP,GET,/api/heavy-endpoint?id=874,503,208,130,python-requests/2.31.0,,request
+2024-01-15T09:00:04.500000+00:00,192.0.2.100,10.0.0.1,30838,496,TCP,,,0,68,0,,,connection_attempt
+2024-01-15T10:00:43.273456+00:00,203.0.113.50,10.0.0.1,35805,80,TCP,GET,/api/heavy-endpoint?id=869,503,125,222,python-requests/2.31.0,,request
+2024-01-15T09:00:32+00:00,192.0.2.100,10.0.0.1,56640,677,TCP,,,0,69,40,,,connection_attempt
+2024-01-15T13:35:35+00:00,192.168.1.47,10.0.0.1,45071,80,TCP,POST,/api/users,200,1058,3199,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_17,request
+2024-01-15T15:38:40+00:00,192.168.1.41,10.0.0.1,4596,443,TCP,GET,/static/css/main.css,200,4034,3471,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T08:17:04+00:00,192.168.1.22,10.0.0.1,32833,80,TCP,GET,/index.html,200,3283,10979,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_19,request
+2024-01-15T10:01:05.622504+00:00,203.0.113.50,10.0.0.1,62944,80,TCP,GET,/api/heavy-endpoint?id=456,503,103,245,python-requests/2.31.0,,request
+2024-01-15T09:47:17+00:00,192.168.1.59,10.0.0.3,64219,80,TCP,POST,/static/js/app.js,200,710,3263,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_4,request
+2024-01-15T10:09:17+00:00,192.168.1.20,10.0.0.1,58788,443,TCP,GET,/api/products,200,2821,13018,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_8,request
+2024-01-15T11:05:34.830566+00:00,198.51.100.23,10.0.0.2,6914,443,TCP,POST,/api/auth/login,401,228,177,curl/8.4.0,root,login_failed
+2024-01-15T10:01:13.935528+00:00,203.0.113.50,10.0.0.1,45214,80,TCP,GET,/api/heavy-endpoint?id=369,429,271,296,python-requests/2.31.0,,request
+2024-01-15T09:12:56+00:00,192.168.1.40,10.0.0.1,30841,8080,TCP,POST,/static/css/main.css,200,3957,12608,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_7,request
+2024-01-15T11:30:05+00:00,192.168.1.40,10.0.0.1,16569,443,TCP,POST,/about,200,2518,559,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_1,request
+2024-01-15T08:57:41+00:00,192.168.1.46,10.0.0.1,52518,443,TCP,POST,/static/css/main.css,200,4077,9572,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_6,request
+2024-01-15T14:03:05.799507+00:00,203.0.113.75,10.0.0.3,29379,443,TCP,GET,/api/file?name=../../config/database.yml,403,229,3686,Mozilla/5.0 (compatible; attacker/1.0),,request
+2024-01-15T11:09:35.353947+00:00,198.51.100.23,10.0.0.2,8083,443,TCP,POST,/api/auth/login,401,360,137,curl/8.4.0,admin,login_failed
+2024-01-15T08:54:09+00:00,192.168.1.54,10.0.0.1,56912,8080,TCP,GET,/static/css/main.css,200,1971,6979,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_13,request
+2024-01-15T10:01:01.888073+00:00,203.0.113.50,10.0.0.1,25692,80,TCP,GET,/api/heavy-endpoint?id=909,200,216,306,python-requests/2.31.0,,request
+2024-01-15T10:01:55.040024+00:00,203.0.113.50,10.0.0.1,10887,80,TCP,GET,/api/heavy-endpoint?id=935,503,234,161,python-requests/2.31.0,,request
+2024-01-15T11:06:28.074234+00:00,198.51.100.23,10.0.0.2,36623,443,TCP,POST,/api/auth/login,401,272,145,curl/8.4.0,user,login_failed
+2024-01-15T12:14:56+00:00,192.168.1.41,10.0.0.2,33619,80,TCP,GET,/static/css/main.css,200,2072,3724,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_2,request
+2024-01-15T10:00:11.930103+00:00,203.0.113.50,10.0.0.1,12329,80,TCP,GET,/api/heavy-endpoint?id=309,503,188,371,python-requests/2.31.0,,request
+2024-01-15T11:34:21+00:00,192.168.1.24,10.0.0.3,49076,443,TCP,GET,/static/js/app.js,200,841,6700,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_8,request
+2024-01-15T10:00:48.547423+00:00,203.0.113.50,10.0.0.1,12206,80,TCP,GET,/api/heavy-endpoint?id=491,503,219,329,python-requests/2.31.0,,request
+2024-01-15T12:04:49+00:00,192.168.1.59,10.0.0.2,34659,8080,TCP,GET,/static/js/app.js,200,455,12115,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_15,request
+2024-01-15T10:00:21.425371+00:00,203.0.113.50,10.0.0.1,57865,80,TCP,GET,/api/heavy-endpoint?id=116,200,119,286,python-requests/2.31.0,,request
+2024-01-15T11:03:26.730636+00:00,198.51.100.23,10.0.0.2,7303,443,TCP,POST,/api/auth/login,401,322,160,curl/8.4.0,root,login_failed
+2024-01-15T08:54:43+00:00,192.168.1.36,10.0.0.2,48036,443,TCP,GET,/contact,200,142,9216,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_16,request
+2024-01-15T10:00:00.209842+00:00,203.0.113.50,10.0.0.1,38266,80,TCP,GET,/api/heavy-endpoint?id=311,429,275,133,python-requests/2.31.0,,request
+2024-01-15T11:40:18+00:00,192.168.1.37,10.0.0.2,26145,80,TCP,GET,/api/health,200,3156,430,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_17,request
+2024-01-15T14:06:05+00:00,192.168.1.50,10.0.0.1,57709,8080,TCP,PUT,/favicon.ico,200,4505,13778,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_14,request
+2024-01-15T09:00:25+00:00,192.0.2.100,10.0.0.1,57785,97,TCP,,,0,75,0,,,connection_attempt
+2024-01-15T13:30:24+00:00,192.168.1.40,10.0.0.3,10910,80,TCP,DELETE,/api/users,301,2913,11903,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_6,request
+2024-01-15T12:45:48+00:00,192.168.1.58,10.0.0.1,23560,443,TCP,DELETE,/api/health,200,4129,12577,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T14:08:09+00:00,192.168.1.23,10.0.0.2,39100,80,TCP,POST,/api/orders,200,2227,3266,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T11:56:23+00:00,192.168.1.52,10.0.0.3,17314,443,TCP,POST,/contact,200,3252,2635,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_20,request
+2024-01-15T09:47:04+00:00,192.168.1.19,10.0.0.3,10824,443,TCP,GET,/api/products,200,1201,14835,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_11,request
+2024-01-15T09:14:04+00:00,192.168.1.59,10.0.0.3,58651,8080,TCP,GET,/api/products,200,1744,13913,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T09:00:47.500000+00:00,192.0.2.100,10.0.0.1,58040,395,TCP,,,0,74,0,,,connection_attempt
+2024-01-15T11:25:09+00:00,192.168.1.15,10.0.0.3,64210,8080,TCP,GET,/contact,304,1071,3124,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_5,request
+2024-01-15T09:02:39+00:00,192.168.1.52,10.0.0.2,30231,80,TCP,GET,/index.html,200,2729,6448,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_18,request
+2024-01-15T10:00:40.090680+00:00,203.0.113.50,10.0.0.1,20451,80,TCP,GET,/api/heavy-endpoint?id=537,200,150,269,python-requests/2.31.0,,request
+2024-01-15T08:29:48+00:00,192.168.1.10,10.0.0.3,62258,80,TCP,DELETE,/favicon.ico,200,1454,1426,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_11,request
+2024-01-15T14:34:33+00:00,192.168.1.19,10.0.0.2,58101,8080,TCP,GET,/api/users,200,2271,5746,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T09:00:55+00:00,192.168.1.28,10.0.0.2,11389,443,TCP,GET,/api/v1/search,304,2257,8401,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_4,request
+2024-01-15T14:37:30+00:00,192.168.1.24,10.0.0.1,50580,80,TCP,POST,/static/js/app.js,200,4560,7148,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_8,request
+2024-01-15T10:05:10+00:00,192.168.1.22,10.0.0.1,55834,8080,TCP,POST,/api/products,200,1082,1485,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_16,request
+2024-01-15T12:30:30+00:00,192.168.1.12,10.0.0.1,33942,8080,TCP,POST,/favicon.ico,200,3706,1833,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_1,request
+2024-01-15T12:12:46+00:00,192.168.1.38,10.0.0.2,51799,443,TCP,DELETE,/api/health,200,771,13991,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_5,request
+2024-01-15T14:09:53+00:00,192.168.1.56,10.0.0.3,25477,80,TCP,GET,/api/users,200,4791,9975,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T11:00:46.327164+00:00,198.51.100.23,10.0.0.2,7250,443,TCP,POST,/api/auth/login,401,300,168,curl/8.4.0,user,login_failed
+2024-01-15T13:27:24+00:00,192.168.1.42,10.0.0.3,46797,80,TCP,GET,/contact,200,2059,10931,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_3,request
+2024-01-15T15:41:34+00:00,192.168.1.45,10.0.0.3,41235,8080,TCP,GET,/about,304,2290,674,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T14:08:15+00:00,192.168.1.46,10.0.0.3,63334,80,TCP,POST,/about,200,1535,7908,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_9,request
+2024-01-15T08:58:24+00:00,192.168.1.26,10.0.0.3,13863,80,TCP,GET,/favicon.ico,200,3844,13709,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_4,request
+2024-01-15T15:18:13+00:00,192.168.1.30,10.0.0.1,2460,80,TCP,GET,/api/v1/profile,200,4411,14301,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_12,request
+2024-01-15T10:00:49.044325+00:00,203.0.113.50,10.0.0.1,53483,80,TCP,GET,/api/heavy-endpoint?id=336,503,113,145,python-requests/2.31.0,,request
+2024-01-15T15:03:34+00:00,192.168.1.39,10.0.0.3,31217,8080,TCP,GET,/static/js/app.js,200,653,6469,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_8,request
+2024-01-15T11:04:19+00:00,192.168.1.52,10.0.0.1,36013,8080,TCP,DELETE,/api/orders,304,4606,5519,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_14,request
+2024-01-15T12:36:40+00:00,192.168.1.28,10.0.0.3,47726,8080,TCP,PUT,/static/css/main.css,200,775,10694,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_5,request
+2024-01-15T11:00:43.804395+00:00,198.51.100.23,10.0.0.2,26126,443,TCP,POST,/api/auth/login,401,230,120,curl/8.4.0,test,login_failed
+2024-01-15T14:57:10+00:00,192.168.1.35,10.0.0.2,3989,443,TCP,GET,/about,200,3069,9264,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:00:14.500000+00:00,192.0.2.100,10.0.0.1,39548,158,TCP,,,0,43,0,,,connection_attempt
+2024-01-15T11:07:58.590620+00:00,198.51.100.23,10.0.0.2,5310,443,TCP,POST,/api/auth/login,401,272,162,curl/8.4.0,administrator,login_failed
+2024-01-15T09:00:33.500000+00:00,192.0.2.100,10.0.0.1,35112,648,TCP,,,0,61,40,,,connection_attempt
+2024-01-15T13:32:37+00:00,192.168.1.28,10.0.0.2,45877,80,TCP,DELETE,/api/users,200,2364,10695,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_9,request
+2024-01-15T11:48:53+00:00,192.168.1.47,10.0.0.3,48642,80,TCP,PUT,/contact,200,4108,10286,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_9,request
+2024-01-15T14:52:18+00:00,192.168.1.19,10.0.0.1,40507,8080,TCP,PUT,/api/health,200,418,2445,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_16,request
+2024-01-15T14:46:43+00:00,192.168.1.45,10.0.0.3,9028,443,TCP,DELETE,/contact,200,3052,14741,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_7,request
+2024-01-15T14:07:44+00:00,192.168.1.51,10.0.0.3,7473,80,TCP,PUT,/api/v1/search,200,995,4273,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T11:57:46+00:00,192.168.1.15,10.0.0.1,18265,80,TCP,POST,/api/users,200,3248,6764,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_10,request
+2024-01-15T08:57:57+00:00,192.168.1.28,10.0.0.3,20773,8080,TCP,GET,/dashboard,200,3685,6449,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_1,request
+2024-01-15T11:49:30+00:00,192.168.1.29,10.0.0.2,25363,443,TCP,GET,/api/orders,200,1296,1118,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T15:38:11+00:00,192.168.1.50,10.0.0.1,30505,8080,TCP,POST,/dashboard,200,4690,9333,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_14,request
+2024-01-15T11:47:29+00:00,192.168.1.47,10.0.0.2,53240,8080,TCP,GET,/about,200,4838,9663,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_19,request
+2024-01-15T12:18:32+00:00,192.168.1.26,10.0.0.1,50391,8080,TCP,GET,/dashboard,200,491,14385,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_4,request
+2024-01-15T10:00:03.737981+00:00,203.0.113.50,10.0.0.1,11274,80,TCP,GET,/api/heavy-endpoint?id=498,503,141,450,python-requests/2.31.0,,request
+2024-01-15T10:00:38.208307+00:00,203.0.113.50,10.0.0.1,2524,80,TCP,GET,/api/heavy-endpoint?id=49,200,136,410,python-requests/2.31.0,,request
+2024-01-15T09:00:41.500000+00:00,192.0.2.100,10.0.0.1,7450,160,TCP,,,0,51,40,,,connection_attempt
+2024-01-15T10:00:44.933461+00:00,203.0.113.50,10.0.0.1,29501,80,TCP,GET,/api/heavy-endpoint?id=246,429,175,319,python-requests/2.31.0,,request
+2024-01-15T10:00:14.946216+00:00,203.0.113.50,10.0.0.1,11081,80,TCP,GET,/api/heavy-endpoint?id=99,200,226,115,python-requests/2.31.0,,request
+2024-01-15T11:02:57+00:00,192.168.1.10,10.0.0.3,25683,8080,TCP,POST,/api/users,200,2051,7078,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_5,request
+2024-01-15T14:25:26+00:00,192.168.1.18,10.0.0.3,14612,8080,TCP,POST,/contact,200,3186,5340,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_18,request
+2024-01-15T12:39:58+00:00,192.168.1.12,10.0.0.3,10648,80,TCP,GET,/dashboard,304,4332,6842,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_1,request
+2024-01-15T08:36:48+00:00,192.168.1.12,10.0.0.2,5667,8080,TCP,GET,/dashboard,200,1855,9034,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_19,request
+2024-01-15T15:20:09+00:00,192.168.1.16,10.0.0.1,21559,443,TCP,POST,/api/products,200,1190,10711,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T08:38:52+00:00,192.168.1.53,10.0.0.1,61573,443,TCP,GET,/static/css/main.css,200,1941,10810,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_5,request
+2024-01-15T10:00:51.187955+00:00,203.0.113.50,10.0.0.1,13879,80,TCP,GET,/api/heavy-endpoint?id=988,429,113,224,python-requests/2.31.0,,request
+2024-01-15T15:39:06+00:00,192.168.1.52,10.0.0.3,12894,443,TCP,GET,/static/js/app.js,200,2218,12081,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_6,request
+2024-01-15T13:35:13+00:00,192.168.1.10,10.0.0.3,63807,80,TCP,DELETE,/api/orders,200,4133,14914,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_16,request
+2024-01-15T13:37:51+00:00,192.168.1.31,10.0.0.3,4959,80,TCP,POST,/contact,200,4493,13167,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T11:00:51+00:00,192.168.1.11,10.0.0.1,58501,443,TCP,GET,/about,404,2274,826,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_12,request
+2024-01-15T09:00:07+00:00,192.0.2.100,10.0.0.1,41045,121,TCP,,,0,53,40,,,connection_attempt
+2024-01-15T09:08:10+00:00,192.168.1.34,10.0.0.1,37202,443,TCP,POST,/about,200,669,950,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:31:32+00:00,192.168.1.15,10.0.0.2,6202,8080,TCP,GET,/api/v1/profile,200,2776,6601,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T10:00:37.156247+00:00,203.0.113.50,10.0.0.1,53190,80,TCP,GET,/api/heavy-endpoint?id=216,200,218,143,python-requests/2.31.0,,request
+2024-01-15T12:34:53+00:00,192.168.1.47,10.0.0.2,11969,80,TCP,GET,/dashboard,304,3834,12124,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_11,request
+2024-01-15T10:51:45+00:00,192.168.1.18,10.0.0.1,19175,8080,TCP,GET,/login,200,2434,12962,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T12:11:40+00:00,192.168.1.20,10.0.0.3,53123,443,TCP,GET,/api/products,200,4100,3215,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_2,request
+2024-01-15T09:00:20.500000+00:00,192.0.2.100,10.0.0.1,37316,946,TCP,,,0,49,0,,,connection_attempt
+2024-01-15T10:01:49.676145+00:00,203.0.113.50,10.0.0.1,40292,80,TCP,GET,/api/heavy-endpoint?id=74,503,210,69,python-requests/2.31.0,,request
+2024-01-15T10:00:56.494489+00:00,203.0.113.50,10.0.0.1,43510,80,TCP,GET,/api/heavy-endpoint?id=977,200,272,417,python-requests/2.31.0,,request
+2024-01-15T10:01:20.597612+00:00,203.0.113.50,10.0.0.1,52990,80,TCP,GET,/api/heavy-endpoint?id=99,503,227,361,python-requests/2.31.0,,request
+2024-01-15T14:24:45+00:00,192.168.1.11,10.0.0.2,62787,8080,TCP,GET,/about,304,1386,1077,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_7,request
+2024-01-15T14:54:59+00:00,192.168.1.47,10.0.0.2,45662,8080,TCP,POST,/favicon.ico,404,2689,2673,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T15:29:59+00:00,192.168.1.36,10.0.0.3,32773,8080,TCP,POST,/favicon.ico,200,1402,1275,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_13,request
+2024-01-15T11:03:10.438178+00:00,198.51.100.23,10.0.0.2,9655,443,TCP,POST,/api/auth/login,401,233,184,curl/8.4.0,root,login_failed
+2024-01-15T09:48:45+00:00,192.168.1.19,10.0.0.1,4052,80,TCP,DELETE,/about,301,696,7661,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_19,request
+2024-01-15T15:42:36+00:00,192.168.1.52,10.0.0.2,14488,8080,TCP,GET,/api/v1/search,200,547,13041,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_4,request
+2024-01-15T10:01:06.742025+00:00,203.0.113.50,10.0.0.1,20898,80,TCP,GET,/api/heavy-endpoint?id=629,503,102,339,python-requests/2.31.0,,request
+2024-01-15T09:00:39.500000+00:00,192.0.2.100,10.0.0.1,61728,383,TCP,,,0,70,40,,,connection_attempt
+2024-01-15T11:49:27+00:00,192.168.1.34,10.0.0.3,63025,8080,TCP,GET,/favicon.ico,304,4816,6432,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T11:00:30.693973+00:00,198.51.100.23,10.0.0.2,58760,443,TCP,POST,/api/auth/login,401,278,151,curl/8.4.0,root,login_failed
+2024-01-15T11:01:53.155899+00:00,198.51.100.23,10.0.0.2,17955,443,TCP,POST,/api/auth/login,401,391,131,curl/8.4.0,admin,login_failed
+2024-01-15T14:03:53.548638+00:00,203.0.113.75,10.0.0.3,19050,443,TCP,GET,/images/../../../proc/self/environ,403,252,2956,Mozilla/5.0 (compatible; attacker/1.0),,request
+2024-01-15T10:01:14.693467+00:00,203.0.113.50,10.0.0.1,14197,80,TCP,GET,/api/heavy-endpoint?id=386,503,103,145,python-requests/2.31.0,,request
+2024-01-15T14:35:00+00:00,192.168.1.11,10.0.0.2,17700,80,TCP,GET,/about,200,3570,5844,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T14:11:47+00:00,192.168.1.18,10.0.0.3,2692,8080,TCP,DELETE,/dashboard,200,3528,6828,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_19,request
+2024-01-15T13:26:32+00:00,192.168.1.59,10.0.0.3,54657,443,TCP,GET,/dashboard,304,4370,3821,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_2,request
+2024-01-15T10:49:23+00:00,192.168.1.54,10.0.0.2,48862,80,TCP,GET,/login,200,3659,2100,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_2,request
+2024-01-15T08:04:24+00:00,192.168.1.54,10.0.0.2,54574,80,TCP,PUT,/api/v1/search,200,680,3951,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:00:42+00:00,192.0.2.100,10.0.0.1,52181,642,TCP,,,0,46,40,,,connection_attempt
+2024-01-15T08:33:04+00:00,192.168.1.35,10.0.0.2,13463,80,TCP,DELETE,/api/users,200,4991,549,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_8,request
+2024-01-15T15:34:15+00:00,192.168.1.15,10.0.0.1,29327,80,TCP,POST,/api/v1/profile,200,591,9808,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_4,request
+2024-01-15T09:00:36.500000+00:00,192.0.2.100,10.0.0.1,55948,261,TCP,,,0,55,0,,,connection_attempt
+2024-01-15T08:21:22+00:00,192.168.1.25,10.0.0.3,29712,443,TCP,GET,/api/orders,200,2417,6547,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_20,request
+2024-01-15T09:16:20+00:00,192.168.1.12,10.0.0.1,20970,443,TCP,GET,/api/users,200,4503,2422,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_18,request
+2024-01-15T15:06:30+00:00,192.168.1.24,10.0.0.1,14008,443,TCP,POST,/contact,200,788,9740,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:26:13+00:00,192.168.1.14,10.0.0.1,60867,8080,TCP,POST,/login,200,3341,14694,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_9,request
+2024-01-15T09:42:12+00:00,192.168.1.27,10.0.0.2,30253,80,TCP,GET,/about,200,2113,10805,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_18,request
+2024-01-15T10:00:17.752356+00:00,203.0.113.50,10.0.0.1,2147,80,TCP,GET,/api/heavy-endpoint?id=592,429,130,274,python-requests/2.31.0,,request
+2024-01-15T10:01:46.235696+00:00,203.0.113.50,10.0.0.1,22047,80,TCP,GET,/api/heavy-endpoint?id=384,200,208,328,python-requests/2.31.0,,request
+2024-01-15T11:02:57+00:00,192.168.1.37,10.0.0.2,35355,80,TCP,POST,/api/v1/search,404,731,8328,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_2,request
+2024-01-15T10:31:54+00:00,192.168.1.13,10.0.0.3,15619,8080,TCP,PUT,/static/css/main.css,301,745,7721,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_15,request
+2024-01-15T09:00:13.500000+00:00,192.0.2.100,10.0.0.1,39720,918,TCP,,,0,42,40,,,connection_attempt
+2024-01-15T10:01:00.323820+00:00,203.0.113.50,10.0.0.1,35391,80,TCP,GET,/api/heavy-endpoint?id=404,200,295,55,python-requests/2.31.0,,request
+2024-01-15T15:05:24+00:00,192.168.1.15,10.0.0.2,22823,8080,TCP,GET,/api/orders,200,138,7606,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:01:51.780387+00:00,203.0.113.50,10.0.0.1,13856,80,TCP,GET,/api/heavy-endpoint?id=415,503,130,353,python-requests/2.31.0,,request
+2024-01-15T09:00:49.500000+00:00,192.0.2.100,10.0.0.1,50863,599,TCP,,,0,68,0,,,connection_attempt
+2024-01-15T10:01:28.150886+00:00,203.0.113.50,10.0.0.1,51676,80,TCP,GET,/api/heavy-endpoint?id=926,429,299,222,python-requests/2.31.0,,request
+2024-01-15T16:32:53.368182+00:00,192.168.1.55,203.0.113.200,9667,443,TCP,POST,/upload,200,4986132,254,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T08:01:27+00:00,192.168.1.36,10.0.0.2,46202,8080,TCP,DELETE,/dashboard,200,2460,11782,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_15,request
+2024-01-15T12:49:54+00:00,192.168.1.42,10.0.0.2,55449,80,TCP,POST,/favicon.ico,304,2517,12431,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_15,request
+2024-01-15T11:06:43.743178+00:00,198.51.100.23,10.0.0.2,61689,443,TCP,POST,/api/auth/login,401,254,109,curl/8.4.0,user,login_failed
+2024-01-15T09:16:15+00:00,192.168.1.25,10.0.0.3,37813,8080,TCP,POST,/api/v1/search,200,4880,6743,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T14:44:11+00:00,192.168.1.16,10.0.0.1,42017,80,TCP,POST,/contact,200,2064,3047,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:01:51.269484+00:00,203.0.113.50,10.0.0.1,48944,80,TCP,GET,/api/heavy-endpoint?id=782,503,189,91,python-requests/2.31.0,,request
+2024-01-15T14:02:23+00:00,192.168.1.32,10.0.0.2,57662,443,TCP,DELETE,/favicon.ico,200,2331,9187,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T15:23:52+00:00,192.168.1.14,10.0.0.1,5249,80,TCP,DELETE,/api/v1/profile,200,2816,2207,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_2,request
+2024-01-15T12:01:30+00:00,192.168.1.50,10.0.0.2,53212,443,TCP,GET,/api/orders,200,2642,7765,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:00:41+00:00,192.0.2.100,10.0.0.1,39071,360,TCP,,,0,79,0,,,connection_attempt
+2024-01-15T11:03:24.318183+00:00,198.51.100.23,10.0.0.2,44753,443,TCP,POST,/api/auth/login,401,202,144,curl/8.4.0,root,login_failed
+2024-01-15T14:33:42+00:00,192.168.1.50,10.0.0.2,39939,8080,TCP,GET,/static/js/app.js,200,2595,310,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_20,request
+2024-01-15T10:01:17.551414+00:00,203.0.113.50,10.0.0.1,7869,80,TCP,GET,/api/heavy-endpoint?id=64,503,180,150,python-requests/2.31.0,,request
+2024-01-15T08:32:54+00:00,192.168.1.14,10.0.0.2,3103,443,TCP,PUT,/api/products,200,3543,6335,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_13,request
+2024-01-15T11:59:47+00:00,192.168.1.17,10.0.0.1,14778,8080,TCP,POST,/favicon.ico,200,3607,2919,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T09:00:05.500000+00:00,192.0.2.100,10.0.0.1,35011,118,TCP,,,0,54,0,,,connection_attempt
+2024-01-15T10:00:08.826685+00:00,203.0.113.50,10.0.0.1,47117,80,TCP,GET,/api/heavy-endpoint?id=348,200,157,55,python-requests/2.31.0,,request
+2024-01-15T09:00:49+00:00,192.0.2.100,10.0.0.1,48807,992,TCP,,,0,40,0,,,connection_attempt
+2024-01-15T11:17:34+00:00,192.168.1.49,10.0.0.2,42010,443,TCP,GET,/login,200,1173,4919,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_16,request
+2024-01-15T12:43:56+00:00,192.168.1.44,10.0.0.3,48172,8080,TCP,GET,/api/orders,200,2804,10409,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_4,request
+2024-01-15T11:00:18.033216+00:00,198.51.100.23,10.0.0.2,1694,443,TCP,POST,/api/auth/login,401,300,102,curl/8.4.0,guest,login_failed
+2024-01-15T14:56:22+00:00,192.168.1.29,10.0.0.2,24028,80,TCP,GET,/favicon.ico,200,3383,1340,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_1,request
+2024-01-15T10:53:33+00:00,192.168.1.41,10.0.0.2,22542,8080,TCP,POST,/api/v1/search,200,4733,9487,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_14,request
+2024-01-15T10:48:21+00:00,192.168.1.38,10.0.0.2,50919,443,TCP,GET,/api/products,200,3630,7553,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_14,request
+2024-01-15T10:01:05.895353+00:00,203.0.113.50,10.0.0.1,11505,80,TCP,GET,/api/heavy-endpoint?id=514,429,228,194,python-requests/2.31.0,,request
+2024-01-15T10:00:33.500539+00:00,203.0.113.50,10.0.0.1,55638,80,TCP,GET,/api/heavy-endpoint?id=75,200,294,90,python-requests/2.31.0,,request
+2024-01-15T11:06:57+00:00,192.168.1.44,10.0.0.2,45317,8080,TCP,POST,/about,200,2119,4771,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:17:50+00:00,192.168.1.30,10.0.0.1,64606,443,TCP,GET,/contact,304,3884,6970,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:00:54.748140+00:00,203.0.113.50,10.0.0.1,23306,80,TCP,GET,/api/heavy-endpoint?id=878,429,122,414,python-requests/2.31.0,,request
+2024-01-15T10:01:35.217830+00:00,203.0.113.50,10.0.0.1,15206,80,TCP,GET,/api/heavy-endpoint?id=556,200,184,234,python-requests/2.31.0,,request
+2024-01-15T11:09:07.177847+00:00,198.51.100.23,10.0.0.2,6543,443,TCP,POST,/api/auth/login,401,270,173,curl/8.4.0,root,login_failed
+2024-01-15T11:05:53.984167+00:00,198.51.100.23,10.0.0.2,36448,443,TCP,POST,/api/auth/login,401,238,129,curl/8.4.0,test,login_failed
+2024-01-15T10:00:52.079208+00:00,203.0.113.50,10.0.0.1,32026,80,TCP,GET,/api/heavy-endpoint?id=990,503,298,92,python-requests/2.31.0,,request
+2024-01-15T14:33:45+00:00,192.168.1.14,10.0.0.3,64408,8080,TCP,PUT,/login,200,4175,12745,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T11:00:22.700115+00:00,198.51.100.23,10.0.0.2,47789,443,TCP,POST,/api/auth/login,401,377,194,curl/8.4.0,guest,login_failed
+2024-01-15T14:58:49+00:00,192.168.1.33,10.0.0.1,40731,8080,TCP,GET,/api/v1/profile,301,2648,1971,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:00:38+00:00,192.168.1.50,10.0.0.3,7846,443,TCP,GET,/api/orders,200,2049,5882,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:00:44.683620+00:00,203.0.113.50,10.0.0.1,51077,80,TCP,GET,/api/heavy-endpoint?id=474,429,229,358,python-requests/2.31.0,,request
+2024-01-15T10:00:47.176465+00:00,203.0.113.50,10.0.0.1,25668,80,TCP,GET,/api/heavy-endpoint?id=590,503,217,337,python-requests/2.31.0,,request
+2024-01-15T11:06:53.291649+00:00,198.51.100.23,10.0.0.2,20880,443,TCP,POST,/api/auth/login,401,377,181,curl/8.4.0,test,login_failed
+2024-01-15T14:24:21+00:00,192.168.1.23,10.0.0.2,60997,80,TCP,POST,/api/v1/profile,200,3919,8943,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_9,request
+2024-01-15T12:06:48+00:00,192.168.1.29,10.0.0.2,18391,80,TCP,GET,/api/products,301,2592,13739,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_2,request
+2024-01-15T10:00:06.500677+00:00,203.0.113.50,10.0.0.1,30846,80,TCP,GET,/api/heavy-endpoint?id=809,503,111,261,python-requests/2.31.0,,request
+2024-01-15T15:16:32+00:00,192.168.1.33,10.0.0.2,59317,443,TCP,DELETE,/static/css/main.css,200,1630,8329,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_17,request
+2024-01-15T08:00:06+00:00,192.168.1.56,10.0.0.1,65443,443,TCP,GET,/api/health,200,2572,307,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_7,request
+2024-01-15T10:00:24.476397+00:00,203.0.113.50,10.0.0.1,29652,80,TCP,GET,/api/heavy-endpoint?id=652,429,224,472,python-requests/2.31.0,,request
+2024-01-15T10:00:10.918857+00:00,203.0.113.50,10.0.0.1,16980,80,TCP,GET,/api/heavy-endpoint?id=572,200,122,97,python-requests/2.31.0,,request
+2024-01-15T12:32:51+00:00,192.168.1.46,10.0.0.1,25120,80,TCP,POST,/api/v1/profile,200,4801,11244,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T08:12:36+00:00,192.168.1.18,10.0.0.3,16400,8080,TCP,POST,/api/v1/search,200,755,3650,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_4,request
+2024-01-15T10:01:58.639497+00:00,203.0.113.50,10.0.0.1,56215,80,TCP,GET,/api/heavy-endpoint?id=33,503,215,238,python-requests/2.31.0,,request
+2024-01-15T09:56:31+00:00,192.168.1.52,10.0.0.2,22720,443,TCP,POST,/login,404,4445,7980,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_1,request
+2024-01-15T11:49:06+00:00,192.168.1.24,10.0.0.2,39642,443,TCP,GET,/api/v1/profile,301,3562,5774,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:00:12+00:00,192.0.2.100,10.0.0.1,24904,139,TCP,,,0,68,40,,,connection_attempt
+2024-01-15T15:11:38+00:00,192.168.1.41,10.0.0.1,24675,8080,TCP,POST,/static/js/app.js,301,4619,2326,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T10:01:12.941861+00:00,203.0.113.50,10.0.0.1,5677,80,TCP,GET,/api/heavy-endpoint?id=940,503,134,164,python-requests/2.31.0,,request
+2024-01-15T09:00:26+00:00,192.0.2.100,10.0.0.1,23300,92,TCP,,,0,65,0,,,connection_attempt
+2024-01-15T15:48:19+00:00,192.168.1.55,10.0.0.1,53831,443,TCP,GET,/api/health,200,3512,9330,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T12:15:37+00:00,192.168.1.50,10.0.0.1,24677,8080,TCP,PUT,/favicon.ico,200,577,13694,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:00:09.256110+00:00,203.0.113.50,10.0.0.1,59987,80,TCP,GET,/api/heavy-endpoint?id=120,503,289,74,python-requests/2.31.0,,request
+2024-01-15T09:00:31+00:00,192.0.2.100,10.0.0.1,7354,764,TCP,,,0,50,0,,,connection_attempt
+2024-01-15T12:05:44+00:00,192.168.1.39,10.0.0.3,34929,443,TCP,GET,/favicon.ico,200,4915,3181,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_2,request
+2024-01-15T11:45:59+00:00,192.168.1.34,10.0.0.1,48527,8080,TCP,GET,/about,200,3218,2977,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T15:01:58.552826+00:00,198.51.100.99,10.0.0.2,63765,443,TCP,GET,/api/products?category=1; DROP TABLE users;--,200,335,2072,sqlmap/1.7,,request
+2024-01-15T14:55:23+00:00,192.168.1.44,10.0.0.1,9438,8080,TCP,DELETE,/api/health,200,4422,14493,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_7,request
+2024-01-15T10:01:29.573568+00:00,203.0.113.50,10.0.0.1,24789,80,TCP,GET,/api/heavy-endpoint?id=137,200,211,207,python-requests/2.31.0,,request
+2024-01-15T14:18:59+00:00,192.168.1.19,10.0.0.3,15045,80,TCP,PUT,/static/css/main.css,200,3916,7012,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T09:00:30.500000+00:00,192.0.2.100,10.0.0.1,36086,958,TCP,,,0,58,0,,,connection_attempt
+2024-01-15T10:01:51.401082+00:00,203.0.113.50,10.0.0.1,41263,80,TCP,GET,/api/heavy-endpoint?id=217,200,298,253,python-requests/2.31.0,,request
+2024-01-15T09:39:52+00:00,192.168.1.58,10.0.0.3,19391,443,TCP,GET,/api/v1/profile,200,543,8813,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_18,request
+2024-01-15T08:38:59+00:00,192.168.1.13,10.0.0.1,52969,443,TCP,POST,/static/js/app.js,200,2591,11664,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_17,request
+2024-01-15T14:28:10+00:00,192.168.1.17,10.0.0.1,56675,443,TCP,GET,/contact,301,2098,8654,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_11,request
+2024-01-15T09:00:12.500000+00:00,192.0.2.100,10.0.0.1,15166,279,TCP,,,0,65,40,,,connection_attempt
+2024-01-15T10:01:11.157535+00:00,203.0.113.50,10.0.0.1,30987,80,TCP,GET,/api/heavy-endpoint?id=752,503,194,400,python-requests/2.31.0,,request
+2024-01-15T12:22:23+00:00,192.168.1.20,10.0.0.3,42247,8080,TCP,PUT,/api/products,301,2084,717,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_4,request
+2024-01-15T11:05:51.192334+00:00,198.51.100.23,10.0.0.2,64134,443,TCP,POST,/api/auth/login,401,238,138,curl/8.4.0,administrator,login_failed
+2024-01-15T09:38:45+00:00,192.168.1.54,10.0.0.3,54045,80,TCP,DELETE,/index.html,200,2045,7477,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T09:00:48+00:00,192.0.2.100,10.0.0.1,57994,8443,TCP,,,0,58,40,,,connection_attempt
+2024-01-15T11:02:12.407749+00:00,198.51.100.23,10.0.0.2,46342,443,TCP,POST,/api/auth/login,401,237,194,curl/8.4.0,admin,login_failed
+2024-01-15T11:02:49.739658+00:00,198.51.100.23,10.0.0.2,20483,443,TCP,POST,/api/auth/login,401,376,173,curl/8.4.0,test,login_failed
+2024-01-15T09:00:29+00:00,192.0.2.100,10.0.0.1,42136,397,TCP,,,0,72,0,,,connection_attempt
+2024-01-15T12:44:35+00:00,192.168.1.40,10.0.0.2,32229,80,TCP,DELETE,/api/v1/search,200,2712,1300,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T08:01:32+00:00,192.168.1.27,10.0.0.1,9543,8080,TCP,POST,/api/v1/profile,200,311,2359,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_8,request
+2024-01-15T15:17:22+00:00,192.168.1.10,10.0.0.1,17564,8080,TCP,POST,/api/v1/search,404,2355,7143,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_15,request
+2024-01-15T14:06:49+00:00,192.168.1.14,10.0.0.2,7459,80,TCP,DELETE,/api/orders,200,2021,1839,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_7,request
+2024-01-15T14:26:17+00:00,192.168.1.19,10.0.0.2,12567,8080,TCP,POST,/about,301,4508,12891,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_19,request
+2024-01-15T09:59:36+00:00,192.168.1.50,10.0.0.1,41714,443,TCP,GET,/contact,200,422,5261,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:39:14+00:00,192.168.1.13,10.0.0.2,25868,443,TCP,GET,/static/js/app.js,200,3205,4758,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T12:56:39+00:00,192.168.1.40,10.0.0.1,13619,443,TCP,PUT,/favicon.ico,200,2139,6504,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T14:41:54+00:00,192.168.1.56,10.0.0.2,62573,443,TCP,GET,/login,200,1998,1229,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_2,request
+2024-01-15T09:00:19+00:00,192.0.2.100,10.0.0.1,26272,147,TCP,,,0,55,40,,,connection_attempt
+2024-01-15T11:56:50+00:00,192.168.1.53,10.0.0.1,23485,443,TCP,POST,/api/v1/profile,200,3404,513,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T14:28:37+00:00,192.168.1.48,10.0.0.1,63002,80,TCP,DELETE,/static/js/app.js,200,4344,4885,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T09:00:38.500000+00:00,192.0.2.100,10.0.0.1,38613,505,TCP,,,0,52,40,,,connection_attempt
+2024-01-15T13:18:28+00:00,192.168.1.19,10.0.0.1,31245,8080,TCP,POST,/static/js/app.js,200,176,14927,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_18,request
+2024-01-15T13:06:56+00:00,192.168.1.54,10.0.0.2,10020,80,TCP,GET,/login,200,4450,3897,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T12:54:09+00:00,192.168.1.22,10.0.0.2,49097,8080,TCP,GET,/api/v1/search,200,252,14119,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_19,request
+2024-01-15T10:01:46.634946+00:00,203.0.113.50,10.0.0.1,24777,80,TCP,GET,/api/heavy-endpoint?id=492,503,129,360,python-requests/2.31.0,,request
+2024-01-15T11:59:27+00:00,192.168.1.28,10.0.0.3,5556,443,TCP,DELETE,/api/products,200,2082,4339,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:07:04+00:00,192.168.1.30,10.0.0.3,52703,8080,TCP,POST,/api/v1/profile,304,1680,549,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_5,request
+2024-01-15T10:01:40.324006+00:00,203.0.113.50,10.0.0.1,52204,80,TCP,GET,/api/heavy-endpoint?id=413,429,109,60,python-requests/2.31.0,,request
+2024-01-15T10:01:08.390007+00:00,203.0.113.50,10.0.0.1,19535,80,TCP,GET,/api/heavy-endpoint?id=945,200,191,307,python-requests/2.31.0,,request
+2024-01-15T11:21:22+00:00,192.168.1.28,10.0.0.1,43272,80,TCP,PUT,/static/js/app.js,200,436,7568,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_11,request
+2024-01-15T10:00:19.526497+00:00,203.0.113.50,10.0.0.1,53959,80,TCP,GET,/api/heavy-endpoint?id=682,503,197,242,python-requests/2.31.0,,request
+2024-01-15T10:12:37+00:00,192.168.1.26,10.0.0.1,22668,8080,TCP,GET,/static/js/app.js,301,857,8975,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_2,request
+2024-01-15T11:06:53.910653+00:00,198.51.100.23,10.0.0.2,27401,443,TCP,POST,/api/auth/login,401,297,173,curl/8.4.0,guest,login_failed
+2024-01-15T14:12:58+00:00,192.168.1.21,10.0.0.2,63575,80,TCP,GET,/about,200,2247,3734,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_13,request
+2024-01-15T10:26:35+00:00,192.168.1.41,10.0.0.1,5170,80,TCP,PUT,/dashboard,200,4066,13023,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_8,request
+2024-01-15T10:00:25.982746+00:00,203.0.113.50,10.0.0.1,26175,80,TCP,GET,/api/heavy-endpoint?id=843,429,157,81,python-requests/2.31.0,,request
+2024-01-15T09:00:17+00:00,192.0.2.100,10.0.0.1,53656,439,TCP,,,0,73,40,,,connection_attempt
+2024-01-15T10:30:24+00:00,192.168.1.35,10.0.0.1,41541,8080,TCP,PUT,/index.html,200,2815,11513,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T09:00:06+00:00,192.0.2.100,10.0.0.1,10767,291,TCP,,,0,41,0,,,connection_attempt
+2024-01-15T13:25:55+00:00,192.168.1.28,10.0.0.1,55591,80,TCP,POST,/login,200,2576,431,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_9,request
+2024-01-15T09:00:07.500000+00:00,192.0.2.100,10.0.0.1,59630,980,TCP,,,0,45,0,,,connection_attempt
+2024-01-15T14:20:45+00:00,192.168.1.59,10.0.0.2,56748,8080,TCP,GET,/api/v1/profile,404,436,5888,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_12,request
+2024-01-15T10:00:33.104656+00:00,203.0.113.50,10.0.0.1,54594,80,TCP,GET,/api/heavy-endpoint?id=385,503,255,262,python-requests/2.31.0,,request
+2024-01-15T13:43:45+00:00,192.168.1.53,10.0.0.1,10967,80,TCP,POST,/api/users,404,1070,9343,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_20,request
+2024-01-15T13:49:31+00:00,192.168.1.54,10.0.0.3,15416,8080,TCP,POST,/favicon.ico,200,558,3952,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_13,request
+2024-01-15T09:00:48.500000+00:00,192.0.2.100,10.0.0.1,62168,390,TCP,,,0,42,0,,,connection_attempt
+2024-01-15T10:00:38.057746+00:00,203.0.113.50,10.0.0.1,6347,80,TCP,GET,/api/heavy-endpoint?id=698,503,118,413,python-requests/2.31.0,,request
+2024-01-15T08:42:01+00:00,192.168.1.29,10.0.0.1,37983,80,TCP,PUT,/contact,304,2817,6488,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:01:25.402092+00:00,203.0.113.50,10.0.0.1,33219,80,TCP,GET,/api/heavy-endpoint?id=819,503,260,411,python-requests/2.31.0,,request
+2024-01-15T10:01:10.957401+00:00,203.0.113.50,10.0.0.1,50622,80,TCP,GET,/api/heavy-endpoint?id=113,200,224,262,python-requests/2.31.0,,request
+2024-01-15T12:05:00+00:00,192.168.1.18,10.0.0.2,13049,443,TCP,DELETE,/login,304,717,7460,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T14:10:06+00:00,192.168.1.23,10.0.0.2,43726,443,TCP,GET,/favicon.ico,200,172,7967,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_20,request
+2024-01-15T11:08:34.654764+00:00,198.51.100.23,10.0.0.2,61669,443,TCP,POST,/api/auth/login,401,240,154,curl/8.4.0,guest,login_failed
+2024-01-15T08:58:26+00:00,192.168.1.16,10.0.0.3,10782,80,TCP,GET,/about,200,3003,4579,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T08:13:24+00:00,192.168.1.40,10.0.0.1,20385,443,TCP,GET,/api/users,301,1260,5907,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_7,request
+2024-01-15T08:50:06+00:00,192.168.1.57,10.0.0.3,15122,443,TCP,PUT,/static/js/app.js,200,3131,5305,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_19,request
+2024-01-15T12:26:14+00:00,192.168.1.59,10.0.0.3,30314,80,TCP,PUT,/about,200,1286,14425,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_11,request
+2024-01-15T10:01:09.472655+00:00,203.0.113.50,10.0.0.1,18292,80,TCP,GET,/api/heavy-endpoint?id=225,200,295,250,python-requests/2.31.0,,request
+2024-01-15T14:09:41+00:00,192.168.1.54,10.0.0.1,53463,443,TCP,PUT,/api/orders,200,179,11682,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T11:01:34.361553+00:00,198.51.100.23,10.0.0.2,15648,443,TCP,POST,/api/auth/login,401,203,174,curl/8.4.0,user,login_failed
+2024-01-15T14:03:10.358000+00:00,203.0.113.75,10.0.0.3,10983,443,TCP,GET,/download?file=../../../etc/shadow,404,108,298,Mozilla/5.0 (compatible; attacker/1.0),,request
+2024-01-15T11:02:55.379948+00:00,198.51.100.23,10.0.0.2,43779,443,TCP,POST,/api/auth/login,401,256,197,curl/8.4.0,user,login_failed
+2024-01-15T13:54:32+00:00,192.168.1.30,10.0.0.1,47369,8080,TCP,POST,/login,200,1536,6399,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_10,request
+2024-01-15T14:56:04+00:00,192.168.1.25,10.0.0.3,50486,8080,TCP,GET,/api/health,200,3063,1479,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T09:00:44+00:00,192.0.2.100,10.0.0.1,56692,512,TCP,,,0,66,0,,,connection_attempt
+2024-01-15T09:00:03.500000+00:00,192.0.2.100,10.0.0.1,7757,23,TCP,,,0,40,0,,,connection_attempt
+2024-01-15T15:11:12+00:00,192.168.1.59,10.0.0.2,23995,8080,TCP,GET,/static/css/main.css,200,4008,12747,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_3,request
+2024-01-15T10:00:10.555819+00:00,203.0.113.50,10.0.0.1,56149,80,TCP,GET,/api/heavy-endpoint?id=663,503,112,156,python-requests/2.31.0,,request
+2024-01-15T10:01:13.670371+00:00,203.0.113.50,10.0.0.1,46867,80,TCP,GET,/api/heavy-endpoint?id=655,503,139,360,python-requests/2.31.0,,request
+2024-01-15T09:00:45.500000+00:00,192.0.2.100,10.0.0.1,34550,435,TCP,,,0,64,0,,,connection_attempt
+2024-01-15T10:48:54+00:00,192.168.1.35,10.0.0.3,48135,443,TCP,PUT,/api/v1/profile,200,4809,1408,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_3,request
+2024-01-15T10:00:55.780757+00:00,203.0.113.50,10.0.0.1,1775,80,TCP,GET,/api/heavy-endpoint?id=650,503,156,103,python-requests/2.31.0,,request
+2024-01-15T14:39:59+00:00,192.168.1.39,10.0.0.2,57887,8080,TCP,GET,/api/users,200,3781,5044,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_15,request
+2024-01-15T10:01:40.374014+00:00,203.0.113.50,10.0.0.1,7697,80,TCP,GET,/api/heavy-endpoint?id=858,200,248,323,python-requests/2.31.0,,request
+2024-01-15T15:05:30+00:00,192.168.1.20,10.0.0.1,34479,8080,TCP,GET,/api/health,200,2962,5952,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_5,request
+2024-01-15T08:39:21+00:00,192.168.1.35,10.0.0.3,3796,443,TCP,GET,/static/js/app.js,304,2664,9633,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_14,request
+2024-01-15T10:00:53.139817+00:00,203.0.113.50,10.0.0.1,18504,80,TCP,GET,/api/heavy-endpoint?id=511,200,182,233,python-requests/2.31.0,,request
+2024-01-15T08:24:51+00:00,192.168.1.13,10.0.0.3,20169,8080,TCP,GET,/contact,304,4121,1880,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_16,request
+2024-01-15T15:31:11+00:00,192.168.1.56,10.0.0.2,40896,80,TCP,GET,/static/css/main.css,200,2181,6098,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_13,request
+2024-01-15T15:01:59+00:00,192.168.1.36,10.0.0.2,62250,8080,TCP,POST,/favicon.ico,200,2545,13921,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_16,request
+2024-01-15T09:00:32.500000+00:00,192.0.2.100,10.0.0.1,6322,550,TCP,,,0,76,0,,,connection_attempt
+2024-01-15T09:00:03+00:00,192.0.2.100,10.0.0.1,4285,694,TCP,,,0,65,40,,,connection_attempt
+2024-01-15T11:37:29+00:00,192.168.1.30,10.0.0.2,49184,8080,TCP,DELETE,/about,200,2769,6361,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_13,request
+2024-01-15T10:50:22+00:00,192.168.1.46,10.0.0.3,60532,443,TCP,PUT,/api/v1/search,200,4950,11515,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T11:27:28+00:00,192.168.1.31,10.0.0.2,22961,443,TCP,GET,/dashboard,200,1745,8048,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T11:13:46+00:00,192.168.1.21,10.0.0.1,16526,8080,TCP,POST,/api/v1/profile,200,3039,9892,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_12,request
+2024-01-15T15:44:53+00:00,192.168.1.58,10.0.0.1,1657,80,TCP,GET,/api/orders,200,3685,10387,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T11:05:02.628378+00:00,198.51.100.23,10.0.0.2,57659,443,TCP,POST,/api/auth/login,401,305,188,curl/8.4.0,root,login_failed
+2024-01-15T13:14:41+00:00,192.168.1.40,10.0.0.1,52444,443,TCP,PUT,/login,200,3631,6004,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_2,request
+2024-01-15T10:00:04.626221+00:00,203.0.113.50,10.0.0.1,46651,80,TCP,GET,/api/heavy-endpoint?id=781,200,218,239,python-requests/2.31.0,,request
+2024-01-15T10:03:33+00:00,192.168.1.27,10.0.0.3,5063,80,TCP,GET,/api/users,200,4535,6982,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:01:10.129417+00:00,203.0.113.50,10.0.0.1,3555,80,TCP,GET,/api/heavy-endpoint?id=759,503,114,66,python-requests/2.31.0,,request
+2024-01-15T13:49:12+00:00,192.168.1.17,10.0.0.1,49622,443,TCP,GET,/login,200,939,11287,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_3,request
+2024-01-15T10:01:13.282907+00:00,203.0.113.50,10.0.0.1,48867,80,TCP,GET,/api/heavy-endpoint?id=830,503,165,136,python-requests/2.31.0,,request
+2024-01-15T10:01:49.647545+00:00,203.0.113.50,10.0.0.1,13228,80,TCP,GET,/api/heavy-endpoint?id=261,429,127,480,python-requests/2.31.0,,request
+2024-01-15T15:03:14+00:00,192.168.1.26,10.0.0.3,30270,80,TCP,POST,/api/v1/search,304,4123,3479,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T08:01:11+00:00,192.168.1.31,10.0.0.2,55411,8080,TCP,POST,/api/health,200,970,950,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_14,request
+2024-01-15T11:04:57.796480+00:00,198.51.100.23,10.0.0.2,25791,443,TCP,POST,/api/auth/login,401,323,158,curl/8.4.0,admin,login_failed
+2024-01-15T14:00:40.617354+00:00,203.0.113.75,10.0.0.3,61286,443,TCP,GET,/static/..%2f..%2f..%2fetc%2fhosts,403,184,811,Mozilla/5.0 (compatible; attacker/1.0),,request
+2024-01-15T09:00:16+00:00,192.0.2.100,10.0.0.1,52616,779,TCP,,,0,63,0,,,connection_attempt
+2024-01-15T11:04:49.886990+00:00,198.51.100.23,10.0.0.2,65123,443,TCP,POST,/api/auth/login,401,267,108,curl/8.4.0,user,login_failed
+2024-01-15T16:08:48.856891+00:00,192.168.1.55,203.0.113.200,22648,443,TCP,POST,/upload,200,4457001,373,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T09:34:57+00:00,192.168.1.11,10.0.0.2,57031,443,TCP,GET,/api/users,200,1245,2189,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:00:14.983354+00:00,203.0.113.50,10.0.0.1,54373,80,TCP,GET,/api/heavy-endpoint?id=306,503,276,349,python-requests/2.31.0,,request
+2024-01-15T08:17:52+00:00,192.168.1.54,10.0.0.2,15262,443,TCP,DELETE,/login,304,913,11434,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_12,request
+2024-01-15T10:00:14.224935+00:00,203.0.113.50,10.0.0.1,35911,80,TCP,GET,/api/heavy-endpoint?id=511,200,293,409,python-requests/2.31.0,,request
+2024-01-15T12:35:23+00:00,192.168.1.38,10.0.0.3,19355,8080,TCP,GET,/api/products,404,3326,6314,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_12,request
+2024-01-15T10:00:44.166255+00:00,203.0.113.50,10.0.0.1,13214,80,TCP,GET,/api/heavy-endpoint?id=689,503,241,389,python-requests/2.31.0,,request
+2024-01-15T11:03:34.715267+00:00,198.51.100.23,10.0.0.2,64121,443,TCP,POST,/api/auth/login,401,213,106,curl/8.4.0,admin,login_failed
+2024-01-15T14:56:58+00:00,192.168.1.31,10.0.0.1,7102,443,TCP,GET,/api/orders,301,2266,13423,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_18,request
+2024-01-15T09:00:36+00:00,192.0.2.100,10.0.0.1,2524,659,TCP,,,0,62,0,,,connection_attempt
+2024-01-15T13:35:47+00:00,192.168.1.37,10.0.0.2,42932,80,TCP,GET,/contact,200,3076,8606,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_1,request
+2024-01-15T11:40:36+00:00,192.168.1.46,10.0.0.1,18135,80,TCP,PUT,/api/health,200,692,8443,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_4,request
+2024-01-15T09:00:31.500000+00:00,192.0.2.100,10.0.0.1,30931,544,TCP,,,0,73,40,,,connection_attempt
+2024-01-15T16:29:49.027665+00:00,192.168.1.55,203.0.113.200,8655,443,TCP,POST,/upload,200,1465538,215,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T09:00:43+00:00,192.0.2.100,10.0.0.1,60069,18,TCP,,,0,57,0,,,connection_attempt
+2024-01-15T10:01:26.211081+00:00,203.0.113.50,10.0.0.1,9721,80,TCP,GET,/api/heavy-endpoint?id=977,503,266,170,python-requests/2.31.0,,request
+2024-01-15T09:00:18.500000+00:00,192.0.2.100,10.0.0.1,31362,418,TCP,,,0,64,0,,,connection_attempt
+2024-01-15T09:00:34+00:00,192.0.2.100,10.0.0.1,62091,750,TCP,,,0,49,0,,,connection_attempt
+2024-01-15T10:01:21.065549+00:00,203.0.113.50,10.0.0.1,3463,80,TCP,GET,/api/heavy-endpoint?id=451,200,115,196,python-requests/2.31.0,,request
+2024-01-15T11:47:11+00:00,192.168.1.56,10.0.0.1,21507,443,TCP,POST,/contact,200,1350,11452,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T11:00:47.382719+00:00,198.51.100.23,10.0.0.2,60795,443,TCP,POST,/api/auth/login,401,303,181,curl/8.4.0,guest,login_failed
+2024-01-15T16:03:48.618545+00:00,192.168.1.55,203.0.113.200,33719,443,TCP,POST,/upload,200,1867634,165,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T12:15:37+00:00,192.168.1.43,10.0.0.2,64664,8080,TCP,GET,/contact,200,4498,12502,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_11,request
+2024-01-15T10:00:26.939636+00:00,203.0.113.50,10.0.0.1,19256,80,TCP,GET,/api/heavy-endpoint?id=408,503,143,370,python-requests/2.31.0,,request
+2024-01-15T12:05:31+00:00,192.168.1.47,10.0.0.2,26506,80,TCP,GET,/login,200,612,9659,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_18,request
+2024-01-15T10:01:29.469466+00:00,203.0.113.50,10.0.0.1,43382,80,TCP,GET,/api/heavy-endpoint?id=111,503,263,408,python-requests/2.31.0,,request
+2024-01-15T08:18:18+00:00,192.168.1.22,10.0.0.2,49214,80,TCP,GET,/static/js/app.js,200,2656,5493,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_2,request
+2024-01-15T11:09:25.138893+00:00,198.51.100.23,10.0.0.2,59187,443,TCP,POST,/api/auth/login,401,296,147,curl/8.4.0,root,login_failed
+2024-01-15T14:08:13+00:00,192.168.1.57,10.0.0.3,19762,443,TCP,GET,/api/health,200,3220,2581,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_7,request
+2024-01-15T10:17:15+00:00,192.168.1.22,10.0.0.3,57964,443,TCP,GET,/contact,200,3112,12571,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_20,request
+2024-01-15T13:03:32+00:00,192.168.1.10,10.0.0.3,63156,80,TCP,GET,/login,200,4102,9296,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_16,request
+2024-01-15T10:00:28.650652+00:00,203.0.113.50,10.0.0.1,16105,80,TCP,GET,/api/heavy-endpoint?id=500,429,173,213,python-requests/2.31.0,,request
+2024-01-15T09:00:43.500000+00:00,192.0.2.100,10.0.0.1,7683,256,TCP,,,0,51,40,,,connection_attempt
+2024-01-15T10:01:45.056916+00:00,203.0.113.50,10.0.0.1,30135,80,TCP,GET,/api/heavy-endpoint?id=1,503,149,61,python-requests/2.31.0,,request
+2024-01-15T09:00:44.500000+00:00,192.0.2.100,10.0.0.1,50993,729,TCP,,,0,49,40,,,connection_attempt
+2024-01-15T10:00:49.529811+00:00,203.0.113.50,10.0.0.1,53165,80,TCP,GET,/api/heavy-endpoint?id=994,200,107,112,python-requests/2.31.0,,request
+2024-01-15T08:34:27+00:00,192.168.1.55,10.0.0.2,3447,443,TCP,GET,/index.html,200,443,5370,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_18,request
+2024-01-15T13:21:35+00:00,192.168.1.30,10.0.0.1,12443,443,TCP,GET,/api/products,200,4409,2062,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T13:25:11+00:00,192.168.1.30,10.0.0.2,41174,8080,TCP,PUT,/favicon.ico,304,3752,14899,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_16,request
+2024-01-15T08:37:22+00:00,192.168.1.25,10.0.0.3,45876,443,TCP,GET,/api/v1/search,200,906,12657,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_4,request
+2024-01-15T10:01:32.676119+00:00,203.0.113.50,10.0.0.1,40163,80,TCP,GET,/api/heavy-endpoint?id=519,200,146,242,python-requests/2.31.0,,request
+2024-01-15T10:00:04.009088+00:00,203.0.113.50,10.0.0.1,48061,80,TCP,GET,/api/heavy-endpoint?id=212,429,272,257,python-requests/2.31.0,,request
+2024-01-15T11:17:36+00:00,192.168.1.11,10.0.0.2,21265,80,TCP,GET,/api/orders,304,4083,3345,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_5,request
+2024-01-15T09:00:09.500000+00:00,192.0.2.100,10.0.0.1,60031,665,TCP,,,0,64,0,,,connection_attempt
+2024-01-15T09:00:30+00:00,192.0.2.100,10.0.0.1,59836,898,TCP,,,0,63,0,,,connection_attempt
+2024-01-15T12:18:51+00:00,192.168.1.20,10.0.0.3,15433,80,TCP,PUT,/api/v1/profile,200,4570,5032,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:00:17.735425+00:00,203.0.113.50,10.0.0.1,16065,80,TCP,GET,/api/heavy-endpoint?id=30,503,123,186,python-requests/2.31.0,,request
+2024-01-15T14:48:24+00:00,192.168.1.24,10.0.0.2,52345,8080,TCP,GET,/api/users,200,3381,13079,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_20,request
+2024-01-15T10:00:31.533832+00:00,203.0.113.50,10.0.0.1,38599,80,TCP,GET,/api/heavy-endpoint?id=452,429,111,135,python-requests/2.31.0,,request
+2024-01-15T11:03:14.547239+00:00,198.51.100.23,10.0.0.2,47584,443,TCP,POST,/api/auth/login,401,362,143,curl/8.4.0,test,login_failed
+2024-01-15T10:26:00+00:00,192.168.1.42,10.0.0.3,54447,80,TCP,GET,/api/v1/profile,200,585,4743,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:01:00.906534+00:00,203.0.113.50,10.0.0.1,47666,80,TCP,GET,/api/heavy-endpoint?id=929,200,227,248,python-requests/2.31.0,,request
+2024-01-15T14:01:59.390175+00:00,203.0.113.75,10.0.0.3,47241,443,TCP,GET,/files/....//....//etc/passwd,403,139,3906,Mozilla/5.0 (compatible; attacker/1.0),,request
+2024-01-15T11:00:58.401614+00:00,198.51.100.23,10.0.0.2,16122,443,TCP,POST,/api/auth/login,401,337,138,curl/8.4.0,admin,login_failed
+2024-01-15T13:17:02+00:00,192.168.1.54,10.0.0.3,15509,443,TCP,POST,/static/css/main.css,200,4921,11512,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T16:03:23.760062+00:00,192.168.1.55,203.0.113.200,36946,443,TCP,POST,/upload,200,2947397,273,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T13:42:52+00:00,192.168.1.36,10.0.0.2,30645,80,TCP,GET,/static/css/main.css,200,2379,11582,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_16,request
+2024-01-15T12:22:27+00:00,192.168.1.33,10.0.0.3,62253,80,TCP,GET,/dashboard,200,1413,4669,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_5,request
+2024-01-15T14:20:59+00:00,192.168.1.44,10.0.0.1,39744,8080,TCP,DELETE,/contact,200,4720,7326,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_18,request
+2024-01-15T10:00:39.821988+00:00,203.0.113.50,10.0.0.1,39295,80,TCP,GET,/api/heavy-endpoint?id=685,429,215,211,python-requests/2.31.0,,request
+2024-01-15T15:13:44+00:00,192.168.1.26,10.0.0.3,5640,8080,TCP,GET,/dashboard,200,3795,10525,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_1,request
+2024-01-15T10:01:41.803165+00:00,203.0.113.50,10.0.0.1,52198,80,TCP,GET,/api/heavy-endpoint?id=328,200,251,187,python-requests/2.31.0,,request
+2024-01-15T10:01:55.602698+00:00,203.0.113.50,10.0.0.1,45926,80,TCP,GET,/api/heavy-endpoint?id=175,503,274,473,python-requests/2.31.0,,request
+2024-01-15T10:54:04+00:00,192.168.1.54,10.0.0.2,27779,80,TCP,POST,/static/css/main.css,200,4506,7958,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_10,request
+2024-01-15T08:48:27+00:00,192.168.1.55,10.0.0.3,42908,8080,TCP,POST,/static/js/app.js,200,1817,4288,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T11:09:53.507172+00:00,198.51.100.23,10.0.0.2,30687,443,TCP,POST,/api/auth/login,401,264,116,curl/8.4.0,root,login_failed
+2024-01-15T10:00:07.067807+00:00,203.0.113.50,10.0.0.1,29021,80,TCP,GET,/api/heavy-endpoint?id=278,200,237,202,python-requests/2.31.0,,request
+2024-01-15T13:04:02+00:00,192.168.1.47,10.0.0.3,60765,80,TCP,PUT,/api/health,200,2921,10740,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_17,request
+2024-01-15T11:52:22+00:00,192.168.1.57,10.0.0.3,22702,443,TCP,DELETE,/dashboard,200,1988,2176,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T15:10:31+00:00,192.168.1.31,10.0.0.3,50979,80,TCP,GET,/api/users,200,3864,466,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_6,request
+2024-01-15T10:46:24+00:00,192.168.1.23,10.0.0.3,49614,8080,TCP,POST,/login,200,4298,2533,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T10:20:10+00:00,192.168.1.16,10.0.0.3,1107,80,TCP,PUT,/static/js/app.js,200,1462,14692,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_13,request
+2024-01-15T15:01:16.985897+00:00,198.51.100.99,10.0.0.2,16604,443,TCP,GET,/api/orders?id=1 AND 1=1,500,383,1911,sqlmap/1.7,,request
+2024-01-15T08:40:36+00:00,192.168.1.53,10.0.0.2,59961,8080,TCP,GET,/api/products,304,2676,456,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_13,request
+2024-01-15T08:16:56+00:00,192.168.1.25,10.0.0.1,56023,80,TCP,GET,/login,200,1037,9440,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_9,request
+2024-01-15T09:00:06.500000+00:00,192.0.2.100,10.0.0.1,18239,828,TCP,,,0,70,0,,,connection_attempt
+2024-01-15T09:00:02.500000+00:00,192.0.2.100,10.0.0.1,13008,621,TCP,,,0,40,0,,,connection_attempt
+2024-01-15T08:33:18+00:00,192.168.1.34,10.0.0.3,28459,8080,TCP,DELETE,/about,304,4001,5096,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_2,request
+2024-01-15T11:03:47.741317+00:00,198.51.100.23,10.0.0.2,20001,443,TCP,POST,/api/auth/login,401,207,128,curl/8.4.0,admin,login_failed
+2024-01-15T15:51:54+00:00,192.168.1.24,10.0.0.3,10587,80,TCP,POST,/api/health,304,4844,11996,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:00:02.017482+00:00,203.0.113.50,10.0.0.1,54400,80,TCP,GET,/api/heavy-endpoint?id=839,200,108,346,python-requests/2.31.0,,request
+2024-01-15T11:05:54.598306+00:00,198.51.100.23,10.0.0.2,51230,443,TCP,POST,/api/auth/login,401,376,185,curl/8.4.0,administrator,login_failed
+2024-01-15T10:00:05.330393+00:00,203.0.113.50,10.0.0.1,25912,80,TCP,GET,/api/heavy-endpoint?id=795,503,282,477,python-requests/2.31.0,,request
+2024-01-15T11:16:50+00:00,192.168.1.26,10.0.0.1,25393,8080,TCP,GET,/index.html,200,2602,12094,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_14,request
+2024-01-15T14:28:46+00:00,192.168.1.57,10.0.0.3,42480,80,TCP,GET,/login,200,2480,11449,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_5,request
+2024-01-15T09:29:10+00:00,192.168.1.55,10.0.0.3,43359,443,TCP,PUT,/login,200,3558,10445,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_20,request
+2024-01-15T12:56:05+00:00,192.168.1.28,10.0.0.2,56818,80,TCP,GET,/api/v1/profile,200,1936,2188,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_8,request
+2024-01-15T16:15:54.050552+00:00,192.168.1.55,203.0.113.200,1976,443,TCP,POST,/upload,200,2873228,423,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T11:02:48.553465+00:00,198.51.100.23,10.0.0.2,54280,443,TCP,POST,/api/auth/login,401,361,120,curl/8.4.0,guest,login_failed
+2024-01-15T10:00:39.936475+00:00,203.0.113.50,10.0.0.1,7633,80,TCP,GET,/api/heavy-endpoint?id=803,503,214,217,python-requests/2.31.0,,request
+2024-01-15T12:23:45+00:00,192.168.1.25,10.0.0.3,27637,443,TCP,DELETE,/api/users,200,1394,7402,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_7,request
+2024-01-15T09:00:45+00:00,192.0.2.100,10.0.0.1,30272,639,TCP,,,0,68,0,,,connection_attempt
+2024-01-15T10:01:40.167221+00:00,203.0.113.50,10.0.0.1,40013,80,TCP,GET,/api/heavy-endpoint?id=525,503,189,431,python-requests/2.31.0,,request
+2024-01-15T10:03:15+00:00,192.168.1.59,10.0.0.3,25952,443,TCP,DELETE,/dashboard,304,3612,5203,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_20,request
+2024-01-15T10:00:03.666133+00:00,203.0.113.50,10.0.0.1,30265,80,TCP,GET,/api/heavy-endpoint?id=11,503,225,274,python-requests/2.31.0,,request
+2024-01-15T10:01:19.744198+00:00,203.0.113.50,10.0.0.1,20255,80,TCP,GET,/api/heavy-endpoint?id=87,503,176,214,python-requests/2.31.0,,request
+2024-01-15T14:04:26.480423+00:00,203.0.113.75,10.0.0.3,27238,443,TCP,GET,/files/../../../etc/passwd,200,250,1922,Mozilla/5.0 (compatible; attacker/1.0),,request
+2024-01-15T09:58:57+00:00,192.168.1.37,10.0.0.1,33445,443,TCP,POST,/favicon.ico,200,4583,9668,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_16,request
+2024-01-15T10:00:47.852721+00:00,203.0.113.50,10.0.0.1,60994,80,TCP,GET,/api/heavy-endpoint?id=646,503,202,192,python-requests/2.31.0,,request
+2024-01-15T11:59:43+00:00,192.168.1.24,10.0.0.3,15262,80,TCP,GET,/api/health,404,2018,13565,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_19,request
+2024-01-15T09:11:39+00:00,192.168.1.23,10.0.0.3,2460,8080,TCP,GET,/api/users,200,406,6347,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T08:48:04+00:00,192.168.1.41,10.0.0.2,21737,80,TCP,DELETE,/api/v1/search,200,940,6809,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T08:40:26+00:00,192.168.1.38,10.0.0.1,59919,8080,TCP,DELETE,/api/users,301,2718,11141,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_18,request
+2024-01-15T09:01:44+00:00,192.168.1.18,10.0.0.3,48630,80,TCP,GET,/api/users,200,4939,8108,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_6,request
+2024-01-15T10:00:17.896368+00:00,203.0.113.50,10.0.0.1,51618,80,TCP,GET,/api/heavy-endpoint?id=682,503,244,426,python-requests/2.31.0,,request
+2024-01-15T13:30:37+00:00,192.168.1.51,10.0.0.2,18800,443,TCP,POST,/api/v1/search,200,3788,6982,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,,request
+2024-01-15T09:00:42.500000+00:00,192.0.2.100,10.0.0.1,26799,808,TCP,,,0,64,40,,,connection_attempt
+2024-01-15T09:00:39+00:00,192.0.2.100,10.0.0.1,36752,932,TCP,,,0,59,0,,,connection_attempt
+2024-01-15T08:41:07+00:00,192.168.1.19,10.0.0.1,57394,8080,TCP,PUT,/favicon.ico,301,3096,1679,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T15:01:03.332326+00:00,198.51.100.99,10.0.0.2,29216,443,TCP,GET,/api/users?id=1' OR '1'='1,500,492,1506,sqlmap/1.7,,request
+2024-01-15T09:27:49+00:00,192.168.1.31,10.0.0.2,46484,443,TCP,POST,/contact,304,4606,801,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:58:44+00:00,192.168.1.15,10.0.0.3,30957,80,TCP,POST,/login,200,2589,12317,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T09:00:05+00:00,192.0.2.100,10.0.0.1,18765,12,TCP,,,0,55,0,,,connection_attempt
+2024-01-15T13:09:01+00:00,192.168.1.16,10.0.0.3,61261,80,TCP,GET,/login,304,4743,7990,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:01:22.392945+00:00,203.0.113.50,10.0.0.1,18914,80,TCP,GET,/api/heavy-endpoint?id=526,200,208,244,python-requests/2.31.0,,request
+2024-01-15T09:46:11+00:00,192.168.1.55,10.0.0.3,26188,443,TCP,PUT,/login,200,145,14825,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_8,request
+2024-01-15T12:21:26+00:00,192.168.1.38,10.0.0.2,13106,80,TCP,POST,/favicon.ico,200,635,6765,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T11:01:25.609465+00:00,198.51.100.23,10.0.0.2,62137,443,TCP,POST,/api/auth/login,401,364,194,curl/8.4.0,admin,login_failed
+2024-01-15T12:20:45+00:00,192.168.1.51,10.0.0.1,50563,443,TCP,POST,/dashboard,200,832,10887,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:01:15.758909+00:00,203.0.113.50,10.0.0.1,1983,80,TCP,GET,/api/heavy-endpoint?id=174,200,290,229,python-requests/2.31.0,,request
+2024-01-15T10:24:14+00:00,192.168.1.39,10.0.0.1,7565,80,TCP,GET,/favicon.ico,200,2661,7179,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:01:40.083701+00:00,203.0.113.50,10.0.0.1,38091,80,TCP,GET,/api/heavy-endpoint?id=164,503,241,273,python-requests/2.31.0,,request
+2024-01-15T10:01:47.259340+00:00,203.0.113.50,10.0.0.1,23273,80,TCP,GET,/api/heavy-endpoint?id=835,503,216,150,python-requests/2.31.0,,request
+2024-01-15T09:12:54+00:00,192.168.1.50,10.0.0.2,5928,8080,TCP,GET,/static/css/main.css,200,1170,4079,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T10:01:44.835748+00:00,203.0.113.50,10.0.0.1,44820,80,TCP,GET,/api/heavy-endpoint?id=873,429,268,396,python-requests/2.31.0,,request
+2024-01-15T09:39:07+00:00,192.168.1.47,10.0.0.2,42625,443,TCP,GET,/static/js/app.js,200,2830,5460,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T11:37:17+00:00,192.168.1.31,10.0.0.2,30701,80,TCP,GET,/static/css/main.css,200,4296,5097,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_11,request
+2024-01-15T10:59:11+00:00,192.168.1.17,10.0.0.1,33620,8080,TCP,PUT,/api/products,200,4462,11728,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_12,request
+2024-01-15T10:01:16.493477+00:00,203.0.113.50,10.0.0.1,63180,80,TCP,GET,/api/heavy-endpoint?id=186,503,133,453,python-requests/2.31.0,,request
+2024-01-15T10:49:06+00:00,192.168.1.32,10.0.0.2,36391,80,TCP,GET,/static/js/app.js,200,3476,4456,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_1,request
+2024-01-15T11:06:11.517208+00:00,198.51.100.23,10.0.0.2,5387,443,TCP,POST,/api/auth/login,401,282,169,curl/8.4.0,user,login_failed
+2024-01-15T13:59:49+00:00,192.168.1.15,10.0.0.2,34804,8080,TCP,POST,/api/users,301,2024,11223,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:00:22.500000+00:00,192.0.2.100,10.0.0.1,27854,258,TCP,,,0,78,0,,,connection_attempt
+2024-01-15T15:52:59+00:00,192.168.1.18,10.0.0.1,10608,8080,TCP,POST,/favicon.ico,200,3317,8219,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_9,request
+2024-01-15T10:01:14.818655+00:00,203.0.113.50,10.0.0.1,56048,80,TCP,GET,/api/heavy-endpoint?id=567,503,190,386,python-requests/2.31.0,,request
+2024-01-15T14:26:42+00:00,192.168.1.46,10.0.0.1,23513,8080,TCP,GET,/contact,200,3997,11207,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_6,request
+2024-01-15T09:02:15+00:00,192.168.1.16,10.0.0.2,14042,8080,TCP,GET,/api/v1/profile,200,4385,3504,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_10,request
+2024-01-15T13:09:04+00:00,192.168.1.53,10.0.0.3,64830,80,TCP,DELETE,/favicon.ico,304,2444,12909,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_12,request
+2024-01-15T14:27:58+00:00,192.168.1.51,10.0.0.1,34047,8080,TCP,POST,/api/v1/search,200,2985,9412,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_14,request
+2024-01-15T12:02:18+00:00,192.168.1.20,10.0.0.3,20649,80,TCP,GET,/api/orders,200,2503,6073,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_8,request
+2024-01-15T16:28:18.438027+00:00,192.168.1.55,203.0.113.200,2855,443,TCP,POST,/upload,200,1115039,316,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T10:12:07+00:00,192.168.1.33,10.0.0.2,39955,443,TCP,GET,/favicon.ico,200,4616,5930,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:00:00+00:00,192.0.2.100,10.0.0.1,30873,557,TCP,,,0,75,0,,,connection_attempt
+2024-01-15T10:26:36+00:00,192.168.1.34,10.0.0.3,40671,8080,TCP,GET,/favicon.ico,200,4913,12067,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_16,request
+2024-01-15T10:25:39+00:00,192.168.1.15,10.0.0.3,28844,80,TCP,PUT,/about,404,1578,9137,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T09:00:47+00:00,192.0.2.100,10.0.0.1,5840,425,TCP,,,0,49,40,,,connection_attempt
+2024-01-15T10:17:37+00:00,192.168.1.23,10.0.0.2,20825,8080,TCP,PUT,/about,200,4290,11052,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_20,request
+2024-01-15T15:02:52.397451+00:00,198.51.100.99,10.0.0.2,3203,443,TCP,GET,"/api/users?name='; INSERT INTO admins VALUES('hacker','pass');--",500,380,2561,sqlmap/1.7,,request
+2024-01-15T11:04:33.343500+00:00,198.51.100.23,10.0.0.2,53063,443,TCP,POST,/api/auth/login,401,388,187,curl/8.4.0,administrator,login_failed
+2024-01-15T13:30:27+00:00,192.168.1.19,10.0.0.3,30510,443,TCP,POST,/static/js/app.js,200,4801,2455,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_11,request
+2024-01-15T09:00:22+00:00,192.0.2.100,10.0.0.1,39783,329,TCP,,,0,79,40,,,connection_attempt
+2024-01-15T11:06:18.598289+00:00,198.51.100.23,10.0.0.2,38900,443,TCP,POST,/api/auth/login,401,341,155,curl/8.4.0,user,login_failed
+2024-01-15T14:23:17+00:00,192.168.1.53,10.0.0.3,5703,8080,TCP,GET,/api/health,200,1438,7773,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T09:00:23.500000+00:00,192.0.2.100,10.0.0.1,42066,794,TCP,,,0,55,40,,,connection_attempt
+2024-01-15T10:11:39+00:00,192.168.1.41,10.0.0.3,39947,80,TCP,GET,/api/orders,304,1181,6537,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_18,request
+2024-01-15T10:00:34.213504+00:00,203.0.113.50,10.0.0.1,18829,80,TCP,GET,/api/heavy-endpoint?id=63,503,260,284,python-requests/2.31.0,,request
+2024-01-15T15:08:53+00:00,192.168.1.41,10.0.0.2,17471,8080,TCP,GET,/static/css/main.css,200,1438,1183,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_16,request
+2024-01-15T09:47:08+00:00,192.168.1.31,10.0.0.1,25917,8080,TCP,GET,/static/js/app.js,200,2865,4416,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_16,request
+2024-01-15T15:33:29+00:00,192.168.1.36,10.0.0.3,10376,8080,TCP,GET,/about,200,2266,2947,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_15,request
+2024-01-15T16:45:43.146026+00:00,192.168.1.55,203.0.113.200,11879,443,TCP,POST,/upload,200,1797229,436,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_42,upload
+2024-01-15T11:01:59.428170+00:00,198.51.100.23,10.0.0.2,8332,443,TCP,POST,/api/auth/login,401,292,143,curl/8.4.0,admin,login_failed
+2024-01-15T10:01:16.860929+00:00,203.0.113.50,10.0.0.1,20321,80,TCP,GET,/api/heavy-endpoint?id=35,503,267,424,python-requests/2.31.0,,request
+2024-01-15T11:00:20.798563+00:00,198.51.100.23,10.0.0.2,16374,443,TCP,POST,/api/auth/login,401,343,162,curl/8.4.0,admin,login_failed
+2024-01-15T10:47:33+00:00,192.168.1.20,10.0.0.2,45986,8080,TCP,POST,/api/v1/search,200,2516,6221,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T10:00:29.016665+00:00,203.0.113.50,10.0.0.1,25011,80,TCP,GET,/api/heavy-endpoint?id=105,503,133,55,python-requests/2.31.0,,request
+2024-01-15T14:05:45+00:00,192.168.1.55,10.0.0.2,16666,443,TCP,PUT,/api/products,200,2557,7691,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_3,request
+2024-01-15T10:01:58.045351+00:00,203.0.113.50,10.0.0.1,17315,80,TCP,GET,/api/heavy-endpoint?id=123,503,107,281,python-requests/2.31.0,,request
+2024-01-15T10:01:10.456957+00:00,203.0.113.50,10.0.0.1,10629,80,TCP,GET,/api/heavy-endpoint?id=3,200,131,114,python-requests/2.31.0,,request
+2024-01-15T11:55:50+00:00,192.168.1.21,10.0.0.3,39419,8080,TCP,PUT,/api/users,200,2519,13275,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_3,request
+2024-01-15T11:16:24+00:00,192.168.1.42,10.0.0.2,31564,80,TCP,DELETE,/api/v1/profile,301,1764,6273,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_19,request
+2024-01-15T12:50:05+00:00,192.168.1.36,10.0.0.3,45706,80,TCP,GET,/api/products,200,3233,10353,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T14:02:17+00:00,192.168.1.16,10.0.0.1,18356,80,TCP,GET,/api/v1/search,200,2331,4816,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T08:24:04+00:00,192.168.1.10,10.0.0.2,51560,80,TCP,POST,/api/products,200,4619,11761,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_4,request
+2024-01-15T12:54:31+00:00,192.168.1.10,10.0.0.3,43572,443,TCP,PUT,/api/orders,304,4440,7228,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_16,request
+2024-01-15T10:01:11.308732+00:00,203.0.113.50,10.0.0.1,46305,80,TCP,GET,/api/heavy-endpoint?id=605,429,244,228,python-requests/2.31.0,,request
+2024-01-15T14:20:55+00:00,192.168.1.25,10.0.0.3,26122,80,TCP,PUT,/index.html,200,3974,11754,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,user_5,request
+2024-01-15T10:00:24.670212+00:00,203.0.113.50,10.0.0.1,46834,80,TCP,GET,/api/heavy-endpoint?id=90,503,239,268,python-requests/2.31.0,,request
+2024-01-15T11:08:01.224501+00:00,198.51.100.23,10.0.0.2,19283,443,TCP,POST,/api/auth/login,401,349,124,curl/8.4.0,administrator,login_failed
+2024-01-15T10:00:39.257755+00:00,203.0.113.50,10.0.0.1,46029,80,TCP,GET,/api/heavy-endpoint?id=299,429,107,151,python-requests/2.31.0,,request
+2024-01-15T12:53:02+00:00,192.168.1.17,10.0.0.2,25179,8080,TCP,POST,/about,200,3143,1975,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,,request
+2024-01-15T11:07:43.855194+00:00,198.51.100.23,10.0.0.2,51376,443,TCP,POST,/api/auth/login,401,241,184,curl/8.4.0,root,login_failed
+2024-01-15T08:42:08+00:00,192.168.1.28,10.0.0.1,34295,8080,TCP,GET,/contact,200,1173,9985,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T14:26:12+00:00,192.168.1.19,10.0.0.1,15358,8080,TCP,DELETE,/api/orders,200,4058,11001,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1,,request
+2024-01-15T15:11:50+00:00,192.168.1.33,10.0.0.3,59711,8080,TCP,GET,/api/users,200,3008,2925,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_19,request
+2024-01-15T11:44:50+00:00,192.168.1.49,10.0.0.3,30016,80,TCP,GET,/api/users,200,1108,9859,Mozilla/5.0 (X11; Linux x86_64) Firefox/121.0,user_14,request
+2024-01-15T11:08:22.097351+00:00,198.51.100.23,10.0.0.2,32503,443,TCP,POST,/api/auth/login,401,364,199,curl/8.4.0,root,login_failed
+2024-01-15T09:25:58+00:00,192.168.1.13,10.0.0.3,6274,80,TCP,GET,/about,200,2026,6815,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_19,request
+2024-01-15T13:51:20+00:00,192.168.1.11,10.0.0.1,32414,443,TCP,PUT,/contact,200,3733,1404,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0,user_5,request
+2024-01-15T10:00:16.949967+00:00,203.0.113.50,10.0.0.1,47679,80,TCP,GET,/api/heavy-endpoint?id=236,503,196,81,python-requests/2.31.0,,request

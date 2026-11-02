@@ -1,15 +1,42 @@
-# Core data stack
+# Core
+fastapi>=0.100.0,<1.0
+uvicorn>=0.20.0
+pydantic>=2.0
+pydantic-settings>=2.0
+starlette<1.0
+
+# Data
 pandas>=2.0
 numpy>=1.24
 
-# Configuration
+# Database
+SQLAlchemy>=2.0
+aiosqlite>=0.20.0
+
+# HTTP
+httpx>=0.24.0
+requests>=2.28
+
+# ML (optional)
+scikit-learn>=1.3
+
+# Visualization & Dashboard
+streamlit>=1.28
+plotly>=5.15
+
+# Reporting
+fpdf2>=2.7
+jinja2>=3.0
+
+# File handling
+python-multipart>=0.0.9,<0.0.30
+python-dateutil>=2.8
 pyyaml>=6.0
 
-# Optional: LLM agent backend (OpenAI-compatible — also works with Ollama / LM Studio / Groq)
-openai>=1.30
+# Security
+python-dotenv>=1.0
 
-# Optional: figures for the research notebook
-matplotlib>=3.7
-
-# Development / testing
-pytest>=7.0
+# Testing
+pytest>=7.4
+pytest-cov>=4.1
+pytest-asyncio>=0.21

@@ -1,0 +1,17 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+markers = [
+    "slow: marks tests as slow",
+    "security: marks security tests",
+    "integration: marks integration tests",
+]
+
+[project]
+name = "ai-secops-analyzer"
+version = "1.0.0"
+description = "Autonomous AI SecOps Log Analyzer"
+requires-python = ">=3.10"

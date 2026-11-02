@@ -1,0 +1,15 @@
+{
+  "total_records": 910,
+  "malicious_records": 410,
+  "benign_records": 500,
+  "attack_type_counts": {
+    "NORMAL": 500,
+    "BRUTE_FORCE": 81,
+    "DOS": 200,
+    "PORT_SCAN": 100,
+    "DATA_EXFIL": 15,
+    "INJECTION": 6,
+    "PATH_TRAVERSAL": 8
+  },
+  "seed": 42
+}

@@ -1,0 +1,5372 @@
+[
+  {
+    "record_id_hint": "normal_92",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_19",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "bf_70",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_482",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_185",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_40",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_68",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_330",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_313",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_92",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_463",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_301",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_28",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_23",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 69"
+  },
+  {
+    "record_id_hint": "normal_443",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_174",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_329",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_195",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_354",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_200",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_334",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_437",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_72",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_168",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_449",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_31",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 869"
+  },
+  {
+    "record_id_hint": "normal_402",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_414",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_64",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_424",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_293",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_290",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_36",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_48",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "scan_46",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 366"
+  },
+  {
+    "record_id_hint": "scan_30",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 217"
+  },
+  {
+    "record_id_hint": "dos_187",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_229",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_26",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_16",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_474",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_385",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_148",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_60",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_193",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_49",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_0",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_81",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_37",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_397",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_318",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_7",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_311",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_241",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_489",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_272",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_71",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 720"
+  },
+  {
+    "record_id_hint": "normal_308",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_57",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_491",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_38",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_33",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 735"
+  },
+  {
+    "record_id_hint": "dos_22",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_198",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_8",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 75"
+  },
+  {
+    "record_id_hint": "dos_166",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_495",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_152",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_247",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_30",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_8",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_24",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_110",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_232",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_122",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_277",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_194",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_180",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_33",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_18",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 762"
+  },
+  {
+    "record_id_hint": "dos_10",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_193",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_5",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_131",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_325",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_95",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_327",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "exfil_11",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "normal_85",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_177",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_36",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_430",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_20",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 37"
+  },
+  {
+    "record_id_hint": "normal_236",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_372",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_43",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_31",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_428",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_6",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_302",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_39",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 718"
+  },
+  {
+    "record_id_hint": "normal_431",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_93",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 949"
+  },
+  {
+    "record_id_hint": "normal_369",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_96",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_289",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_436",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_20",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "bf_73",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_54",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_374",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_60",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_384",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_426",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_221",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_27",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_77",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_249",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_422",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_105",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_396",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_365",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_3",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_172",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_105",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_53",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_24",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_13",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_35",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 77"
+  },
+  {
+    "record_id_hint": "normal_129",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_360",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_150",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_179",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_88",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_15",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "sqli_3",
+    "is_malicious": true,
+    "attack_type": "INJECTION",
+    "attacker_ip": "198.51.100.99",
+    "description": "SQL injection attempt"
+  },
+  {
+    "record_id_hint": "bf_32",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_26",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_181",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_467",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_50",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_112",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_141",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_191",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_188",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "trav_5",
+    "is_malicious": true,
+    "attack_type": "PATH_TRAVERSAL",
+    "attacker_ip": "203.0.113.75",
+    "description": "Path traversal attempt: /download?file=..\\..\\..\\windows\\system32\\config\\sam"
+  },
+  {
+    "record_id_hint": "normal_475",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_262",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_444",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_345",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_74",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_355",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_36",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 628"
+  },
+  {
+    "record_id_hint": "normal_398",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_358",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_29",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_124",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_202",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_61",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_268",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_201",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_239",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_82",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_366",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_36",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_10",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_417",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_17",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_42",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 33"
+  },
+  {
+    "record_id_hint": "normal_499",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_472",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_13",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_251",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_76",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_37",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_476",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_64",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_22",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 640"
+  },
+  {
+    "record_id_hint": "scan_56",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 325"
+  },
+  {
+    "record_id_hint": "dos_183",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_446",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_184",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_423",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "trav_2",
+    "is_malicious": true,
+    "attack_type": "PATH_TRAVERSAL",
+    "attacker_ip": "203.0.113.75",
+    "description": "Path traversal attempt: /api/read?path=%2e%2e%2f%2e%2e%2fetc%2fpasswd"
+  },
+  {
+    "record_id_hint": "normal_457",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_160",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_66",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_16",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 319"
+  },
+  {
+    "record_id_hint": "scan_55",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 337"
+  },
+  {
+    "record_id_hint": "normal_364",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_34",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_256",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_336",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_106",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_199",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_65",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_144",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_79",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_375",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_92",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 301"
+  },
+  {
+    "record_id_hint": "normal_439",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_28",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_74",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 608"
+  },
+  {
+    "record_id_hint": "scan_28",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 755"
+  },
+  {
+    "record_id_hint": "normal_42",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_185",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_48",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 743"
+  },
+  {
+    "record_id_hint": "scan_76",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 62"
+  },
+  {
+    "record_id_hint": "normal_173",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_264",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_411",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "exfil_10",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "dos_164",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_299",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_129",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_72",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_227",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_89",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_56",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_350",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_304",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_157",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_188",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_191",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_32",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_21",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 921"
+  },
+  {
+    "record_id_hint": "bf_2",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_487",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_59",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_192",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_493",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_401",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_1",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_9",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_386",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_147",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_434",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_28",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_151",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_5",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_178",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_149",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_100",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_231",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_86",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_75",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 680"
+  },
+  {
+    "record_id_hint": "normal_213",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_50",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_111",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_128",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_119",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_138",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_84",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_80",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 934"
+  },
+  {
+    "record_id_hint": "dos_33",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_success",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Successful login after brute force"
+  },
+  {
+    "record_id_hint": "bf_10",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_78",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_34",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_30",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_117",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_42",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_41",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_55",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "scan_4",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 168"
+  },
+  {
+    "record_id_hint": "normal_139",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_320",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_461",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_39",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_180",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_140",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_93",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_145",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_380",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_63",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_126",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_132",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_173",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_312",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_68",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "exfil_8",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "scan_81",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 215"
+  },
+  {
+    "record_id_hint": "dos_2",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_258",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_17",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 876"
+  },
+  {
+    "record_id_hint": "normal_162",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_466",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_42",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "scan_66",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 889"
+  },
+  {
+    "record_id_hint": "normal_68",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_425",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_85",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_70",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 830"
+  },
+  {
+    "record_id_hint": "dos_120",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "exfil_12",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "normal_237",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_265",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_454",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "exfil_3",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "scan_3",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 528"
+  },
+  {
+    "record_id_hint": "normal_54",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_99",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_316",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_124",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_456",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_174",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_127",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_23",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_294",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_212",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_53",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 22"
+  },
+  {
+    "record_id_hint": "normal_37",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_57",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 803"
+  },
+  {
+    "record_id_hint": "normal_125",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_23",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_421",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "exfil_4",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "normal_101",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_115",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_40",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 59"
+  },
+  {
+    "record_id_hint": "normal_120",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_47",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_171",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_494",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_324",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_263",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_145",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_43",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_86",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_109",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_49",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "scan_54",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 770"
+  },
+  {
+    "record_id_hint": "normal_333",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_61",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "scan_49",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 328"
+  },
+  {
+    "record_id_hint": "normal_164",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_335",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_391",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_51",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 422"
+  },
+  {
+    "record_id_hint": "bf_50",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_119",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_78",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_155",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_381",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_280",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_207",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_154",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_39",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_315",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "exfil_1",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "scan_2",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 1000"
+  },
+  {
+    "record_id_hint": "dos_147",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_6",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_25",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_419",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_144",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_15",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_151",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_356",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_206",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_26",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 815"
+  },
+  {
+    "record_id_hint": "dos_61",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_69",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 636"
+  },
+  {
+    "record_id_hint": "scan_59",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 716"
+  },
+  {
+    "record_id_hint": "normal_259",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_153",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_63",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_339",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_393",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_182",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_406",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_340",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_139",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_485",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_481",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_114",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_343",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_368",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_24",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_275",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_266",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_12",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_392",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_138",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_22",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_130",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_97",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_295",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_197",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_404",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_261",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_310",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "sqli_1",
+    "is_malicious": true,
+    "attack_type": "INJECTION",
+    "attacker_ip": "198.51.100.99",
+    "description": "SQL injection attempt"
+  },
+  {
+    "record_id_hint": "normal_160",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_43",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 177"
+  },
+  {
+    "record_id_hint": "normal_176",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_88",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_22",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_435",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_16",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_44",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_297",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_450",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_1",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 856"
+  },
+  {
+    "record_id_hint": "dos_87",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_14",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_190",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_9",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 496"
+  },
+  {
+    "record_id_hint": "dos_130",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_64",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 677"
+  },
+  {
+    "record_id_hint": "normal_260",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_328",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_490",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_107",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_395",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_35",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_76",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_101",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_204",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_98",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_337",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "trav_6",
+    "is_malicious": true,
+    "attack_type": "PATH_TRAVERSAL",
+    "attacker_ip": "203.0.113.75",
+    "description": "Path traversal attempt: /api/file?name=../../config/database.yml"
+  },
+  {
+    "record_id_hint": "bf_7",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_116",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_135",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_136",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_17",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_179",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_167",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_418",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_125",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_113",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_71",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_8",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_195",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_134",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_359",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_403",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_50",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 97"
+  },
+  {
+    "record_id_hint": "normal_136",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_471",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_455",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_376",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_458",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_342",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_95",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 395"
+  },
+  {
+    "record_id_hint": "normal_210",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_400",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_108",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_377",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_91",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_12",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_211",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_451",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_90",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_415",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_409",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_44",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_442",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_121",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_79",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_383",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_317",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_23",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_447",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_496",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_286",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_69",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_181",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_29",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 158"
+  },
+  {
+    "record_id_hint": "bf_27",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "scan_67",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 648"
+  },
+  {
+    "record_id_hint": "normal_349",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_107",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_183",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_480",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_20",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_440",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_407",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_477",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_460",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_186",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_157",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_170",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_172",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_83",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 160"
+  },
+  {
+    "record_id_hint": "dos_48",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_4",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_298",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_189",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_427",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_18",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_279",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_76",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_176",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_353",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_452",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_483",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_38",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_14",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 121"
+  },
+  {
+    "record_id_hint": "normal_4",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_287",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_47",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_361",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_282",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_226",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_41",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 946"
+  },
+  {
+    "record_id_hint": "dos_75",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_56",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_1",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_326",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_133",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_341",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_29",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_45",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_283",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_94",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_79",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 383"
+  },
+  {
+    "record_id_hint": "normal_52",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_45",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "bf_9",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "trav_7",
+    "is_malicious": true,
+    "attack_type": "PATH_TRAVERSAL",
+    "attacker_ip": "203.0.113.75",
+    "description": "Path traversal attempt: /images/../../../proc/self/environ"
+  },
+  {
+    "record_id_hint": "dos_31",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_208",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_351",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_215",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_288",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_278",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_84",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 642"
+  },
+  {
+    "record_id_hint": "normal_109",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_118",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_73",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 261"
+  },
+  {
+    "record_id_hint": "normal_137",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_106",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_306",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_8",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_309",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_178",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_78",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_291",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_378",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_27",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 918"
+  },
+  {
+    "record_id_hint": "dos_73",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_357",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_149",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_99",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 599"
+  },
+  {
+    "record_id_hint": "dos_18",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "exfil_0",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "normal_75",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_102",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_79",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_9",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_74",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_115",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_468",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_307",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_134",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_82",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 360"
+  },
+  {
+    "record_id_hint": "bf_67",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_244",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_148",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_209",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_267",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_11",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 118"
+  },
+  {
+    "record_id_hint": "dos_35",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_98",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 992"
+  },
+  {
+    "record_id_hint": "normal_83",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_40",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_75",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_122",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_413",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_240",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_159",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_197",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_190",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_82",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_20",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_83",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_31",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "bf_13",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_14",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_488",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_11",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_58",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_321",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_132",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_55",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_3",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_222",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_303",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_126",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_158",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_498",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_69",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_137",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_292",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_465",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_189",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_399",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_2",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_24",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 139"
+  },
+  {
+    "record_id_hint": "normal_168",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_161",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_52",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 92"
+  },
+  {
+    "record_id_hint": "normal_218",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_492",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_152",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_62",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 764"
+  },
+  {
+    "record_id_hint": "normal_170",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_242",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "sqli_2",
+    "is_malicious": true,
+    "attack_type": "INJECTION",
+    "attacker_ip": "198.51.100.99",
+    "description": "SQL injection attempt"
+  },
+  {
+    "record_id_hint": "normal_15",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_53",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_51",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_61",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 958"
+  },
+  {
+    "record_id_hint": "dos_63",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_453",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_77",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_255",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_25",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 279"
+  },
+  {
+    "record_id_hint": "dos_153",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_187",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_53",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_143",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_96",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 8443"
+  },
+  {
+    "record_id_hint": "bf_41",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "bf_56",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "scan_58",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 397"
+  },
+  {
+    "record_id_hint": "normal_254",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_111",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_347",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_412",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_62",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_100",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_55",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_478",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_420",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_38",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 147"
+  },
+  {
+    "record_id_hint": "normal_362",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_441",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_77",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 505"
+  },
+  {
+    "record_id_hint": "normal_96",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_194",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_416",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_162",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_248",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_484",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_90",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_84",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_135",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_184",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_219",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_39",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_285",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_243",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_26",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_34",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 439"
+  },
+  {
+    "record_id_hint": "normal_338",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_12",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 291"
+  },
+  {
+    "record_id_hint": "normal_69",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_15",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 980"
+  },
+  {
+    "record_id_hint": "normal_60",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_146",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_72",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_7",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_97",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 390"
+  },
+  {
+    "record_id_hint": "dos_169",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_235",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_67",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_102",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_21",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_346",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_51",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_230",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_253",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_123",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_462",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_29",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_448",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_16",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "trav_1",
+    "is_malicious": true,
+    "attack_type": "PATH_TRAVERSAL",
+    "attacker_ip": "203.0.113.75",
+    "description": "Path traversal attempt: /download?file=../../../etc/shadow"
+  },
+  {
+    "record_id_hint": "bf_66",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_319",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_205",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_88",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 512"
+  },
+  {
+    "record_id_hint": "scan_7",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 23"
+  },
+  {
+    "record_id_hint": "normal_433",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_121",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_40",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_91",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 435"
+  },
+  {
+    "record_id_hint": "normal_169",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_62",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_486",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_175",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_131",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_128",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_45",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_70",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_497",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_87",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_65",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 550"
+  },
+  {
+    "record_id_hint": "scan_6",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 694"
+  },
+  {
+    "record_id_hint": "normal_246",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_59",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_245",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_314",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_371",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_34",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_19",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_0",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_331",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_113",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_0",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_43",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_52",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_165",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_382",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_57",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "trav_3",
+    "is_malicious": true,
+    "attack_type": "PATH_TRAVERSAL",
+    "attacker_ip": "203.0.113.75",
+    "description": "Path traversal attempt: /static/..%2f..%2f..%2fetc%2fhosts"
+  },
+  {
+    "record_id_hint": "scan_32",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 779"
+  },
+  {
+    "record_id_hint": "bf_25",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "exfil_14",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "normal_305",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_140",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_108",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_19",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_182",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_12",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_71",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_3",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_72",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 659"
+  },
+  {
+    "record_id_hint": "normal_161",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_445",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_63",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 544"
+  },
+  {
+    "record_id_hint": "exfil_13",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "scan_86",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 18"
+  },
+  {
+    "record_id_hint": "dos_156",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_37",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 418"
+  },
+  {
+    "record_id_hint": "scan_68",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 750"
+  },
+  {
+    "record_id_hint": "dos_198",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_117",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_38",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "exfil_6",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "normal_11",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_66",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_257",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_41",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_479",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_52",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_390",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_394",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_65",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_110",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_87",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 256"
+  },
+  {
+    "record_id_hint": "dos_196",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "scan_89",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 729"
+  },
+  {
+    "record_id_hint": "dos_142",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_156",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_112",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_48",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_93",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_5",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_21",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_141",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_19",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 665"
+  },
+  {
+    "record_id_hint": "scan_60",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 898"
+  },
+  {
+    "record_id_hint": "normal_408",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_97",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_438",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_98",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_64",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_269",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_51",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "trav_4",
+    "is_malicious": true,
+    "attack_type": "PATH_TRAVERSAL",
+    "attacker_ip": "203.0.113.75",
+    "description": "Path traversal attempt: /files/....//....//etc/passwd"
+  },
+  {
+    "record_id_hint": "bf_62",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_252",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "exfil_7",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "normal_271",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_146",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_469",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_158",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_405",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_11",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_171",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_217",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_322",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_35",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_80",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_216",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_67",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_274",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_410",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_323",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "sqli_4",
+    "is_malicious": true,
+    "attack_type": "INJECTION",
+    "attacker_ip": "198.51.100.99",
+    "description": "SQL injection attempt"
+  },
+  {
+    "record_id_hint": "normal_234",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_57",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_13",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 828"
+  },
+  {
+    "record_id_hint": "scan_5",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 621"
+  },
+  {
+    "record_id_hint": "normal_332",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_1",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_224",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_70",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_4",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_155",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_276",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_388",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_473",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_167",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "exfil_9",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "bf_46",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_46",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_175",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_90",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 639"
+  },
+  {
+    "record_id_hint": "dos_123",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_73",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_163",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_199",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "trav_0",
+    "is_malicious": true,
+    "attack_type": "PATH_TRAVERSAL",
+    "attacker_ip": "203.0.113.75",
+    "description": "Path traversal attempt: /files/../../../etc/passwd"
+  },
+  {
+    "record_id_hint": "normal_273",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_186",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_214",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_363",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_379",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_166",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_373",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_150",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_464",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_85",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 808"
+  },
+  {
+    "record_id_hint": "scan_78",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 932"
+  },
+  {
+    "record_id_hint": "normal_103",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "sqli_0",
+    "is_malicious": true,
+    "attack_type": "INJECTION",
+    "attacker_ip": "198.51.100.99",
+    "description": "SQL injection attempt"
+  },
+  {
+    "record_id_hint": "normal_81",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_296",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_10",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 12"
+  },
+  {
+    "record_id_hint": "normal_233",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_177",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_46",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_71",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_21",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_196",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_91",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_370",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_133",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_143",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_300",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_65",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_80",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_387",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_127",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_49",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_470",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_47",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_44",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_45",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 258"
+  },
+  {
+    "record_id_hint": "normal_270",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_118",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_352",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_367",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_99",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_389",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_94",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "exfil_5",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "normal_344",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_0",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 557"
+  },
+  {
+    "record_id_hint": "normal_220",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_159",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_94",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 425"
+  },
+  {
+    "record_id_hint": "normal_348",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "sqli_5",
+    "is_malicious": true,
+    "attack_type": "INJECTION",
+    "attacker_ip": "198.51.100.99",
+    "description": "SQL injection attempt"
+  },
+  {
+    "record_id_hint": "bf_14",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_163",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_44",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 329"
+  },
+  {
+    "record_id_hint": "bf_77",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_6",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "scan_47",
+    "is_malicious": true,
+    "attack_type": "PORT_SCAN",
+    "attacker_ip": "192.0.2.100",
+    "description": "Port scan probe to port 794"
+  },
+  {
+    "record_id_hint": "normal_284",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_103",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_459",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_225",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_429",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "exfil_2",
+    "is_malicious": true,
+    "attack_type": "DATA_EXFIL",
+    "attacker_ip": "192.168.1.55",
+    "description": "Large data transfer to external IP"
+  },
+  {
+    "record_id_hint": "bf_18",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_165",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_33",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_203",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_74",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_27",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_116",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "dos_17",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_238",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_223",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_95",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_30",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_32",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_432",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_104",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_89",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_58",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "bf_58",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "dos_192",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  },
+  {
+    "record_id_hint": "normal_104",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_54",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_142",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_228",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_250",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_281",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "bf_59",
+    "is_malicious": true,
+    "attack_type": "BRUTE_FORCE",
+    "attacker_ip": "198.51.100.23",
+    "description": "Brute force authentication attempt"
+  },
+  {
+    "record_id_hint": "normal_25",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "normal_114",
+    "is_malicious": false,
+    "attack_type": null
+  },
+  {
+    "record_id_hint": "dos_154",
+    "is_malicious": true,
+    "attack_type": "DOS",
+    "attacker_ip": "203.0.113.50",
+    "description": "DoS flood from single source"
+  }
+]
