@@ -127,7 +127,7 @@ class Settings(BaseSettings):
         description="URL endpoint for local LLM inference",
     )
     local_llm_model: str = Field(
-        default="llama2",
+        default="llama3.2",
         description="Model name for local LLM inference",
     )
 
