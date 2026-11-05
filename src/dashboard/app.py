@@ -200,51 +200,130 @@ elif page == "📤 Upload & Validate":
     )
 
     if uploaded_file:
-        st.info(f"📁 File: {uploaded_file.name} ({uploaded_file.size:,} bytes)")
+        st.info(f"📁 Selected File: **{uploaded_file.name}** ({uploaded_file.size:,} bytes)")
 
-        if st.button("🔄 Upload & Validate", type="primary"):
-            with st.spinner("Uploading and validating..."):
-                files = {"file": (uploaded_file.name, uploaded_file.getvalue())}
-                result = api_post("/upload", files=files)
+        # Clear state if a different file is selected
+        if st.session_state.get("active_upload_filename") != uploaded_file.name:
+            st.session_state["active_upload_job"] = None
+            st.session_state["active_analysis"] = None
+            st.session_state["active_upload_filename"] = uploaded_file.name
 
-            if result:
-                st.success(f"✅ Upload successful! Job ID: {result.get('job_id', 'N/A')}")
+        col_btn1, col_btn2 = st.columns(2)
+        with col_btn1:
+            if st.button("⚡ Upload & Run Full Analysis", type="primary", key="btn_upload_and_analyze"):
+                with st.spinner("Uploading and validating file..."):
+                    files = {"file": (uploaded_file.name, uploaded_file.getvalue())}
+                    upload_res = api_post("/upload", files=files)
+                if upload_res:
+                    st.session_state["active_upload_job"] = upload_res
+                    job_id = upload_res.get("job_id") or upload_res.get("id")
+                    with st.spinner("Running 9-strategy detection, graph correlation, and prioritization..."):
+                        analysis_res = api_post(f"/analyze/{job_id}")
+                    if analysis_res:
+                        st.session_state["active_analysis"] = analysis_res
+                    st.rerun()
 
-                vr = result.get("validation_result", {})
-                col1, col2, col3 = st.columns(3)
-                col1.metric("Valid Records", vr.get("valid_records", vr.get("valid_count", 0)))
-                col2.metric("Invalid Records", vr.get("invalid_records", vr.get("invalid_count", 0)))
-                col3.metric("Duplicates", vr.get("duplicate_count", 0))
+        with col_btn2:
+            if st.button("🔄 Upload & Validate Only", key="btn_upload_only"):
+                with st.spinner("Uploading and validating file..."):
+                    files = {"file": (uploaded_file.name, uploaded_file.getvalue())}
+                    upload_res = api_post("/upload", files=files)
+                if upload_res:
+                    st.session_state["active_upload_job"] = upload_res
+                    st.session_state["active_analysis"] = None
+                    st.rerun()
 
-                if vr.get("malformed_details"):
-                    with st.expander("⚠️ Malformed Record Details"):
-                        for detail in vr["malformed_details"][:20]:
-                            st.text(detail)
+        # Display upload/validation results if job is in session_state
+        current_job = st.session_state.get("active_upload_job")
+        if current_job:
+            job_id = current_job.get("job_id") or current_job.get("id")
+            st.markdown("---")
+            st.success(f"✅ **File Uploaded Successfully!** (Job ID: `{job_id}`)")
 
-                # Offer to run analysis
+            vr = current_job.get("validation_result", {})
+            col1, col2, col3 = st.columns(3)
+            col1.metric("Valid Records", vr.get("valid_records", vr.get("valid_count", 0)))
+            col2.metric("Invalid Records", vr.get("invalid_records", vr.get("invalid_count", 0)))
+            col3.metric("Duplicates", vr.get("duplicate_count", 0))
+
+            if vr.get("malformed_details"):
+                with st.expander("⚠️ Malformed Record Details"):
+                    for detail in vr["malformed_details"][:20]:
+                        st.text(detail)
+
+            # Analysis Section
+            current_analysis = st.session_state.get("active_analysis")
+            if current_analysis:
                 st.markdown("---")
-                job_id = result.get("job_id") or result.get("id")
-                if job_id and st.button("🚀 Run Full Analysis", type="primary"):
-                    with st.spinner("Running detection, correlation, and investigation..."):
-                        analysis = api_post(f"/analyze/{job_id}")
-                    if analysis:
-                        st.success(
-                            f"✅ Analysis complete! "
-                            f"Detections: {analysis.get('detection_count', 0)}, "
-                            f"Incidents: {analysis.get('incident_count', 0)}"
-                        )
-                    else:
-                        st.error("Analysis failed.")
+                st.success(
+                    f"🎉 **Full Analysis Complete!** — "
+                    f"Found **{current_analysis.get('detection_count', 0)}** Detections across "
+                    f"**{current_analysis.get('incident_count', 0)}** Correlated Incident(s)."
+                )
 
-    # Manual job ID analysis
+                col_nav1, col_nav2 = st.columns(2)
+                with col_nav1:
+                    if st.button("🔍 View Detections in Detection Explorer", type="primary"):
+                        st.session_state["nav_page"] = "🔍 Detection Explorer"
+                        st.rerun()
+                with col_nav2:
+                    if st.button("🚨 Triage Incidents & Run AI Investigation"):
+                        st.session_state["nav_page"] = "🚨 Incident Management"
+                        st.rerun()
+            else:
+                st.markdown("---")
+                st.markdown("##### 🚀 Execute Security Detection Pipeline")
+                st.caption("Runs all 9 rule-based detectors, unsupervised Isolation Forest anomaly detection, graph correlation, and priority scoring.")
+                if st.button("🚀 Run Full Analysis Now", type="primary", key="btn_run_analysis_now"):
+                    with st.spinner("Executing detection engines, Isolation Forest, and graph correlation..."):
+                        analysis_res = api_post(f"/analyze/{job_id}")
+                    if analysis_res:
+                        st.session_state["active_analysis"] = analysis_res
+                        st.rerun()
+                    else:
+                        st.error("Analysis pipeline failed. Check backend logs.")
+
+    # Existing / Pending Jobs Section
     st.markdown("---")
-    st.subheader("Analyze Existing Job")
-    manual_job_id = st.text_input("Enter Job ID to analyze")
-    if manual_job_id and st.button("▶️ Run Analysis"):
-        with st.spinner("Analyzing..."):
-            result = api_post(f"/analyze/{manual_job_id}")
-        if result:
-            st.success(f"Analysis complete: {json.dumps(result, indent=2)}")
+    st.subheader("📋 Analyze Existing or Pending Job")
+
+    # Fetch jobs to see if any are pending analysis
+    jobs_data = api_get("/jobs", {"limit": 30})
+    pending_options = {}
+    if jobs_data and jobs_data.get("jobs"):
+        for j in jobs_data["jobs"]:
+            jid = get_job_id(j)
+            status_val = str(j.get("status", "")).upper()
+            if jid and status_val != "COMPLETED":
+                fname = j.get("filename", "Unknown")
+                label = f"{fname} ({status_val}) — {jid[:8]}"
+                pending_options[label] = jid
+
+    if pending_options:
+        col_p1, col_p2 = st.columns([2, 1])
+        with col_p1:
+            sel_pending_label = st.selectbox(
+                "Select a Pending Ingested Job",
+                list(pending_options.keys()),
+                help="Jobs that were uploaded but haven't had full detection analysis run yet."
+            )
+        with col_p2:
+            st.markdown("<div style='height: 28px'></div>", unsafe_allow_html=True)
+            if st.button("▶️ Analyze Selected Job", key="btn_run_pending"):
+                target_jid = pending_options[sel_pending_label]
+                with st.spinner("Analyzing selected job..."):
+                    res = api_post(f"/analyze/{target_jid}")
+                if res:
+                    st.success(f"✅ Analysis complete! Detections: {res.get('detection_count', 0)}, Incidents: {res.get('incident_count', 0)}")
+                    st.rerun()
+
+    with st.expander("Or enter Job ID manually"):
+        manual_job_id = st.text_input("Enter Job UUID to analyze", placeholder="Paste Job ID...")
+        if manual_job_id and st.button("▶️ Run Analysis for UUID"):
+            with st.spinner("Analyzing..."):
+                result = api_post(f"/analyze/{manual_job_id}")
+            if result:
+                st.success(f"Analysis complete: {json.dumps(result, indent=2)}")
 
 
 # ============================================================
