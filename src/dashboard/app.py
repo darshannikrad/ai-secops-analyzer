@@ -93,7 +93,13 @@ pages = [
     "🧪 Research Evaluation",
     "💚 System Health",
 ]
-page = st.sidebar.radio("Navigation", pages, label_visibility="collapsed")
+
+if "nav_page" not in st.session_state or st.session_state["nav_page"] not in pages:
+    st.session_state["nav_page"] = pages[0]
+
+page_index = pages.index(st.session_state["nav_page"])
+page = st.sidebar.radio("Navigation", pages, index=page_index, label_visibility="collapsed")
+st.session_state["nav_page"] = page
 
 
 # ============================================================
@@ -354,6 +360,17 @@ elif page == "🚨 Incident Management":
                     col3.metric("Detections", len(inc.get("detections", []) or inc.get("detection_ids", [])))
                     col4.metric("Status", inc.get("status", "NEW"))
 
+                    inc_id = inc.get("incident_id", "")
+                    st.markdown("**Incident ID:**")
+                    st.code(inc_id, language=None)
+
+                    col_view, col_status = st.columns([1, 1])
+                    with col_view:
+                        if st.button("🔍 Open in AI Investigation", key=f"view_{inc_id}"):
+                            st.session_state["nav_page"] = "🤖 AI Investigation"
+                            st.session_state["selected_incident_id"] = inc_id
+                            st.rerun()
+
                     st.markdown(f"**Correlation:** {inc.get('correlation_explanation', 'N/A')}")
 
                     if inc.get("evidence_summary"):
@@ -361,13 +378,14 @@ elif page == "🚨 Incident Management":
                         st.json(inc["evidence_summary"])
 
                     # Status update
-                    inc_id = inc.get("incident_id", "")
+                    st.markdown("---")
+                    st.markdown("##### 📌 Incident Triage Status")
                     new_status = st.selectbox(
                         "Update Status",
                         ["NEW", "INVESTIGATING", "CONFIRMED", "FALSE_POSITIVE", "RESOLVED"],
                         key=f"status_{inc_id}",
                     )
-                    if st.button("Update", key=f"update_{inc_id}"):
+                    if st.button("Update Status", key=f"update_{inc_id}"):
                         result = api_patch(f"/incidents/{inc_id}/status", {"status": new_status})
                         if result:
                             st.success("Status updated!")
@@ -375,6 +393,7 @@ elif page == "🚨 Incident Management":
 
                     # Investigation trigger with provider selector
                     st.markdown("---")
+                    st.markdown("##### 🤖 Run Autonomous AI Investigation")
                     col_p, col_b = st.columns([2, 1])
                     with col_p:
                         selected_provider = st.selectbox(
@@ -384,11 +403,13 @@ elif page == "🚨 Incident Management":
                         )
                     with col_b:
                         st.markdown("<div style='height: 28px'></div>", unsafe_allow_html=True)
-                        if st.button("🤖 Investigate", key=f"investigate_{inc_id}"):
-                            with st.spinner(f"Running AI investigation ({selected_provider})..."):
+                        if st.button("🚀 Investigate Now", key=f"investigate_{inc_id}", type="primary"):
+                            with st.spinner(f"Running autonomous AI investigation ({selected_provider})..."):
                                 result = api_post(f"/investigate/{inc_id}", {"provider": selected_provider})
                             if result:
                                 st.success("Investigation complete!")
+                                st.session_state["nav_page"] = "🤖 AI Investigation"
+                                st.session_state["selected_incident_id"] = inc_id
                                 st.rerun()
         else:
             st.info("No incidents found.")
@@ -398,85 +419,225 @@ elif page == "🚨 Incident Management":
 # 5. AI Investigation
 # ============================================================
 elif page == "🤖 AI Investigation":
-    st.title("🤖 AI Investigation Timeline")
+    st.title("🤖 Autonomous AI Investigation")
 
     st.markdown("""
-    View investigation results including tool-call traces, hypotheses, 
-    evidence evaluation, and AI-generated recommendations.
+    Explore autonomous AI investigations powered by **Google Gemini** or **Local Llama 3.2**. 
+    The AI agent reasons across correlated telemetry, executes multi-step investigation tools, 
+    evaluates dual hypotheses (*Malicious Attack Campaign* vs *Benign Operational Anomaly*), 
+    and synthesizes actionable containment guidance.
     """)
 
-    incident_id = st.text_input("Enter Incident ID")
+    # Load all incidents across completed jobs
+    jobs = api_get("/jobs", {"limit": 50})
+    incident_options = {}
+    incident_map = {}
 
-    if incident_id:
-        data = api_get(f"/investigation/{incident_id}")
+    if jobs and jobs.get("jobs"):
+        for j in jobs["jobs"]:
+            jid = get_job_id(j)
+            if jid and str(j.get("status", "")).upper() == "COMPLETED":
+                fname = j.get("filename", "Unknown")
+                incs = api_get(f"/incidents/{jid}")
+                if incs and incs.get("incidents"):
+                    for inc in incs["incidents"]:
+                        iid = inc.get("incident_id")
+                        if iid:
+                            priority = inc.get("priority", "P4")
+                            title = inc.get("title", "Untitled Incident")
+                            short_title = title if len(title) <= 55 else title[:52] + "..."
+                            label = f"[{priority}] {short_title} — {fname} ({iid[:8]})"
+                            incident_options[label] = iid
+                            incident_map[iid] = {
+                                "incident": inc,
+                                "filename": fname,
+                                "job_id": jid
+                            }
+
+    if not incident_options:
+        st.info("ℹ️ No incidents found yet. Upload and analyze a log file in **📤 Upload & Validate** first.")
+        if st.button("📤 Go to Upload & Validate"):
+            st.session_state["nav_page"] = "📤 Upload & Validate"
+            st.rerun()
+    else:
+        # Incident Selector
+        labels = list(incident_options.keys())
+        default_idx = 0
+        current_sel_id = st.session_state.get("selected_incident_id")
+        if current_sel_id:
+            for idx, lbl in enumerate(labels):
+                if incident_options[lbl] == current_sel_id:
+                    default_idx = idx
+                    break
+
+        selected_label = st.selectbox(
+            "🎯 Select Incident to Investigate or Review",
+            labels,
+            index=default_idx,
+            help="Select any security incident discovered by the correlation engine."
+        )
+        selected_incident_id = incident_options[selected_label]
+        st.session_state["selected_incident_id"] = selected_incident_id
+
+        # Manual entry expander for advanced direct lookups
+        with st.expander("Or enter Incident ID manually"):
+            manual_id = st.text_input("Manual Incident UUID", value="", placeholder="Paste UUID here...")
+            if manual_id.strip():
+                selected_incident_id = manual_id.strip()
+
+        # Display Selected Incident Summary Card
+        inc_info = incident_map.get(selected_incident_id, {})
+        inc_obj = inc_info.get("incident", {})
+
+        st.markdown("---")
+        col_m1, col_m2, col_m3, col_m4 = st.columns(4)
+        col_m1.metric("Priority", inc_obj.get("priority", "N/A"))
+        col_m2.metric("Severity", inc_obj.get("severity", "N/A"))
+        col_m3.metric("Status", inc_obj.get("status", "NEW"))
+        col_m4.metric("Detections", len(inc_obj.get("detections", []) or inc_obj.get("detection_ids", [])))
+
+        st.markdown(f"**Incident ID:** `{selected_incident_id}`")
+        if inc_obj.get("title"):
+            st.markdown(f"**Title:** {inc_obj['title']}")
+        if inc_obj.get("correlation_explanation"):
+            st.markdown(f"**Correlation Details:** {inc_obj['correlation_explanation']}")
+
+        # Fetch investigation
+        data = api_get(f"/investigation/{selected_incident_id}")
         investigation = data.get("investigation") if (data and isinstance(data, dict) and "investigation" in data) else data
 
-        if investigation:
-            st.markdown(f"**Provider:** `{investigation.get('provider_used', 'unknown')}`")
-            st.markdown(f"**Duration:** {investigation.get('duration_seconds', 0):.1f}s")
-            st.markdown(f"**Tool Calls:** {investigation.get('tool_call_count', 0)}")
-            st.markdown(f"**Confidence:** {investigation.get('confidence', 0):.2%}")
+        if not investigation:
+            st.markdown("---")
+            st.warning("⚡ **This incident has not been investigated by an AI agent yet.**")
+            st.markdown("""
+            The autonomous AI SecOps agent will:
+            1. Query raw telemetry and baseline deviations using investigative tools.
+            2. Evaluate dual hypotheses (**Malicious Attack Campaign** vs **Benign Operational Outlier**).
+            3. Synthesize evidence-grounded threat assessment and containment recommendations.
+            """)
+
+            st.markdown("##### 🚀 Run Autonomous AI Investigation")
+            col_prov, col_btn = st.columns([2, 1])
+            with col_prov:
+                run_provider = st.selectbox(
+                    "Choose AI Provider",
+                    ["google", "local", "offline", "openai", "anthropic"],
+                    help="'google' uses Gemini Flash with your Google API Key. 'local' uses Llama 3.2 via Ollama.",
+                    key=f"run_prov_{selected_incident_id}"
+                )
+            with col_btn:
+                st.markdown("<div style='height: 28px'></div>", unsafe_allow_html=True)
+                if st.button("🤖 Launch AI Investigation", type="primary", key=f"launch_btn_{selected_incident_id}"):
+                    with st.spinner(f"Autonomous AI agent investigating with {run_provider}... Executing tool calls, analyzing attack vectors, and synthesizing threat assessment..."):
+                        res = api_post(f"/investigate/{selected_incident_id}", {"provider": run_provider})
+                    if res:
+                        st.success("✅ Autonomous investigation completed successfully!")
+                        st.rerun()
+        else:
+            st.markdown("---")
+            st.success(f"✅ **AI Investigation Completed** (Provider: `{investigation.get('provider_used', 'unknown')}` | Confidence: {investigation.get('confidence', 0):.1%})")
+
+            col1, col2, col3, col4 = st.columns(4)
+            col1.metric("Provider", investigation.get('provider_used', 'unknown'))
+            col2.metric("Duration", f"{investigation.get('duration_seconds', 0):.2f}s")
+            col3.metric("Tool Calls", investigation.get('tool_call_count', 0))
+            col4.metric("Confidence", f"{investigation.get('confidence', 0):.1%}")
 
             st.markdown("---")
 
-            # Hypotheses
-            col1, col2 = st.columns(2)
-            with col1:
-                st.subheader("🔴 Malicious Hypothesis")
-                st.markdown(investigation.get("hypothesis_malicious", "Not generated"))
-            with col2:
-                st.subheader("🟢 Benign Hypothesis")
-                st.markdown(investigation.get("hypothesis_benign", "Not generated"))
+            # Dual Hypotheses
+            col_h1, col_h2 = st.columns(2)
+            with col_h1:
+                st.markdown("### 🔴 Malicious Campaign Hypothesis")
+                st.info(investigation.get("hypothesis_malicious", "Not generated"))
+            with col_h2:
+                st.markdown("### 🟢 Benign Outlier Hypothesis")
+                st.success(investigation.get("hypothesis_benign", "Not generated"))
 
-            # Evidence
-            st.subheader("Supporting Evidence")
-            for ev in investigation.get("supporting_evidence", []):
-                st.markdown(f"- ✅ {ev}")
-
-            st.subheader("Contradictory Evidence")
-            for ev in investigation.get("contradictory_evidence", []):
-                st.markdown(f"- ⚠️ {ev}")
+            # Evidence Breakdown
+            col_e1, col_e2 = st.columns(2)
+            with col_e1:
+                st.markdown("### 🛡️ Supporting Evidence (Malicious)")
+                ev_list = investigation.get("supporting_evidence", [])
+                if ev_list:
+                    for ev in ev_list:
+                        st.markdown(f"- ✅ {ev}")
+                else:
+                    st.caption("No specific supporting evidence recorded.")
+            with col_e2:
+                st.markdown("### ⚖️ Contradictory Evidence (Benign)")
+                cev_list = investigation.get("contradictory_evidence", [])
+                if cev_list:
+                    for ev in cev_list:
+                        st.markdown(f"- ⚠️ {ev}")
+                else:
+                    st.caption("No contradictory evidence recorded.")
 
             if investigation.get("missing_info"):
-                st.subheader("Missing Information")
+                st.markdown("### ❓ Missing Telemetry & Information Gaps")
                 for info in investigation["missing_info"]:
-                    st.markdown(f"- ❓ {info}")
+                    st.markdown(f"- 🔍 {info}")
 
             # Threat Assessment
             st.markdown("---")
-            st.subheader("Threat Assessment")
+            st.markdown("### 🎯 Threat Assessment")
             st.markdown(investigation.get("threat_assessment", "Not available"))
 
             # Recommendations
-            st.subheader("Recommendations")
-            for rec in investigation.get("recommendations", []):
-                st.markdown(f"- 💡 {rec}")
+            st.markdown("### 💡 Recommended Mitigation Actions")
+            recs = investigation.get("recommendations", [])
+            if recs:
+                for idx, rec in enumerate(recs, 1):
+                    st.markdown(f"{idx}. {rec}")
+            else:
+                st.caption("No recommendations generated.")
 
-            # Tool Call Trace
+            # Investigative Tool Trail
             st.markdown("---")
-            st.subheader("🔧 Tool Call Trace")
+            st.markdown("### 🔧 Agent Tool Execution Trail")
             steps = investigation.get("steps", [])
             if steps:
+                st.caption(f"The autonomous agent executed {len(steps)} investigative tool calls to query baseline context, parse events, and evaluate evidence:")
                 for step in steps:
-                    with st.expander(
-                        f"Step {step.get('step_number', '?')}: {step.get('tool_name', 'unknown')}"
-                    ):
+                    s_num = step.get('step_number', '?')
+                    t_name = step.get('tool_name', 'unknown')
+                    with st.expander(f"Step {s_num}: `{t_name}` — {step.get('reasoning', 'N/A')[:90]}"):
                         st.markdown(f"**Reasoning:** {step.get('reasoning', 'N/A')}")
-                        st.markdown(f"**Arguments:**")
-                        st.json(step.get("tool_args", {}))
-                        st.markdown(f"**Result:**")
-                        st.json(step.get("tool_result", {}))
+                        col_t1, col_t2 = st.columns(2)
+                        with col_t1:
+                            st.markdown("**Arguments:**")
+                            st.json(step.get("tool_args", {}))
+                        with col_t2:
+                            st.markdown("**Tool Output / Evidence:**")
+                            st.json(step.get("tool_result", {}))
             else:
-                st.info("No tool call trace available.")
+                st.info("No tool call trace recorded for this investigation.")
 
             # Full Report
-            st.markdown("---")
-            st.subheader("📄 Full Report")
             report_text = investigation.get("report_text", "")
             if report_text:
-                st.markdown(report_text)
-        else:
-            st.info("No investigation found for this incident.")
+                st.markdown("---")
+                with st.expander("📄 View Full Markdown Investigation Report", expanded=False):
+                    st.markdown(report_text)
+
+            # Re-run option
+            st.markdown("---")
+            with st.expander("🔄 Re-run Investigation with Another AI Provider"):
+                col_rp1, col_rp2 = st.columns([2, 1])
+                with col_rp1:
+                    re_provider = st.selectbox(
+                        "Select AI Model Provider",
+                        ["google", "local", "offline", "openai", "anthropic"],
+                        key=f"re_prov_{selected_incident_id}"
+                    )
+                with col_rp2:
+                    st.markdown("<div style='height: 28px'></div>", unsafe_allow_html=True)
+                    if st.button("🚀 Re-run Investigation", key=f"rerun_{selected_incident_id}"):
+                        with st.spinner(f"Re-investigating with {re_provider}..."):
+                            res = api_post(f"/investigate/{selected_incident_id}", {"provider": re_provider})
+                        if res:
+                            st.success("Re-investigation complete!")
+                            st.rerun()
 
 
 # ============================================================
