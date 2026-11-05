@@ -71,6 +71,11 @@ def api_patch(endpoint: str, data: dict) -> dict | None:
         return None
 
 
+def get_job_id(j: dict) -> str:
+    """Extract job id safely from a job dict."""
+    return str(j.get("id") or j.get("job_id") or "")
+
+
 # ============================================================
 # Sidebar Navigation
 # ============================================================
@@ -154,10 +159,11 @@ if page == "📊 Security Overview":
         jobs = api_get("/jobs", {"limit": 5})
         if jobs and jobs.get("jobs"):
             for job in jobs["jobs"]:
-                status_icon = "✅" if job.get("status") == "completed" else "⏳" if job.get("status") == "running" else "❌"
+                st_val = str(job.get("status", "")).upper()
+                status_icon = "✅" if st_val == "COMPLETED" else "⏳" if st_val in ("RUNNING", "PENDING", "INVESTIGATING") else "❌"
                 st.markdown(
                     f"{status_icon} **{job.get('filename', 'Unknown')}** - "
-                    f"Status: {job.get('status', 'unknown')} | "
+                    f"Status: `{job.get('status', 'unknown')}` | "
                     f"Detections: {job.get('detection_count', 0)} | "
                     f"Incidents: {job.get('incident_count', 0)} | "
                     f"Uploaded: {job.get('upload_time', 'N/A')}"
@@ -200,8 +206,8 @@ elif page == "📤 Upload & Validate":
 
                 vr = result.get("validation_result", {})
                 col1, col2, col3 = st.columns(3)
-                col1.metric("Valid Records", vr.get("valid_count", 0))
-                col2.metric("Invalid Records", vr.get("invalid_count", 0))
+                col1.metric("Valid Records", vr.get("valid_records", vr.get("valid_count", 0)))
+                col2.metric("Invalid Records", vr.get("invalid_records", vr.get("invalid_count", 0)))
                 col3.metric("Duplicates", vr.get("duplicate_count", 0))
 
                 if vr.get("malformed_details"):
@@ -211,7 +217,7 @@ elif page == "📤 Upload & Validate":
 
                 # Offer to run analysis
                 st.markdown("---")
-                job_id = result.get("job_id")
+                job_id = result.get("job_id") or result.get("id")
                 if job_id and st.button("🚀 Run Full Analysis", type="primary"):
                     with st.spinner("Running detection, correlation, and investigation..."):
                         analysis = api_post(f"/analyze/{job_id}")
@@ -246,8 +252,10 @@ elif page == "🔍 Detection Explorer":
     job_options = {}
     if jobs and jobs.get("jobs"):
         for j in jobs["jobs"]:
-            label = f"{j['filename']} ({j.get('status', 'unknown')}) - {j.get('job_id', '')[:8]}"
-            job_options[label] = j["job_id"]
+            jid = get_job_id(j)
+            if jid:
+                label = f"{j.get('filename', 'Unknown')} ({j.get('status', 'unknown')}) - {jid[:8]}"
+                job_options[label] = jid
 
     if not job_options:
         st.info("No analysis jobs available. Upload and analyze a log file first.")
@@ -317,9 +325,10 @@ elif page == "🚨 Incident Management":
     job_options = {}
     if jobs and jobs.get("jobs"):
         for j in jobs["jobs"]:
-            if j.get("status") == "completed":
-                label = f"{j['filename']} - {j.get('job_id', '')[:8]}"
-                job_options[label] = j["job_id"]
+            jid = get_job_id(j)
+            if jid and str(j.get("status", "")).upper() == "COMPLETED":
+                label = f"{j.get('filename', 'Unknown')} - {jid[:8]}"
+                job_options[label] = jid
 
     if not job_options:
         st.info("No completed analyses. Upload and analyze a log file first.")
@@ -364,13 +373,23 @@ elif page == "🚨 Incident Management":
                             st.success("Status updated!")
                             st.rerun()
 
-                    # Investigation trigger
-                    if st.button("🤖 Investigate", key=f"investigate_{inc_id}"):
-                        with st.spinner("Running AI investigation..."):
-                            result = api_post(f"/investigate/{inc_id}", {"provider": "offline"})
-                        if result:
-                            st.success("Investigation complete!")
-                            st.rerun()
+                    # Investigation trigger with provider selector
+                    st.markdown("---")
+                    col_p, col_b = st.columns([2, 1])
+                    with col_p:
+                        selected_provider = st.selectbox(
+                            "AI Investigation Provider",
+                            ["google", "local", "offline", "openai", "anthropic"],
+                            key=f"prov_{inc_id}",
+                        )
+                    with col_b:
+                        st.markdown("<div style='height: 28px'></div>", unsafe_allow_html=True)
+                        if st.button("🤖 Investigate", key=f"investigate_{inc_id}"):
+                            with st.spinner(f"Running AI investigation ({selected_provider})..."):
+                                result = api_post(f"/investigate/{inc_id}", {"provider": selected_provider})
+                            if result:
+                                st.success("Investigation complete!")
+                                st.rerun()
         else:
             st.info("No incidents found.")
 
@@ -389,7 +408,8 @@ elif page == "🤖 AI Investigation":
     incident_id = st.text_input("Enter Incident ID")
 
     if incident_id:
-        investigation = api_get(f"/investigation/{incident_id}")
+        data = api_get(f"/investigation/{incident_id}")
+        investigation = data.get("investigation") if (data and isinstance(data, dict) and "investigation" in data) else data
 
         if investigation:
             st.markdown(f"**Provider:** `{investigation.get('provider_used', 'unknown')}`")
@@ -473,8 +493,9 @@ elif page == "📋 Historical Analyses":
         # Build table data
         table_data = []
         for j in jobs["jobs"]:
+            jid = get_job_id(j)
             table_data.append({
-                "Job ID": j.get("job_id", "")[:12] + "...",
+                "Job ID": jid[:12] + "..." if jid else "N/A",
                 "File": j.get("filename", "Unknown"),
                 "Status": j.get("status", "unknown"),
                 "Records": j.get("record_count", 0),
@@ -498,9 +519,10 @@ elif page == "📄 Reports & Export":
     job_options = {}
     if jobs and jobs.get("jobs"):
         for j in jobs["jobs"]:
-            if j.get("status") == "completed":
-                label = f"{j['filename']} - {j.get('job_id', '')[:8]}"
-                job_options[label] = j["job_id"]
+            jid = get_job_id(j)
+            if jid and str(j.get("status", "")).upper() == "COMPLETED":
+                label = f"{j.get('filename', 'Unknown')} - {jid[:8]}"
+                job_options[label] = jid
 
     if not job_options:
         st.info("No completed analyses to export.")
@@ -615,8 +637,8 @@ elif page == "💚 System Health":
 
     if health:
         col1, col2, col3 = st.columns(3)
-        status = health.get("status", "unknown")
-        col1.metric("Status", "🟢 Healthy" if status == "healthy" else "🔴 Unhealthy")
+        status = str(health.get("status", "unknown")).lower()
+        col1.metric("Status", "🟢 Healthy" if status in ("ok", "healthy") else "🔴 Unhealthy")
         col2.metric("Version", health.get("version", "unknown"))
         col3.metric("Database", "✅ OK" if health.get("database_ok") else "❌ Error")
 
