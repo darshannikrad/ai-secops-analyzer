@@ -300,7 +300,7 @@ class GoogleProvider(LLMProvider):
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "gemini-1.5-pro",
+        model: str = "gemini-flash-lite-latest",
     ) -> None:
         """Initialize Google provider with API credentials and model name."""
         settings = get_settings()
@@ -313,7 +313,7 @@ class GoogleProvider(LLMProvider):
         user_prompt: str,
         max_tokens: int = 2000,
     ) -> str:
-        """Generate response via Google Gemini REST endpoint."""
+        """Generate response via Google Gemini REST endpoint with graceful model fallback."""
         if not self.api_key:
             logger.warning("Google API key not provided; returning provider error fallback.")
             return f"[{self.provider_name} error: Missing GOOGLE_API_KEY]"
@@ -321,10 +321,12 @@ class GoogleProvider(LLMProvider):
         if not HTTPX_AVAILABLE:
             return f"[{self.provider_name} error: httpx client library is not available]"
 
-        url = (
-            f"https://generativelanguage.googleapis.com/v1beta/models/"
-            f"{self.model}:generateContent?key={self.api_key}"
-        )
+        # Try user model first, followed by resilient fallbacks
+        candidate_models = [self.model]
+        for fallback in ("gemini-flash-lite-latest", "gemini-3.8-flash", "gemini-flash-latest"):
+            if fallback not in candidate_models:
+                candidate_models.append(fallback)
+
         headers = {"Content-Type": "application/json"}
         full_content = f"{system_prompt}\n\nTask Context:\n{user_prompt}"
         payload = {
@@ -335,23 +337,35 @@ class GoogleProvider(LLMProvider):
             },
         }
 
-        try:
-            with httpx.Client(timeout=60.0) as client:
-                resp = client.post(url, headers=headers, json=payload)
-                resp.raise_for_status()
-                data = resp.json()
-                candidates = data.get("candidates", [])
-                if candidates:
-                    parts = (
-                        candidates[0]
-                        .get("content", {})
-                        .get("parts", [])
-                    )
-                    return "".join([p.get("text", "") for p in parts])
-                return ""
-        except Exception as exc:
-            logger.error(f"Google Gemini API call failed: {exc}")
-            return f"[{self.provider_name} error: {exc}]"
+        last_error = None
+        for candidate in candidate_models:
+            url = (
+                f"https://generativelanguage.googleapis.com/v1beta/models/"
+                f"{candidate}:generateContent?key={self.api_key}"
+            )
+            try:
+                with httpx.Client(timeout=45.0) as client:
+                    resp = client.post(url, headers=headers, json=payload)
+                    if resp.status_code == 200:
+                        data = resp.json()
+                        candidates = data.get("candidates", [])
+                        if candidates:
+                            parts = (
+                                candidates[0]
+                                .get("content", {})
+                                .get("parts", [])
+                            )
+                            return "".join([p.get("text", "") for p in parts])
+                        return ""
+                    else:
+                        last_error = f"HTTP {resp.status_code}: {resp.text[:200]}"
+                        logger.warning(f"Google Gemini model {candidate} returned {last_error}; attempting fallback if available.")
+            except Exception as exc:
+                last_error = str(exc)
+                logger.warning(f"Google Gemini model {candidate} failed: {exc}; attempting fallback if available.")
+
+        logger.error(f"Google Gemini API calls failed across all candidates: {last_error}")
+        return f"[{self.provider_name} error: {last_error}]"
 
 
 class LocalProvider(LLMProvider):
