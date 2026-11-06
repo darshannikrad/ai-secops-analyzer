@@ -560,7 +560,9 @@ def trigger_investigation(
     if not inc_db:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Incident not found")
 
-    provider = payload.provider if payload else "offline"
+    provider = (
+        payload.provider if (payload and payload.provider) else get_settings().llm_provider.value
+    ).strip().lower()
 
     # Fetch incident domain model
     job_incidents = repo.get_incidents(inc_db.analysis_job_id)

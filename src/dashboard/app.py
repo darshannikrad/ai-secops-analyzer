@@ -477,7 +477,7 @@ elif page == "🚨 Incident Management":
                     with col_p:
                         selected_provider = st.selectbox(
                             "AI Investigation Provider",
-                            ["google", "local", "offline", "openai", "anthropic"],
+                            ["local", "google", "offline", "openai", "anthropic"],
                             key=f"prov_{inc_id}",
                         )
                     with col_b:
@@ -600,8 +600,8 @@ elif page == "🤖 AI Investigation":
             with col_prov:
                 run_provider = st.selectbox(
                     "Choose AI Provider",
-                    ["google", "local", "offline", "openai", "anthropic"],
-                    help="'google' uses Gemini Flash with your Google API Key. 'local' uses Llama 3.2 via Ollama.",
+                    ["local", "google", "offline", "openai", "anthropic"],
+                    help="'local' uses Llama 3.2 via Ollama on your Mac. 'google' uses Gemini Flash.",
                     key=f"run_prov_{selected_incident_id}"
                 )
             with col_btn:
@@ -706,7 +706,7 @@ elif page == "🤖 AI Investigation":
                 with col_rp1:
                     re_provider = st.selectbox(
                         "Select AI Model Provider",
-                        ["google", "local", "offline", "openai", "anthropic"],
+                        ["local", "google", "offline", "openai", "anthropic"],
                         key=f"re_prov_{selected_incident_id}"
                     )
                 with col_rp2:
