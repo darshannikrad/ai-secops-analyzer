@@ -94,12 +94,15 @@ pages = [
     "💚 System Health",
 ]
 
-if "nav_page" not in st.session_state or st.session_state["nav_page"] not in pages:
-    st.session_state["nav_page"] = pages[0]
+if "pending_nav_page" in st.session_state:
+    target = st.session_state.pop("pending_nav_page")
+    if target in pages:
+        st.session_state["nav_radio"] = target
 
-page_index = pages.index(st.session_state["nav_page"])
-page = st.sidebar.radio("Navigation", pages, index=page_index, label_visibility="collapsed")
-st.session_state["nav_page"] = page
+if "nav_radio" not in st.session_state or st.session_state["nav_radio"] not in pages:
+    st.session_state["nav_radio"] = pages[0]
+
+page = st.sidebar.radio("Navigation", pages, label_visibility="collapsed", key="nav_radio")
 
 
 # ============================================================
@@ -266,11 +269,11 @@ elif page == "📤 Upload & Validate":
                 col_nav1, col_nav2 = st.columns(2)
                 with col_nav1:
                     if st.button("🔍 View Detections in Detection Explorer", type="primary"):
-                        st.session_state["nav_page"] = "🔍 Detection Explorer"
+                        st.session_state["pending_nav_page"] = "🔍 Detection Explorer"
                         st.rerun()
                 with col_nav2:
                     if st.button("🚨 Triage Incidents & Run AI Investigation"):
-                        st.session_state["nav_page"] = "🚨 Incident Management"
+                        st.session_state["pending_nav_page"] = "🚨 Incident Management"
                         st.rerun()
             else:
                 st.markdown("---")
@@ -448,7 +451,7 @@ elif page == "🚨 Incident Management":
                     col_view, col_status = st.columns([1, 1])
                     with col_view:
                         if st.button("🔍 Open in AI Investigation", key=f"view_{inc_id}"):
-                            st.session_state["nav_page"] = "🤖 AI Investigation"
+                            st.session_state["pending_nav_page"] = "🤖 AI Investigation"
                             st.session_state["selected_incident_id"] = inc_id
                             st.rerun()
 
@@ -489,7 +492,7 @@ elif page == "🚨 Incident Management":
                                 result = api_post(f"/investigate/{inc_id}", {"provider": selected_provider})
                             if result:
                                 st.success("Investigation complete!")
-                                st.session_state["nav_page"] = "🤖 AI Investigation"
+                                st.session_state["pending_nav_page"] = "🤖 AI Investigation"
                                 st.session_state["selected_incident_id"] = inc_id
                                 st.rerun()
         else:
@@ -538,7 +541,7 @@ elif page == "🤖 AI Investigation":
     if not incident_options:
         st.info("ℹ️ No incidents found yet. Upload and analyze a log file in **📤 Upload & Validate** first.")
         if st.button("📤 Go to Upload & Validate"):
-            st.session_state["nav_page"] = "📤 Upload & Validate"
+            st.session_state["pending_nav_page"] = "📤 Upload & Validate"
             st.rerun()
     else:
         # Incident Selector
