@@ -115,7 +115,7 @@ if page == "📊 Security Overview":
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Total Analyses", stats.get("total_jobs", 0))
         col2.metric("Total Detections", stats.get("total_detections", 0))
-        col3.metric("Active Incidents", stats.get("active_incidents", 0))
+        col3.metric("Active Incidents", stats.get("active_incidents", stats.get("total_incidents", 0)))
         col4.metric("Investigations", stats.get("total_investigations", 0))
 
         st.markdown("---")
@@ -125,14 +125,15 @@ if page == "📊 Security Overview":
 
         with col_left:
             st.subheader("Detection Type Distribution")
-            det_dist = stats.get("detection_type_distribution", {})
+            det_dist = stats.get("detections_by_type") or stats.get("detection_type_distribution", {})
             if det_dist:
                 try:
                     import plotly.express as px
                     fig = px.pie(
                         names=list(det_dist.keys()),
                         values=list(det_dist.values()),
-                        title="Detections by Type",
+                        title="Detections by Vector Type",
+                        hole=0.35,
                     )
                     st.plotly_chart(fig, use_container_width=True)
                 except ImportError:
@@ -142,7 +143,7 @@ if page == "📊 Security Overview":
 
         with col_right:
             st.subheader("Severity Distribution")
-            sev_dist = stats.get("severity_distribution", {})
+            sev_dist = stats.get("detections_by_severity") or stats.get("severity_distribution", {})
             if sev_dist:
                 try:
                     import plotly.express as px
@@ -153,6 +154,7 @@ if page == "📊 Security Overview":
                         color=list(sev_dist.keys()),
                         color_discrete_map=colors,
                         title="Detections by Severity",
+                        labels={"x": "Severity Level", "y": "Count"},
                     )
                     st.plotly_chart(fig, use_container_width=True)
                 except ImportError:

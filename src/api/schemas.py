@@ -124,3 +124,4 @@ class StatsResponse(BaseModel):
     incidents_by_status: Dict[str, int] = Field(default_factory=dict)
     incidents_by_priority: Dict[str, int] = Field(default_factory=dict)
     detections_by_severity: Dict[str, int] = Field(default_factory=dict)
+    detections_by_type: Dict[str, int] = Field(default_factory=dict)

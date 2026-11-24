@@ -515,6 +515,15 @@ class AnalysisRepository:
                 ).all()
             )
 
+            # Detections by type
+            detections_by_type = dict(
+                session.execute(
+                    select(DetectionDB.detection_type, func.count(DetectionDB.id)).group_by(
+                        DetectionDB.detection_type
+                    )
+                ).all()
+            )
+
             return {
                 "total_jobs": total_jobs,
                 "total_detections": total_detections,
@@ -524,4 +533,5 @@ class AnalysisRepository:
                 "incidents_by_status": incidents_by_status,
                 "incidents_by_priority": incidents_by_priority,
                 "detections_by_severity": detections_by_severity,
+                "detections_by_type": detections_by_type,
             }

@@ -185,6 +185,7 @@ def get_system_stats(
         incidents_by_status=stats.get("incidents_by_status", {}),
         incidents_by_priority=stats.get("incidents_by_priority", {}),
         detections_by_severity=stats.get("detections_by_severity", {}),
+        detections_by_type=stats.get("detections_by_type", {}),
     )
 
 
